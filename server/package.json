@@ -1,0 +1,33 @@
+{
+  "name": "skillbridge-server",
+  "version": "1.0.0",
+  "description": "SkillBridge Full-Stack Career & Recruitment Platform Backend API",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test_auth.js && node test_student.js && node test_jobs.js && node test_apply.js && node test_applications.js && node test_profile.js && node test_recruiter.js && node test_recruiter_jobs.js && node test_recruiter_candidates.js && node test_admin.js && node test_notifications_analytics.js && node test_advanced_features.js && node test_security_audit.js && node test_delete_account.js && node test_data_integrity.js && node test_role_isolation.js && vitest run",
+    "test:vitest": "vitest run"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.19.3",
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^4.22.1",
+    "express-rate-limit": "^8.7.2",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "prisma": "^6.19.3",
+    "supertest": "^7.3.1",
+    "vitest": "^5.0.5"
+  },
+  "overrides": {
+    "deepmerge-ts": "^8.0.0"
+  }
+}

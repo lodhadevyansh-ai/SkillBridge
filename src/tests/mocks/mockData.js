@@ -1,0 +1,415 @@
+/**
+ * Comprehensive Mock Data Fixtures for Vitest Automated Test Suite
+ * Provides realistic responses for notifications, student profiles, recruiter dashboards, and job listings.
+ */
+
+export const mockNotifications = {
+  notifications: [
+    {
+      id: 'notif-1',
+      type: 'interview_scheduled',
+      title: 'Interview Scheduled 📅',
+      message: 'Your interview for UX Research Intern at Notion is confirmed.',
+      link: '/student/applications',
+      read: false,
+      createdAt: '2026-11-01T10:00:00.000Z',
+    },
+    {
+      id: 'notif-2',
+      type: 'application_shortlisted',
+      title: 'Application Shortlisted 🎉',
+      message: 'Congratulations! Linear has shortlisted your application for Product Design Intern.',
+      link: '/student/applications',
+      read: true,
+      createdAt: '2026-10-31T14:30:00.000Z',
+    },
+  ],
+  unreadCount: 1,
+}
+
+export const mockEmptyNotifications = {
+  notifications: [],
+  unreadCount: 0,
+}
+
+export const mockStudentDashboard = {
+  greeting: 'Good morning, Aarav ☼',
+  subGreeting: "A little progress every day adds up. Here's where you stand.",
+  stats: {
+    applicationsSent: {
+      value: 12,
+      trend: '+3 this week',
+      trendDirection: 'up',
+      label: 'Applications sent',
+    },
+    inReview: {
+      value: 4,
+      subtitle: 'Applications undergoing review',
+      label: 'In review',
+    },
+    interviews: {
+      value: 2,
+      subtitle: 'Upcoming interviews scheduled',
+      label: 'Interviews',
+    },
+    savedJobs: {
+      value: 5,
+      subtitle: 'Tracked roles',
+      label: 'Saved opportunities',
+    },
+  },
+  profile: {
+    profileStrength: 85,
+    resumeUploaded: true,
+    resumeFileName: 'Aarav_Mehta_Resume.pdf',
+    resumeUpdatedAt: '2026-10-15',
+    title: 'Profile in great shape',
+    description: 'Your profile is visible to verified recruiters.',
+  },
+  careerActivity: [
+    { date: 'Mon', applications: 2, profileViews: 5 },
+    { date: 'Tue', applications: 1, profileViews: 8 },
+    { date: 'Wed', applications: 4, profileViews: 12 },
+    { date: 'Thu', applications: 2, profileViews: 6 },
+    { date: 'Fri', applications: 3, profileViews: 10 },
+  ],
+  upcomingInterview: {
+    id: 'int-1',
+    company: 'Notion',
+    role: 'UX Research Intern',
+    date: 'Tomorrow, 3:00 PM',
+    type: 'Google Meet',
+    interviewer: 'Sarah Lin, Staff Design Researcher',
+  },
+  recommendedJobs: [
+    {
+      id: 'job-1',
+      title: 'Product Design Intern',
+      company: 'Linear',
+      location: 'Bengaluru, Karnataka',
+      type: 'Internship',
+      stipend: '₹30,000 / month',
+      matchScore: 98,
+    },
+  ],
+  recentApplications: [
+    {
+      id: 'app-1',
+      role: 'Product Design Intern',
+      company: 'Linear',
+      logo: 'L',
+      status: 'shortlisted',
+      statusLabel: 'Shortlisted',
+      appliedOn: '28 Oct 2026',
+      latestUpdate: 'Round 1 portfolio review passed',
+      stipend: '₹30,000 / mo',
+    },
+  ],
+  learningResource: {
+    tag: 'CAREER GUIDE',
+    title: 'Stand out in your applications',
+    description: 'A practical path from your first application to your offer letter.',
+    badges: ['Free guide', '3 min read'],
+    actionText: 'Explore opportunities →',
+    href: '/student/jobs',
+  },
+}
+
+export const mockEmptyStudentDashboard = {
+  greeting: 'Good morning, Candidate ☼',
+  subGreeting: "A little progress every day adds up. Here's where you stand.",
+  stats: {
+    applicationsSent: {
+      value: 0,
+      trend: 'Start applying today',
+      trendDirection: 'up',
+      label: 'Applications sent',
+    },
+    inReview: {
+      value: 0,
+      subtitle: 'No pending reviews',
+      label: 'In review',
+    },
+    interviews: {
+      value: 0,
+      subtitle: 'No upcoming interviews',
+      label: 'Interviews',
+    },
+    savedJobs: {
+      value: 0,
+      subtitle: 'Save jobs to track them',
+      label: 'Saved opportunities',
+    },
+  },
+  profile: {
+    profileStrength: 20,
+    resumeUploaded: false,
+    resumeFileName: null,
+    resumeUpdatedAt: null,
+    title: 'Welcome to your career workspace.',
+    description: 'Complete your profile and upload a resume to stand out to verified recruiters.',
+  },
+  careerActivity: [],
+  upcomingInterview: null,
+  recommendedJobs: [],
+  recentApplications: [],
+  learningResource: {
+    tag: 'CAREER GUIDE',
+    title: 'Stand out in your applications',
+    description: 'A practical path from your first application to your offer letter.',
+    badges: ['Free guide', '3 min read'],
+    actionText: 'Explore opportunities →',
+    href: '/student/jobs',
+  },
+}
+
+export const mockStudentProfile = {
+  id: 'std-1',
+  fullName: 'Aarav Mehta',
+  email: 'aarav@univ.edu',
+  phone: '+91 98765 43210',
+  headline: 'Aspiring Product Designer & Frontend Developer',
+  location: 'Bengaluru, Karnataka',
+  bio: 'Passionate about building intuitive digital products and accessible design systems.',
+  website: 'https://aaravmehta.dev',
+  github: 'https://github.com/aaravmehta',
+  linkedin: 'https://linkedin.com/in/aaravmehta',
+  openToWork: true,
+  skills: ['Figma', 'React', 'Tailwind CSS', 'JavaScript', 'Design Systems'],
+  education: [
+    {
+      id: 'edu-1',
+      degree: 'B.Tech in Computer Science',
+      institution: 'Indian Institute of Technology',
+      startYear: '2022',
+      endYear: '2026',
+      cgpa: '8.9',
+      description: 'Specializing in Human-Computer Interaction and Software Systems.',
+    },
+  ],
+  experience: [
+    {
+      id: 'exp-1',
+      role: 'UI/UX Design Intern',
+      company: 'TechCorp',
+      location: 'Bengaluru',
+      startDate: 'May 2025',
+      endDate: 'July 2025',
+      isCurrent: false,
+      description: 'Designed user workflows and interactive prototypes.',
+    },
+  ],
+  projects: [
+    {
+      id: 'proj-1',
+      title: 'Design System Kit',
+      role: 'Lead Designer',
+      description: 'An accessible component library built with Tailwind CSS.',
+      skills: ['React', 'Figma', 'Tailwind CSS'],
+      githubUrl: 'https://github.com/aaravmehta/design-kit',
+      liveUrl: 'https://design-kit.dev',
+      date: 'Jan 2026',
+    },
+  ],
+}
+
+export const mockResumes = [
+  {
+    id: 'res-1',
+    name: 'Aarav_Mehta_Resume.pdf',
+    fileSize: '1.2 MB',
+    fileType: 'application/pdf',
+    url: 'https://example.com/resumes/aarav.pdf',
+    isDefault: true,
+    createdAt: '2026-10-15T12:00:00.000Z',
+  },
+]
+
+export const mockRecruiterDashboard = {
+  recruiter: {
+    firstName: 'Tanvi',
+    companyName: 'Nvidia',
+  },
+  greeting: 'Great teams start with potential.',
+  subGreeting: 'Welcome back, Tanvi. Here’s your hiring snapshot at Nvidia.',
+  stats: {
+    openRoles: { value: 5, label: 'Active Jobs', subtitle: '5 published', trend: '+1 this week', trendDirection: 'up' },
+    totalApplicants: { value: 42, label: 'Total Applicants', subtitle: 'Across all roles', trend: '+8 this week', trendDirection: 'up' },
+    shortlisted: { value: 12, label: 'Shortlisted', subtitle: 'Ready for review' },
+    interviewsThisWeek: { value: 4, label: 'Interviews Scheduled', subtitle: 'Next 7 days' },
+  },
+  candidatePipeline: {
+    applied: 20,
+    review: 10,
+    shortlisted: 8,
+    interview: 4,
+    offer: 0,
+    hired: 0,
+  },
+  applicationTrends: [
+    { date: 'Mon', count: 5 },
+    { date: 'Tue', count: 8 },
+    { date: 'Wed', count: 12 },
+    { date: 'Thu', count: 7 },
+    { date: 'Fri', count: 10 },
+  ],
+  openRoles: [
+    {
+      id: 'rec-job-1',
+      title: 'Senior Product Designer',
+      role: 'Senior Product Designer',
+      department: 'Design',
+      applicantsCount: 24,
+      shortlistedCount: 6,
+      deadlineFormatted: '15 Nov 2026',
+      status: 'active',
+      statusLabel: 'Active',
+    },
+  ],
+  recentApplications: [
+    {
+      id: 'app-rec-1',
+      candidateName: 'Priya Sharma',
+      initials: 'PS',
+      roleApplied: 'Senior Product Designer',
+      college: 'IIT Bombay',
+      stage: 'shortlisted',
+      stageLabel: 'Shortlisted',
+      matchScore: 94,
+      appliedAtFormatted: '1 day ago',
+    },
+  ],
+}
+
+export const mockEmptyRecruiterDashboard = {
+  recruiter: {
+    firstName: 'New',
+    companyName: 'Startup',
+  },
+  greeting: 'Great teams start with potential.',
+  subGreeting: 'Welcome to your live hiring workspace.',
+  stats: {
+    openRoles: { value: 0, label: 'Active Jobs', subtitle: '0 published' },
+    totalApplicants: { value: 0, label: 'Total Applicants', subtitle: '0 applicants' },
+    shortlisted: { value: 0, label: 'Shortlisted', subtitle: '0 shortlisted' },
+    interviewsThisWeek: { value: 0, label: 'Interviews Scheduled', subtitle: '0 scheduled' },
+  },
+  candidatePipeline: {
+    applied: 0,
+    review: 0,
+    shortlisted: 0,
+    interview: 0,
+  },
+  applicationTrends: [],
+  openRoles: [],
+  recentApplications: [],
+}
+
+export const mockJobListings = {
+  jobs: [
+    {
+      id: 'job-1',
+      title: 'Product Design Intern',
+      company: 'Linear',
+      companySlug: 'linear',
+      logo: 'L',
+      location: 'Bengaluru, Karnataka',
+      locationCategory: 'bengaluru',
+      arrangement: 'Hybrid',
+      type: 'Internship',
+      duration: '6 months',
+      stipend: '₹30,000 / month',
+      salaryMin: 30000,
+      salaryPeriod: 'month',
+      experience: 'Entry level / fresher',
+      experienceCategory: 'entry-level',
+      deadline: '02 Nov 2026',
+      postedDaysAgo: '2 days ago',
+      postedHoursAgo: 48,
+      matchScore: 98,
+      matchReason: 'Your Figma, UI design, and prototyping skills align with this role.',
+      isVerified: true,
+      isSaved: true,
+      headline: 'Make software feel effortless.',
+      description: 'Linear helps teams build better products. Join our design team to shape thoughtful experiences.',
+      skills: ['Figma', 'UI design', 'Prototyping', 'Design systems'],
+      perks: ['Paid internship', 'Design mentor', 'Flexible hybrid'],
+      applicantsCount: 84,
+    },
+    {
+      id: 'job-2',
+      title: 'Frontend Developer',
+      company: 'Razorpay',
+      companySlug: 'razorpay',
+      logo: 'R',
+      location: 'Bengaluru, Karnataka',
+      locationCategory: 'bengaluru',
+      arrangement: 'On-site',
+      type: 'Full-time',
+      duration: 'Permanent',
+      stipend: '₹8–12 LPA',
+      salaryMin: 66000,
+      salaryPeriod: 'month',
+      experience: 'Entry level / fresher',
+      experienceCategory: 'entry-level',
+      deadline: '10 Nov 2026',
+      postedDaysAgo: '1 day ago',
+      postedHoursAgo: 24,
+      matchScore: 94,
+      matchReason: 'Strong alignment with your React and modern JavaScript portfolio.',
+      isVerified: true,
+      isSaved: false,
+      headline: 'Powering financial experiences for millions.',
+      description: 'Razorpay is building the financial backbone of internet businesses.',
+      skills: ['React', 'JavaScript', 'CSS', 'Tailwind CSS'],
+      perks: ['Competitive CTC', 'Health coverage'],
+      applicantsCount: 126,
+    },
+  ],
+  pagination: {
+    total: 2,
+    page: 1,
+    limit: 6,
+    totalPages: 1,
+    hasPrev: false,
+    hasNext: false,
+    startIndex: 1,
+    endIndex: 2,
+  },
+  counts: {
+    all: 2,
+    internships: 1,
+    fullTime: 1,
+    partTime: 0,
+    remote: 0,
+    hybrid: 1,
+    onSite: 1,
+    entryLevel: 2,
+    oneToTwoYears: 0,
+  },
+}
+
+export const mockEmptyJobListings = {
+  jobs: [],
+  pagination: {
+    total: 0,
+    page: 1,
+    limit: 6,
+    totalPages: 0,
+    hasPrev: false,
+    hasNext: false,
+    startIndex: 0,
+    endIndex: 0,
+  },
+  counts: {
+    all: 0,
+    internships: 0,
+    fullTime: 0,
+    partTime: 0,
+    remote: 0,
+    hybrid: 0,
+    onSite: 0,
+    entryLevel: 0,
+    oneToTwoYears: 0,
+  },
+}

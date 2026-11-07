@@ -1,0 +1,1855 @@
+{
+  "settings": {
+    "mandatoryRecruiterApproval": true,
+    "autoFlagUnpaidInternships": true,
+    "minRecommendedStipend": "₹18,000 / month",
+    "maxApplicationsPerStudent": 20,
+    "moderationEmailAlerts": true,
+    "auditLogRetentionDays": 90,
+    "updatedAt": "2026-11-07T19:07:43.179Z"
+  },
+  "auditLogs": [
+    {
+      "id": "log-1794078463183",
+      "action": "Updated global platform parameters and moderation settings",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "settings",
+      "targetId": "global",
+      "details": {
+        "minRecommendedStipend": "₹18,000 / month",
+        "maxApplicationsPerStudent": 20
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T19:07:43.183Z"
+    },
+    {
+      "id": "log-1794078463150",
+      "action": "Removed job listing #mod-4 (Listing violates platform compensation minimums.)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-4",
+      "details": {
+        "reason": "Listing violates platform compensation minimums."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T19:07:43.150Z"
+    },
+    {
+      "id": "log-1794078463118",
+      "action": "Approved job listing #mod-1",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-1",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T19:07:43.118Z"
+    },
+    {
+      "id": "log-1794078462489",
+      "action": "Re-activated user account: Spam Account (bad_actor_1794078461252@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1794078461829_butt2",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T19:07:42.489Z"
+    },
+    {
+      "id": "log-1794078461876",
+      "action": "Suspended user account: Spam Account (bad_actor_1794078461252@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1794078461829_butt2",
+      "details": {
+        "reason": "Automated spam submissions detected."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T19:07:41.876Z"
+    },
+    {
+      "id": "log-1794078272324",
+      "action": "Updated global platform parameters and moderation settings",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "settings",
+      "targetId": "global",
+      "details": {
+        "minRecommendedStipend": "₹18,000 / month",
+        "maxApplicationsPerStudent": 20
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T19:04:32.324Z"
+    },
+    {
+      "id": "log-1794078272287",
+      "action": "Removed job listing #mod-4 (Listing violates platform compensation minimums.)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-4",
+      "details": {
+        "reason": "Listing violates platform compensation minimums."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T19:04:32.287Z"
+    },
+    {
+      "id": "log-1794078272249",
+      "action": "Approved job listing #mod-1",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-1",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T19:04:32.249Z"
+    },
+    {
+      "id": "log-1794078271584",
+      "action": "Re-activated user account: Spam Account (bad_actor_1794078270341@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1794078270934_ovtvm",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T19:04:31.584Z"
+    },
+    {
+      "id": "log-1794078270967",
+      "action": "Suspended user account: Spam Account (bad_actor_1794078270341@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1794078270934_ovtvm",
+      "details": {
+        "reason": "Automated spam submissions detected."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T19:04:30.967Z"
+    },
+    {
+      "id": "log-1794077120341",
+      "action": "Updated global platform parameters and moderation settings",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "settings",
+      "targetId": "global",
+      "details": {
+        "minRecommendedStipend": "₹18,000 / month",
+        "maxApplicationsPerStudent": 20
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T18:45:20.341Z"
+    },
+    {
+      "id": "log-1794077120304",
+      "action": "Removed job listing #mod-4 (Listing violates platform compensation minimums.)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-4",
+      "details": {
+        "reason": "Listing violates platform compensation minimums."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T18:45:20.304Z"
+    },
+    {
+      "id": "log-1794077120273",
+      "action": "Approved job listing #mod-1",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-1",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T18:45:20.273Z"
+    },
+    {
+      "id": "log-1794077119603",
+      "action": "Re-activated user account: Spam Account (bad_actor_1794077118338@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1794077118984_a7lbl",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T18:45:19.603Z"
+    },
+    {
+      "id": "log-1794077119018",
+      "action": "Suspended user account: Spam Account (bad_actor_1794077118338@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1794077118984_a7lbl",
+      "details": {
+        "reason": "Automated spam submissions detected."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T18:45:19.018Z"
+    },
+    {
+      "id": "log-1794076667763",
+      "action": "Updated global platform parameters and moderation settings",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "settings",
+      "targetId": "global",
+      "details": {
+        "minRecommendedStipend": "₹18,000 / month",
+        "maxApplicationsPerStudent": 20
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T18:37:47.763Z"
+    },
+    {
+      "id": "log-1794076667728",
+      "action": "Removed job listing #mod-4 (Listing violates platform compensation minimums.)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-4",
+      "details": {
+        "reason": "Listing violates platform compensation minimums."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T18:37:47.728Z"
+    },
+    {
+      "id": "log-1794076667699",
+      "action": "Approved job listing #mod-1",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-1",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T18:37:47.699Z"
+    },
+    {
+      "id": "log-1794076667044",
+      "action": "Re-activated user account: Spam Account (bad_actor_1794076665815@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1794076666408_5ks6n",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T18:37:47.044Z"
+    },
+    {
+      "id": "log-1794076666442",
+      "action": "Suspended user account: Spam Account (bad_actor_1794076665815@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1794076666408_5ks6n",
+      "details": {
+        "reason": "Automated spam submissions detected."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T18:37:46.442Z"
+    },
+    {
+      "id": "log-1794076091158",
+      "action": "Updated global platform parameters and moderation settings",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "settings",
+      "targetId": "global",
+      "details": {
+        "minRecommendedStipend": "₹18,000 / month",
+        "maxApplicationsPerStudent": 20
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T18:28:11.158Z"
+    },
+    {
+      "id": "log-1794076091143",
+      "action": "Removed job listing #mod-4 (Listing violates platform compensation minimums.)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-4",
+      "details": {
+        "reason": "Listing violates platform compensation minimums."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T18:28:11.143Z"
+    },
+    {
+      "id": "log-1794076091129",
+      "action": "Approved job listing #mod-1",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-1",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T18:28:11.129Z"
+    },
+    {
+      "id": "log-1794076090863",
+      "action": "Re-activated user account: Spam Account (bad_actor_1794076090336@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1794076090586_zz1ao",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T18:28:10.863Z"
+    },
+    {
+      "id": "log-1794076090601",
+      "action": "Suspended user account: Spam Account (bad_actor_1794076090336@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1794076090586_zz1ao",
+      "details": {
+        "reason": "Automated spam submissions detected."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T18:28:10.601Z"
+    },
+    {
+      "id": "log-1794076042085",
+      "action": "Updated global platform parameters and moderation settings",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "settings",
+      "targetId": "global",
+      "details": {
+        "minRecommendedStipend": "₹18,000 / month",
+        "maxApplicationsPerStudent": 20
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T18:27:22.085Z"
+    },
+    {
+      "id": "log-1794076042070",
+      "action": "Removed job listing #mod-4 (Listing violates platform compensation minimums.)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-4",
+      "details": {
+        "reason": "Listing violates platform compensation minimums."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T18:27:22.070Z"
+    },
+    {
+      "id": "log-1794076042056",
+      "action": "Approved job listing #mod-1",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-1",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T18:27:22.056Z"
+    },
+    {
+      "id": "log-1794076041786",
+      "action": "Re-activated user account: Spam Account (bad_actor_1794076041250@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1794076041511_eoniw",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T18:27:21.786Z"
+    },
+    {
+      "id": "log-1794076041524",
+      "action": "Suspended user account: Spam Account (bad_actor_1794076041250@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1794076041511_eoniw",
+      "details": {
+        "reason": "Automated spam submissions detected."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T18:27:21.524Z"
+    },
+    {
+      "id": "log-1794075706146",
+      "action": "Updated global platform parameters and moderation settings",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "settings",
+      "targetId": "global",
+      "details": {
+        "minRecommendedStipend": "₹18,000 / month",
+        "maxApplicationsPerStudent": 20
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T18:21:46.146Z"
+    },
+    {
+      "id": "log-1794075706131",
+      "action": "Removed job listing #mod-4 (Listing violates platform compensation minimums.)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-4",
+      "details": {
+        "reason": "Listing violates platform compensation minimums."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T18:21:46.131Z"
+    },
+    {
+      "id": "log-1794075706118",
+      "action": "Approved job listing #mod-1",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-1",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T18:21:46.118Z"
+    },
+    {
+      "id": "log-1794075705823",
+      "action": "Re-activated user account: Spam Account (bad_actor_1794075705238@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1794075705527_koul7",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T18:21:45.823Z"
+    },
+    {
+      "id": "log-1794075705541",
+      "action": "Suspended user account: Spam Account (bad_actor_1794075705238@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1794075705527_koul7",
+      "details": {
+        "reason": "Automated spam submissions detected."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T18:21:45.541Z"
+    },
+    {
+      "id": "log-1794073124654",
+      "action": "Updated global platform parameters and moderation settings",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "settings",
+      "targetId": "global",
+      "details": {
+        "minRecommendedStipend": "₹18,000 / month",
+        "maxApplicationsPerStudent": 20
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T17:38:44.654Z"
+    },
+    {
+      "id": "log-1794073124598",
+      "action": "Removed job listing #mod-4 (Listing violates platform compensation minimums.)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-4",
+      "details": {
+        "reason": "Listing violates platform compensation minimums."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T17:38:44.598Z"
+    },
+    {
+      "id": "log-1794073124562",
+      "action": "Approved job listing #mod-1",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-1",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T17:38:44.562Z"
+    },
+    {
+      "id": "log-1794073123856",
+      "action": "Re-activated user account: Spam Account (bad_actor_1794073122362@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1794073123081_86ug3",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T17:38:43.856Z"
+    },
+    {
+      "id": "log-1794073123117",
+      "action": "Suspended user account: Spam Account (bad_actor_1794073122362@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1794073123081_86ug3",
+      "details": {
+        "reason": "Automated spam submissions detected."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T17:38:43.117Z"
+    },
+    {
+      "id": "log-1793814945786",
+      "action": "Updated global platform parameters and moderation settings",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "settings",
+      "targetId": "global",
+      "details": {
+        "minRecommendedStipend": "₹18,000 / month",
+        "maxApplicationsPerStudent": 20
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-04T17:55:45.786Z"
+    },
+    {
+      "id": "log-1793814945747",
+      "action": "Removed job listing #mod-4 (Listing violates platform compensation minimums.)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-4",
+      "details": {
+        "reason": "Listing violates platform compensation minimums."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-04T17:55:45.747Z"
+    },
+    {
+      "id": "log-1793814945711",
+      "action": "Approved job listing #mod-1",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-1",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-04T17:55:45.711Z"
+    },
+    {
+      "id": "log-1793814945013",
+      "action": "Re-activated user account: Spam Account (bad_actor_1793814943679@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793814944272_c7h62",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-04T17:55:45.013Z"
+    },
+    {
+      "id": "log-1793814944317",
+      "action": "Suspended user account: Spam Account (bad_actor_1793814943679@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793814944272_c7h62",
+      "details": {
+        "reason": "Automated spam submissions detected."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-04T17:55:44.317Z"
+    },
+    {
+      "id": "log-1793640192424",
+      "action": "Updated global platform parameters and moderation settings",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "settings",
+      "targetId": "global",
+      "details": {
+        "minRecommendedStipend": "₹18,000 / month",
+        "maxApplicationsPerStudent": 20
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-02T17:23:12.424Z"
+    },
+    {
+      "id": "log-1793640192408",
+      "action": "Removed job listing #mod-4 (Listing violates platform compensation minimums.)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-4",
+      "details": {
+        "reason": "Listing violates platform compensation minimums."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-02T17:23:12.408Z"
+    },
+    {
+      "id": "log-1793640192393",
+      "action": "Approved job listing #mod-1",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-1",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-02T17:23:12.393Z"
+    },
+    {
+      "id": "log-1793640192066",
+      "action": "Re-activated user account: Spam Account (bad_actor_1793640191331@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793640191713_zlyz4",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-02T17:23:12.066Z"
+    },
+    {
+      "id": "log-1793640191729",
+      "action": "Suspended user account: Spam Account (bad_actor_1793640191331@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793640191713_zlyz4",
+      "details": {
+        "reason": "Automated spam submissions detected."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-02T17:23:11.729Z"
+    },
+    {
+      "id": "log-1793636120929",
+      "action": "Updated global platform parameters and moderation settings",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "settings",
+      "targetId": "global",
+      "details": {
+        "minRecommendedStipend": "₹18,000 / month",
+        "maxApplicationsPerStudent": 20
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-02T16:15:20.929Z"
+    },
+    {
+      "id": "log-1793636120887",
+      "action": "Removed job listing #mod-4 (Listing violates platform compensation minimums.)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-4",
+      "details": {
+        "reason": "Listing violates platform compensation minimums."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-02T16:15:20.887Z"
+    },
+    {
+      "id": "log-1793636120858",
+      "action": "Approved job listing #mod-1",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-1",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-02T16:15:20.858Z"
+    },
+    {
+      "id": "log-1793636119979",
+      "action": "Re-activated user account: Spam Account (bad_actor_1793636118366@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793636119049_p3f2y",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-02T16:15:19.979Z"
+    },
+    {
+      "id": "log-1793636119119",
+      "action": "Suspended user account: Spam Account (bad_actor_1793636118366@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793636119049_p3f2y",
+      "details": {
+        "reason": "Automated spam submissions detected."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-02T16:15:19.119Z"
+    },
+    {
+      "id": "log-1793634596914",
+      "action": "Updated global platform parameters and moderation settings",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "settings",
+      "targetId": "global",
+      "details": {
+        "minRecommendedStipend": "₹18,000 / month",
+        "maxApplicationsPerStudent": 20
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-02T15:49:56.914Z"
+    },
+    {
+      "id": "log-1793634596874",
+      "action": "Removed job listing #mod-4 (Listing violates platform compensation minimums.)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-4",
+      "details": {
+        "reason": "Listing violates platform compensation minimums."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-02T15:49:56.874Z"
+    },
+    {
+      "id": "log-1793634596850",
+      "action": "Approved job listing #mod-1",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-1",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-02T15:49:56.850Z"
+    },
+    {
+      "id": "log-1793634596070",
+      "action": "Re-activated user account: Spam Account (bad_actor_1793634594584@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793634595285_3g91a",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-02T15:49:56.070Z"
+    },
+    {
+      "id": "log-1793634595312",
+      "action": "Suspended user account: Spam Account (bad_actor_1793634594584@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793634595285_3g91a",
+      "details": {
+        "reason": "Automated spam submissions detected."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-02T15:49:55.312Z"
+    },
+    {
+      "id": "log-1793634523950",
+      "action": "Updated global platform parameters and moderation settings",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "settings",
+      "targetId": "global",
+      "details": {
+        "minRecommendedStipend": "₹18,000 / month",
+        "maxApplicationsPerStudent": 20
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-02T15:48:43.950Z"
+    },
+    {
+      "id": "log-1793634523915",
+      "action": "Removed job listing #mod-4 (Listing violates platform compensation minimums.)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-4",
+      "details": {
+        "reason": "Listing violates platform compensation minimums."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-02T15:48:43.915Z"
+    },
+    {
+      "id": "log-1793634523891",
+      "action": "Approved job listing #mod-1",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-1",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-02T15:48:43.891Z"
+    },
+    {
+      "id": "log-1793634523200",
+      "action": "Re-activated user account: Spam Account (bad_actor_1793634521902@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793634522473_pht5a",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-02T15:48:43.200Z"
+    },
+    {
+      "id": "log-1793634522504",
+      "action": "Suspended user account: Spam Account (bad_actor_1793634521902@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793634522473_pht5a",
+      "details": {
+        "reason": "Automated spam submissions detected."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-02T15:48:42.504Z"
+    },
+    {
+      "id": "log-1793630488860",
+      "action": "Updated global platform parameters and moderation settings",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "settings",
+      "targetId": "global",
+      "details": {
+        "minRecommendedStipend": "₹18,000 / month",
+        "maxApplicationsPerStudent": 20
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-02T14:41:28.860Z"
+    },
+    {
+      "id": "log-1793630488846",
+      "action": "Removed job listing #mod-4 (Listing violates platform compensation minimums.)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-4",
+      "details": {
+        "reason": "Listing violates platform compensation minimums."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-02T14:41:28.846Z"
+    },
+    {
+      "id": "log-1793630488834",
+      "action": "Approved job listing #mod-1",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-1",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-02T14:41:28.834Z"
+    },
+    {
+      "id": "log-1793630488546",
+      "action": "Re-activated user account: Spam Account (bad_actor_1793630487794@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793630488198_rhu76",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-02T14:41:28.546Z"
+    },
+    {
+      "id": "log-1793630488213",
+      "action": "Suspended user account: Spam Account (bad_actor_1793630487794@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793630488198_rhu76",
+      "details": {
+        "reason": "Automated spam submissions detected."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-02T14:41:28.213Z"
+    },
+    {
+      "id": "log-1793629756706",
+      "action": "Updated global platform parameters and moderation settings",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "settings",
+      "targetId": "global",
+      "details": {
+        "minRecommendedStipend": "₹18,000 / month",
+        "maxApplicationsPerStudent": 20
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-02T14:29:16.706Z"
+    },
+    {
+      "id": "log-1793629756691",
+      "action": "Removed job listing #mod-4 (Listing violates platform compensation minimums.)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-4",
+      "details": {
+        "reason": "Listing violates platform compensation minimums."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-02T14:29:16.691Z"
+    },
+    {
+      "id": "log-1793629756677",
+      "action": "Approved job listing #mod-1",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-1",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-02T14:29:16.677Z"
+    },
+    {
+      "id": "log-1793629756272",
+      "action": "Re-activated user account: Spam Account (bad_actor_1793629755538@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793629755885_h44fi",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-02T14:29:16.272Z"
+    },
+    {
+      "id": "log-1793629755900",
+      "action": "Suspended user account: Spam Account (bad_actor_1793629755538@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793629755885_h44fi",
+      "details": {
+        "reason": "Automated spam submissions detected."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-02T14:29:15.900Z"
+    },
+    {
+      "id": "log-1793556656826",
+      "action": "Updated global platform parameters and moderation settings",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "settings",
+      "targetId": "global",
+      "details": {
+        "minRecommendedStipend": "₹18,000 / month",
+        "maxApplicationsPerStudent": 20
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T18:10:56.826Z"
+    },
+    {
+      "id": "log-1793556656811",
+      "action": "Removed job listing #mod-4 (Listing violates platform compensation minimums.)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-4",
+      "details": {
+        "reason": "Listing violates platform compensation minimums."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T18:10:56.811Z"
+    },
+    {
+      "id": "log-1793556656801",
+      "action": "Approved job listing #mod-1",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-1",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T18:10:56.801Z"
+    },
+    {
+      "id": "log-1793556656522",
+      "action": "Re-activated user account: Spam Account (bad_actor_1793556655984@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793556656247_p27na",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T18:10:56.522Z"
+    },
+    {
+      "id": "log-1793556656257",
+      "action": "Suspended user account: Spam Account (bad_actor_1793556655984@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793556656247_p27na",
+      "details": {
+        "reason": "Automated spam submissions detected."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T18:10:56.257Z"
+    },
+    {
+      "id": "log-1793554818027",
+      "action": "Updated global platform parameters and moderation settings",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "settings",
+      "targetId": "global",
+      "details": {
+        "minRecommendedStipend": "₹18,000 / month",
+        "maxApplicationsPerStudent": 20
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:40:18.027Z"
+    },
+    {
+      "id": "log-1793554818007",
+      "action": "Removed job listing #mod-4 (Listing violates platform compensation minimums.)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-4",
+      "details": {
+        "reason": "Listing violates platform compensation minimums."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:40:18.007Z"
+    },
+    {
+      "id": "log-1793554817992",
+      "action": "Approved job listing #mod-1",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-1",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:40:17.992Z"
+    },
+    {
+      "id": "log-1793554817538",
+      "action": "Re-activated user account: Spam Account (bad_actor_1793554816698@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793554817068_mzmgd",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:40:17.538Z"
+    },
+    {
+      "id": "log-1793554817082",
+      "action": "Suspended user account: Spam Account (bad_actor_1793554816698@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793554817068_mzmgd",
+      "details": {
+        "reason": "Automated spam submissions detected."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:40:17.082Z"
+    },
+    {
+      "id": "log-1793554604638",
+      "action": "Updated global platform parameters and moderation settings",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "settings",
+      "targetId": "global",
+      "details": {
+        "minRecommendedStipend": "₹18,000 / month",
+        "maxApplicationsPerStudent": 20
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:36:44.638Z"
+    },
+    {
+      "id": "log-1793554604621",
+      "action": "Removed job listing #mod-4 (Listing violates platform compensation minimums.)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-4",
+      "details": {
+        "reason": "Listing violates platform compensation minimums."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:36:44.621Z"
+    },
+    {
+      "id": "log-1793554604609",
+      "action": "Approved job listing #mod-1",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-1",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:36:44.609Z"
+    },
+    {
+      "id": "log-1793554604315",
+      "action": "Re-activated user account: Spam Account (bad_actor_1793554603690@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793554603992_34ab4",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:36:44.315Z"
+    },
+    {
+      "id": "log-1793554604003",
+      "action": "Suspended user account: Spam Account (bad_actor_1793554603690@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793554603992_34ab4",
+      "details": {
+        "reason": "Automated spam submissions detected."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:36:44.003Z"
+    },
+    {
+      "id": "log-1793554573817",
+      "action": "Updated global platform parameters and moderation settings",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "settings",
+      "targetId": "global",
+      "details": {
+        "minRecommendedStipend": "₹18,000 / month",
+        "maxApplicationsPerStudent": 20
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:36:13.817Z"
+    },
+    {
+      "id": "log-1793554573792",
+      "action": "Removed job listing #mod-4 (Listing violates platform compensation minimums.)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-4",
+      "details": {
+        "reason": "Listing violates platform compensation minimums."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:36:13.792Z"
+    },
+    {
+      "id": "log-1793554573781",
+      "action": "Approved job listing #mod-1",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-1",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:36:13.781Z"
+    },
+    {
+      "id": "log-1793554573481",
+      "action": "Re-activated user account: Spam Account (bad_actor_1793554572840@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793554573154_adj2w",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:36:13.481Z"
+    },
+    {
+      "id": "log-1793554573164",
+      "action": "Suspended user account: Spam Account (bad_actor_1793554572840@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793554573154_adj2w",
+      "details": {
+        "reason": "Automated spam submissions detected."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:36:13.164Z"
+    },
+    {
+      "id": "log-1793554528200",
+      "action": "Updated global platform parameters and moderation settings",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "settings",
+      "targetId": "global",
+      "details": {
+        "minRecommendedStipend": "₹18,000 / month",
+        "maxApplicationsPerStudent": 20
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:35:28.200Z"
+    },
+    {
+      "id": "log-1793554528189",
+      "action": "Removed job listing #mod-4 (Listing violates platform compensation minimums.)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-4",
+      "details": {
+        "reason": "Listing violates platform compensation minimums."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:35:28.189Z"
+    },
+    {
+      "id": "log-1793554528181",
+      "action": "Approved job listing #mod-1",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-1",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:35:28.181Z"
+    },
+    {
+      "id": "log-1793554527878",
+      "action": "Re-activated user account: Spam Account (bad_actor_1793554527251@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793554527542_zs7fu",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:35:27.878Z"
+    },
+    {
+      "id": "log-1793554527553",
+      "action": "Suspended user account: Spam Account (bad_actor_1793554527251@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793554527542_zs7fu",
+      "details": {
+        "reason": "Automated spam submissions detected."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:35:27.553Z"
+    },
+    {
+      "id": "log-1793554463314",
+      "action": "Removed job listing #mod-4 (Listing violates platform compensation minimums.)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-4",
+      "details": {
+        "reason": "Listing violates platform compensation minimums."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:34:23.314Z"
+    },
+    {
+      "id": "log-1793554463304",
+      "action": "Approved job listing #mod-1",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-1",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:34:23.304Z"
+    },
+    {
+      "id": "log-1793554462973",
+      "action": "Re-activated user account: Spam Account (bad_actor_1793554462331@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793554462648_yhvw1",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:34:22.973Z"
+    },
+    {
+      "id": "log-1793554462657",
+      "action": "Suspended user account: Spam Account (bad_actor_1793554462331@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793554462648_yhvw1",
+      "details": {
+        "reason": "Automated spam submissions detected."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:34:22.657Z"
+    },
+    {
+      "id": "log-1793554107386",
+      "action": "Updated global platform parameters and moderation settings",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "settings",
+      "targetId": "global",
+      "details": {
+        "minRecommendedStipend": "₹18,000 / month",
+        "maxApplicationsPerStudent": 20
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:28:27.386Z"
+    },
+    {
+      "id": "log-1793554107373",
+      "action": "Removed job listing #mod-4 (Listing violates platform compensation minimums.)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-4",
+      "details": {
+        "reason": "Listing violates platform compensation minimums."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:28:27.373Z"
+    },
+    {
+      "id": "log-1793554107365",
+      "action": "Approved job listing #mod-1",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-1",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:28:27.365Z"
+    },
+    {
+      "id": "log-1793554107026",
+      "action": "Re-activated user account: Spam Account (bad_actor_1793554106306@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793554106673_lw3jv",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:28:27.026Z"
+    },
+    {
+      "id": "log-1793554106681",
+      "action": "Suspended user account: Spam Account (bad_actor_1793554106306@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793554106673_lw3jv",
+      "details": {
+        "reason": "Automated spam submissions detected."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:28:26.681Z"
+    },
+    {
+      "id": "log-1793552862622",
+      "action": "Updated global platform parameters and moderation settings",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "settings",
+      "targetId": "global",
+      "details": {
+        "minRecommendedStipend": "₹18,000 / month",
+        "maxApplicationsPerStudent": 20
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:07:42.622Z"
+    },
+    {
+      "id": "log-1793552862613",
+      "action": "Removed job listing #mod-4 (Listing violates platform compensation minimums.)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-4",
+      "details": {
+        "reason": "Listing violates platform compensation minimums."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:07:42.613Z"
+    },
+    {
+      "id": "log-1793552862606",
+      "action": "Approved job listing #mod-1",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-1",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:07:42.606Z"
+    },
+    {
+      "id": "log-1793552862351",
+      "action": "Re-activated user account: Spam Account (bad_actor_1793552861828@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793552862087_2yg95",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:07:42.351Z"
+    },
+    {
+      "id": "log-1793552862094",
+      "action": "Suspended user account: Spam Account (bad_actor_1793552861828@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793552862087_2yg95",
+      "details": {
+        "reason": "Automated spam submissions detected."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T17:07:42.094Z"
+    },
+    {
+      "id": "log-1793551921294",
+      "action": "Updated global platform parameters and moderation settings",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "settings",
+      "targetId": "global",
+      "details": {
+        "minRecommendedStipend": "₹18,000 / month",
+        "maxApplicationsPerStudent": 20
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T16:52:01.294Z"
+    },
+    {
+      "id": "log-1793551921277",
+      "action": "Removed job listing #mod-4 (Listing violates platform compensation minimums.)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-4",
+      "details": {
+        "reason": "Listing violates platform compensation minimums."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T16:52:01.277Z"
+    },
+    {
+      "id": "log-1793551921261",
+      "action": "Approved job listing #mod-1",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-1",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T16:52:01.261Z"
+    },
+    {
+      "id": "log-1793551920620",
+      "action": "Re-activated user account: Spam Account (bad_actor_1793551919405@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793551919998_50exe",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T16:52:00.620Z"
+    },
+    {
+      "id": "log-1793551920015",
+      "action": "Suspended user account: Spam Account (bad_actor_1793551919405@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793551919998_50exe",
+      "details": {
+        "reason": "Automated spam submissions detected."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T16:52:00.015Z"
+    },
+    {
+      "id": "log-1793551850868",
+      "action": "Updated global platform parameters and moderation settings",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "settings",
+      "targetId": "global",
+      "details": {
+        "minRecommendedStipend": "₹18,000 / month",
+        "maxApplicationsPerStudent": 20
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T16:50:50.868Z"
+    },
+    {
+      "id": "log-1793551850842",
+      "action": "Removed job listing #mod-4 (Listing violates platform compensation minimums.)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-4",
+      "details": {
+        "reason": "Listing violates platform compensation minimums."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T16:50:50.842Z"
+    },
+    {
+      "id": "log-1793551850823",
+      "action": "Approved job listing #mod-1",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-1",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T16:50:50.823Z"
+    },
+    {
+      "id": "log-1793551850165",
+      "action": "Re-activated user account: Spam Account (bad_actor_1793551848837@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793551849487_q6mst",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T16:50:50.165Z"
+    },
+    {
+      "id": "log-1793551849504",
+      "action": "Suspended user account: Spam Account (bad_actor_1793551848837@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793551849487_q6mst",
+      "details": {
+        "reason": "Automated spam submissions detected."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T16:50:49.504Z"
+    },
+    {
+      "id": "log-1793551105993",
+      "action": "Updated global platform parameters and moderation settings",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "settings",
+      "targetId": "global",
+      "details": {
+        "minRecommendedStipend": "₹18,000 / month",
+        "maxApplicationsPerStudent": 20
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T16:38:25.993Z"
+    },
+    {
+      "id": "log-1793551105972",
+      "action": "Removed job listing #mod-4 (Listing violates platform compensation minimums.)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-4",
+      "details": {
+        "reason": "Listing violates platform compensation minimums."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T16:38:25.972Z"
+    },
+    {
+      "id": "log-1793551105956",
+      "action": "Approved job listing #mod-1",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-1",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T16:38:25.956Z"
+    },
+    {
+      "id": "log-1793551105292",
+      "action": "Re-activated user account: Spam Account (bad_actor_1793551104094@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793551104672_vohci",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T16:38:25.292Z"
+    },
+    {
+      "id": "log-1793551104683",
+      "action": "Suspended user account: Spam Account (bad_actor_1793551104094@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793551104672_vohci",
+      "details": {
+        "reason": "Automated spam submissions detected."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T16:38:24.683Z"
+    },
+    {
+      "id": "log-1793548303107",
+      "action": "Updated global platform parameters and moderation settings",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "settings",
+      "targetId": "global",
+      "details": {
+        "minRecommendedStipend": "₹18,000 / month",
+        "maxApplicationsPerStudent": 20
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T15:51:43.107Z"
+    },
+    {
+      "id": "log-1793548303088",
+      "action": "Removed job listing #mod-4 (Listing violates platform compensation minimums.)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-4",
+      "details": {
+        "reason": "Listing violates platform compensation minimums."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T15:51:43.088Z"
+    },
+    {
+      "id": "log-1793548303077",
+      "action": "Approved job listing #mod-1",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-1",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T15:51:43.077Z"
+    },
+    {
+      "id": "log-1793548302444",
+      "action": "Re-activated user account: Spam Account (bad_actor_1793548301300@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793548301859_2ms3s",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T15:51:42.444Z"
+    },
+    {
+      "id": "log-1793548301871",
+      "action": "Suspended user account: Spam Account (bad_actor_1793548301300@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793548301859_2ms3s",
+      "details": {
+        "reason": "Automated spam submissions detected."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T15:51:41.871Z"
+    },
+    {
+      "id": "log-1793548182478",
+      "action": "Updated global platform parameters and moderation settings",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "settings",
+      "targetId": "global",
+      "details": {
+        "minRecommendedStipend": "₹18,000 / month",
+        "maxApplicationsPerStudent": 20
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T15:49:42.478Z"
+    },
+    {
+      "id": "log-1793548182457",
+      "action": "Removed job listing #mod-4 (Listing violates platform compensation minimums.)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-4",
+      "details": {
+        "reason": "Listing violates platform compensation minimums."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T15:49:42.457Z"
+    },
+    {
+      "id": "log-1793548182442",
+      "action": "Approved job listing #mod-1",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-1",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T15:49:42.442Z"
+    },
+    {
+      "id": "log-1793548181799",
+      "action": "Re-activated user account: Spam Account (bad_actor_1793548180649@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793548181214_y3kdn",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T15:49:41.799Z"
+    },
+    {
+      "id": "log-1793548181224",
+      "action": "Suspended user account: Spam Account (bad_actor_1793548180649@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793548181214_y3kdn",
+      "details": {
+        "reason": "Automated spam submissions detected."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T15:49:41.224Z"
+    },
+    {
+      "id": "log-1793548153534",
+      "action": "Updated global platform parameters and moderation settings",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "settings",
+      "targetId": "global",
+      "details": {
+        "minRecommendedStipend": "₹18,000 / month",
+        "maxApplicationsPerStudent": 20
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T15:49:13.534Z"
+    },
+    {
+      "id": "log-1793548153519",
+      "action": "Removed job listing #mod-4 (Listing violates platform compensation minimums.)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-4",
+      "details": {
+        "reason": "Listing violates platform compensation minimums."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T15:49:13.519Z"
+    },
+    {
+      "id": "log-1793548153506",
+      "action": "Approved job listing #mod-1",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-1",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T15:49:13.506Z"
+    },
+    {
+      "id": "log-1793548152829",
+      "action": "Re-activated user account: Spam Account (bad_actor_1793548151631@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793548152206_8cd2b",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T15:49:12.829Z"
+    },
+    {
+      "id": "log-1793548152217",
+      "action": "Suspended user account: Spam Account (bad_actor_1793548151631@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1793548152206_8cd2b",
+      "details": {
+        "reason": "Automated spam submissions detected."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-01T15:49:12.217Z"
+    },
+    {
+      "id": "log-1",
+      "action": "Approved Frontend Developer at Razorpay",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "job-2",
+      "timestamp": "12 minutes ago",
+      "createdAt": "2026-11-01T15:37:11.039Z"
+    },
+    {
+      "id": "log-2",
+      "action": "Verified recruiter account for Meera Kapoor (Linear)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_recruiter_meera",
+      "timestamp": "38 minutes ago",
+      "createdAt": "2026-11-01T15:11:11.039Z"
+    },
+    {
+      "id": "log-3",
+      "action": "Investigated community report for listing #1089",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "job-1089",
+      "timestamp": "2 hours ago",
+      "createdAt": "2026-11-01T13:49:11.039Z"
+    },
+    {
+      "id": "log-4",
+      "action": "Platform database snapshot backup completed",
+      "adminName": "System Automation",
+      "adminId": "system",
+      "targetType": "system",
+      "targetId": "db-backup",
+      "timestamp": "6 hours ago",
+      "createdAt": "2026-11-01T09:49:11.039Z"
+    }
+  ],
+  "moderationQueue": [
+    {
+      "id": "mod-2",
+      "title": "Junior Content Designer",
+      "company": "Studio North",
+      "stipend": "₹28,000 / mo",
+      "status": "Pending Review",
+      "submitted": "24 Oct 2026"
+    },
+    {
+      "id": "mod-3",
+      "title": "Marketing Intern",
+      "company": "GrowthNest",
+      "stipend": "Unpaid / Commission",
+      "status": "Flagged (Unpaid policy)",
+      "submitted": "23 Oct 2026"
+    }
+  ]
+}

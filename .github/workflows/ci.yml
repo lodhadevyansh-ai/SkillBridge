@@ -1,0 +1,107 @@
+name: SkillBridge CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+      - master
+      - develop
+  pull_request:
+    branches:
+      - main
+      - master
+      - develop
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  frontend-ci:
+    name: Frontend Quality & Test Suite
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 20.x
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.x
+          cache: 'npm'
+
+      - name: Install Frontend Dependencies
+        run: npm ci
+
+      - name: Run ESLint Verification
+        run: npm run lint
+
+      - name: Run Frontend Vitest Component & Unit Tests
+        run: npm run test
+
+      - name: Build Production Assets
+        run: npm run build
+
+      - name: Upload Production Dist Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: frontend-production-dist
+          path: dist/
+          retention-days: 7
+
+  backend-ci:
+    name: Backend API, Security & Regression Suite
+    runs-on: ubuntu-latest
+    env:
+      NODE_ENV: test
+      PORT: 5000
+      JWT_SECRET: ${{ secrets.JWT_SECRET || 'skillbridge_ci_secure_jwt_secret_fallback_key_2026' }}
+      JWT_EXPIRES_IN: 7d
+      DATABASE_URL: ${{ secrets.DATABASE_URL || 'postgresql://postgres:postgres@localhost:5432/skillbridge?schema=public' }}
+      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+      CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+      CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
+      CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 20.x
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.x
+          cache: 'npm'
+          cache-dependency-path: server/package-lock.json
+
+      - name: Install Backend Dependencies
+        run: npm --prefix server ci
+
+      - name: Generate Prisma ORM Client
+        run: npx --prefix server prisma generate
+
+      - name: Run Backend Vitest & Supertest API Tests
+        run: npm --prefix server run test:vitest
+
+      - name: Run Complete Backend Security & Integration Suite
+        run: npm --prefix server test
+
+  deployment-readiness:
+    name: Production Deployment Readiness Verification
+    needs: [frontend-ci, backend-ci]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v4
+
+      - name: Download Built Frontend Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: frontend-production-dist
+          path: dist/
+
+      - name: Verify Bundle Integrity
+        run: |
+          test -f dist/index.html || { echo "Missing index.html"; exit 1; }
+          echo "Frontend production artifact validated successfully."
+          echo "SkillBridge is ready for deployment to staging/production."
+

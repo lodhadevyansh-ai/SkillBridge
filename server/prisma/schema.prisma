@@ -1,0 +1,265 @@
+// SkillBridge Production PostgreSQL Database Schema (Prisma ORM)
+// Provides SQL injection protection through parameterized queries and strict database-level constraints.
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+enum Role {
+  STUDENT
+  RECRUITER
+  ADMIN
+}
+
+enum UserStatus {
+  ACTIVE
+  SUSPENDED
+  PENDING_VERIFICATION
+}
+
+enum OpportunityType {
+  INTERNSHIP
+  FULL_TIME
+  PART_TIME
+  CONTRACT
+}
+
+enum WorkArrangement {
+  REMOTE
+  HYBRID
+  ON_SITE
+}
+
+enum ApplicationStatus {
+  APPLIED
+  UNDER_REVIEW
+  SHORTLISTED
+  INTERVIEW_SCHEDULED
+  SELECTED
+  REJECTED
+  WITHDRAWN
+}
+
+enum JobStatus {
+  ACTIVE
+  DRAFT
+  CLOSED
+  PENDING_REVIEW
+}
+
+model User {
+  id               String            @id @default(uuid())
+  email            String            @unique
+  passwordHash     String
+  fullName         String
+  role             Role              @default(STUDENT)
+  status           UserStatus        @default(ACTIVE)
+  suspensionReason String?
+  suspendedAt      DateTime?
+  avatarUrl        String?
+  createdAt        DateTime          @default(now())
+  updatedAt        DateTime          @updatedAt
+
+  studentProfile   StudentProfile?
+  recruiterProfile RecruiterProfile?
+  notifications    Notification[]
+  auditLogs        AuditLog[]
+}
+
+model StudentProfile {
+  id           String        @id @default(uuid())
+  userId       String        @unique
+  user         User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  headline     String?
+  bio          String?
+  location     String?
+  phone        String?
+  skills       String[]
+  education    Json?
+  experience   Json?
+  projects     Json?
+  githubUrl    String?
+  linkedinUrl  String?
+  portfolioUrl String?
+  resumes      Resume[]
+  applications Application[]
+  savedJobs    SavedJob[]
+  createdAt    DateTime      @default(now())
+  updatedAt    DateTime      @updatedAt
+}
+
+model Resume {
+  id               String         @id @default(uuid())
+  studentProfileId String
+  studentProfile   StudentProfile @relation(fields: [studentProfileId], references: [id], onDelete: Cascade)
+  name             String
+  originalName     String
+  fileSize         Int
+  fileType         String
+  url              String
+  publicId         String?
+  isDefault        Boolean        @default(false)
+  uploadedAt       DateTime       @default(now())
+
+  applications     Application[]
+}
+
+model Company {
+  id          String             @id @default(uuid())
+  name        String             @unique
+  logoUrl     String?
+  domain      String?
+  website     String?
+  description String?
+  verified    Boolean            @default(false)
+  createdAt   DateTime           @default(now())
+  updatedAt   DateTime           @updatedAt
+
+  recruiters  RecruiterProfile[]
+  jobs        Job[]
+}
+
+model RecruiterProfile {
+  id           String              @id @default(uuid())
+  userId       String              @unique
+  user         User                @relation(fields: [userId], references: [id], onDelete: Cascade)
+  companyId    String
+  company      Company             @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  title        String?
+  jobs         Job[]
+  interviews   InterviewSchedule[]
+  notes        CandidateNote[]
+  createdAt    DateTime            @default(now())
+  updatedAt    DateTime            @updatedAt
+}
+
+model Job {
+  id               String            @id @default(uuid())
+  title            String
+  companyId        String
+  company          Company           @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  recruiterId      String
+  recruiter        RecruiterProfile  @relation(fields: [recruiterId], references: [id], onDelete: Cascade)
+  type             OpportunityType   @default(INTERNSHIP)
+  arrangement      WorkArrangement   @default(HYBRID)
+  location         String
+  duration         String?
+  stipend          String?
+  minSalary        Int?
+  maxSalary        Int?
+  experience       String            @default("Fresher")
+  description      String
+  responsibilities Json?
+  requirements     Json?
+  skills           String[]
+  deadline         DateTime?
+  status           JobStatus         @default(PENDING_REVIEW)
+  createdAt        DateTime          @default(now())
+  updatedAt        DateTime          @updatedAt
+
+  applications     Application[]
+  savedJobs        SavedJob[]
+}
+
+model Application {
+  id               String                  @id @default(uuid())
+  jobId            String
+  job              Job                     @relation(fields: [jobId], references: [id], onDelete: Cascade)
+  studentProfileId String
+  studentProfile   StudentProfile          @relation(fields: [studentProfileId], references: [id], onDelete: Cascade)
+  resumeId         String?
+  resume           Resume?                 @relation(fields: [resumeId], references: [id])
+  resumeUrl        String
+  coverLetter      String?
+  portfolioUrl     String?
+  phone            String?
+  status           ApplicationStatus       @default(APPLIED)
+  appliedAt        DateTime                @default(now())
+  updatedAt        DateTime                @updatedAt
+
+  timeline         ApplicationTimelineStep[]
+  notes            CandidateNote[]
+  interviews       InterviewSchedule[]
+
+  // Constraint: One active application per student per job
+  @@unique([studentProfileId, jobId])
+}
+
+model ApplicationTimelineStep {
+  id            String            @id @default(uuid())
+  applicationId String
+  application   Application       @relation(fields: [applicationId], references: [id], onDelete: Cascade)
+  status        ApplicationStatus
+  note          String?
+  authorName    String?
+  occurredAt    DateTime          @default(now())
+}
+
+model CandidateNote {
+  id            String           @id @default(uuid())
+  applicationId String
+  application   Application      @relation(fields: [applicationId], references: [id], onDelete: Cascade)
+  recruiterId   String
+  recruiter     RecruiterProfile @relation(fields: [recruiterId], references: [id], onDelete: Cascade)
+  content       String
+  authorName    String
+  createdAt     DateTime         @default(now())
+}
+
+model InterviewSchedule {
+  id            String           @id @default(uuid())
+  applicationId String
+  application   Application      @relation(fields: [applicationId], references: [id], onDelete: Cascade)
+  recruiterId   String
+  recruiter     RecruiterProfile @relation(fields: [recruiterId], references: [id], onDelete: Cascade)
+  interviewDate String
+  interviewTime String
+  interviewMode String           @default("Google Meet")
+  meetingUrl    String?
+  instructions  String?
+  authorName    String
+  createdAt     DateTime         @default(now())
+}
+
+model SavedJob {
+  id               String         @id @default(uuid())
+  studentProfileId String
+  studentProfile   StudentProfile @relation(fields: [studentProfileId], references: [id], onDelete: Cascade)
+  jobId            String
+  job              Job            @relation(fields: [jobId], references: [id], onDelete: Cascade)
+  savedAt          DateTime       @default(now())
+
+  // Constraint: Unique bookmark per student per job
+  @@unique([studentProfileId, jobId])
+}
+
+model Notification {
+  id        String   @id @default(uuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  type      String
+  title     String
+  message   String
+  link      String?
+  isRead    Boolean  @default(false)
+  createdAt DateTime @default(now())
+}
+
+model AuditLog {
+  id         String   @id @default(uuid())
+  actorId    String
+  actor      User     @relation(fields: [actorId], references: [id])
+  actorRole  String
+  action     String
+  targetType String
+  targetId   String?
+  ipAddress  String?
+  metadata   Json?
+  timestamp  DateTime @default(now())
+}
+
