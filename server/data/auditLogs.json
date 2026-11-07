@@ -1,5 +1,20 @@
 [
   {
+    "id": "audit_1794081974918_b8n81slli",
+    "timestamp": "2026-11-07T20:06:14.918Z",
+    "actorId": "usr_1794070917536_935ah",
+    "actorRole": "recruiter",
+    "action": "USER_ACCOUNT_PERMANENTLY_DELETED",
+    "targetType": "user",
+    "targetId": "usr_1794070917536_935ah",
+    "ipAddress": "::1",
+    "metadata": {
+      "email": "lodhadevyansh@gmail.com",
+      "role": "recruiter",
+      "fullName": "Devyansh Lodha"
+    }
+  },
+  {
     "id": "audit_1794081371392_abm7npm2t",
     "timestamp": "2026-11-07T19:56:11.392Z",
     "actorId": "usr_1794081371386_faoab",
@@ -13580,20 +13595,6 @@
     "metadata": {
       "title": "DevOps & Platform Engineering Intern",
       "status": "Draft"
-    }
-  },
-  {
-    "id": "audit_1793640147872_wzxvpywj6",
-    "timestamp": "2026-11-02T17:22:27.872Z",
-    "actorId": "usr_1793640147868_1e0sl",
-    "actorRole": "recruiter",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793640147868_1e0sl",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "recruiter",
-      "email": "vikram_1793640147508@stripe.com"
     }
   }
 ]

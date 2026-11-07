@@ -4607,18 +4607,6 @@
     "createdAt": "2026-11-04T17:56:13.896Z"
   },
   {
-    "id": "usr_1794070917536_935ah",
-    "fullName": "Devyansh Lodha",
-    "email": "lodhadevyansh@gmail.com",
-    "passwordHash": "$2b$12$xfzx0jnLWrAzLuohIqx3gOnRmH4qqgxe62xpcNCmoveQToihOpYQK",
-    "role": "recruiter",
-    "initials": "DL",
-    "headline": "Hiring Manager at NVIDIA",
-    "companyName": "NVIDIA",
-    "isVerified": false,
-    "createdAt": "2026-11-07T17:01:57.536Z"
-  },
-  {
     "id": "usr_1794073096435_eermb",
     "fullName": "Test Candidate",
     "email": "test.student.1794073095211@example.com",
