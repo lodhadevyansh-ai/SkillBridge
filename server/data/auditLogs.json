@@ -1,5 +1,179 @@
 [
   {
+    "id": "audit_1794080124668_kay1jk8yv",
+    "timestamp": "2026-11-07T19:35:24.668Z",
+    "actorId": "usr_1794080124660_4cm8n",
+    "actorRole": "student",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794080124660_4cm8n",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "student",
+      "email": "student2.1794080124058@example.com"
+    }
+  },
+  {
+    "id": "audit_1794080124049_6t4vhjyco",
+    "timestamp": "2026-11-07T19:35:24.049Z",
+    "actorId": "usr_recruiter_meera",
+    "actorRole": "recruiter",
+    "action": "INTERVIEW_SCHEDULED",
+    "targetType": "application",
+    "targetId": "app-1794080123322",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "interviewDate": "2026-11-15",
+      "interviewTime": "14:30 IST",
+      "candidate": "Vitest Student Candidate"
+    }
+  },
+  {
+    "id": "audit_1794080123974_nwi1j4878",
+    "timestamp": "2026-11-07T19:35:23.974Z",
+    "actorId": "usr_recruiter_meera",
+    "actorRole": "recruiter",
+    "action": "CANDIDATE_STAGE_UPDATED",
+    "targetType": "application",
+    "targetId": "app-1794080123322",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "stage": "Shortlisted",
+      "candidate": "Vitest Student Candidate"
+    }
+  },
+  {
+    "id": "audit_1794080123554_w1rt1mjy5",
+    "timestamp": "2026-11-07T19:35:23.554Z",
+    "actorId": "usr_recruiter_meera",
+    "actorRole": "recruiter",
+    "action": "USER_LOGIN",
+    "targetType": "user",
+    "targetId": "usr_recruiter_meera",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "email": "meera@linear.app"
+    }
+  },
+  {
+    "id": "audit_1794080123343_6oysruiox",
+    "timestamp": "2026-11-07T19:35:23.343Z",
+    "actorId": "usr_1794080120707_bpwii",
+    "actorRole": "student",
+    "action": "APPLICATION_SUBMITTED",
+    "targetType": "job",
+    "targetId": "job-1",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "company": "Linear",
+      "title": "Product Design Intern"
+    }
+  },
+  {
+    "id": "audit_1794080123171_01kylgef9",
+    "timestamp": "2026-11-07T19:35:23.171Z",
+    "actorId": "usr_1794080121326_jhv45",
+    "actorRole": "recruiter",
+    "action": "JOB_CLOSED",
+    "targetType": "job",
+    "targetId": "job-1794080122988",
+    "ipAddress": "127.0.0.1",
+    "metadata": {}
+  },
+  {
+    "id": "audit_1794080123108_4pl49hn3y",
+    "timestamp": "2026-11-07T19:35:23.108Z",
+    "actorId": "usr_1794080121326_jhv45",
+    "actorRole": "recruiter",
+    "action": "JOB_PUBLISHED",
+    "targetType": "job",
+    "targetId": "job-1794080122988",
+    "ipAddress": "127.0.0.1",
+    "metadata": {}
+  },
+  {
+    "id": "audit_1794080123076_v208ikcej",
+    "timestamp": "2026-11-07T19:35:23.076Z",
+    "actorId": "usr_1794080121326_jhv45",
+    "actorRole": "recruiter",
+    "action": "JOB_UPDATED",
+    "targetType": "job",
+    "targetId": "job-1794080122988",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "title": "Principal Platform Engineer"
+    }
+  },
+  {
+    "id": "audit_1794080123004_qzhyf2dr2",
+    "timestamp": "2026-11-07T19:35:23.004Z",
+    "actorId": "usr_1794080121326_jhv45",
+    "actorRole": "recruiter",
+    "action": "JOB_CREATED",
+    "targetType": "job",
+    "targetId": "job-1794080122988",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "title": "Staff Platform Engineer",
+      "status": "Draft"
+    }
+  },
+  {
+    "id": "audit_1794080122179_23zqt7355",
+    "timestamp": "2026-11-07T19:35:22.179Z",
+    "actorId": "usr_admin_rohan",
+    "actorRole": "admin",
+    "action": "USER_LOGIN",
+    "targetType": "user",
+    "targetId": "usr_admin_rohan",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "email": "admin@skillbridge.io"
+    }
+  },
+  {
+    "id": "audit_1794080121923_68f9x1elx",
+    "timestamp": "2026-11-07T19:35:21.923Z",
+    "actorId": "usr_1794080121914_i556x",
+    "actorRole": "recruiter",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794080121914_i556x",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "recruiter",
+      "email": "stripe.recruiter.1794080121345@stripe.com"
+    }
+  },
+  {
+    "id": "audit_1794080121332_wggqz6054",
+    "timestamp": "2026-11-07T19:35:21.332Z",
+    "actorId": "usr_1794080121326_jhv45",
+    "actorRole": "recruiter",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794080121326_jhv45",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "recruiter",
+      "email": "vitest.recruiter.1794080120062@linear.app"
+    }
+  },
+  {
+    "id": "audit_1794080120720_tr079y0nc",
+    "timestamp": "2026-11-07T19:35:20.720Z",
+    "actorId": "usr_1794080120707_bpwii",
+    "actorRole": "student",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794080120707_bpwii",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "student",
+      "email": "vitest.student.1794080120062@skillbridge.io"
+    }
+  },
+  {
     "id": "audit_1794078491697_xp10ld4mu",
     "timestamp": "2026-11-07T19:08:11.697Z",
     "actorId": "usr_1794078491691_mecve",
@@ -13427,186 +13601,6 @@
     "metadata": {
       "company": "Razorpay",
       "title": "Frontend Developer"
-    }
-  },
-  {
-    "id": "audit_1793636105226_29wyop7he",
-    "timestamp": "2026-11-02T16:15:05.226Z",
-    "actorId": "usr_1793636105099_w40dx",
-    "actorRole": "student",
-    "action": "APPLICATION_SUBMITTED",
-    "targetType": "job",
-    "targetId": "job-1",
-    "ipAddress": "::ffff:127.0.0.1",
-    "metadata": {
-      "company": "Linear",
-      "title": "Product Design Intern"
-    }
-  },
-  {
-    "id": "audit_1793636105113_ytisf7fl1",
-    "timestamp": "2026-11-02T16:15:05.113Z",
-    "actorId": "usr_1793636105099_w40dx",
-    "actorRole": "student",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793636105099_w40dx",
-    "ipAddress": "::ffff:127.0.0.1",
-    "metadata": {
-      "role": "student",
-      "email": "test.apps.1793636104449@example.com"
-    }
-  },
-  {
-    "id": "audit_1793636103047_1s58guke7",
-    "timestamp": "2026-11-02T16:15:03.047Z",
-    "actorId": "usr_1793636102656_bqogk",
-    "actorRole": "student",
-    "action": "APPLICATION_SUBMITTED",
-    "targetType": "job",
-    "targetId": "job-1",
-    "ipAddress": "::ffff:127.0.0.1",
-    "metadata": {
-      "company": "Linear",
-      "title": "Product Design Intern"
-    }
-  },
-  {
-    "id": "audit_1793636102928_tqe0twzi1",
-    "timestamp": "2026-11-02T16:15:02.928Z",
-    "actorId": "usr_recruiter_meera",
-    "actorRole": "recruiter",
-    "action": "USER_LOGIN",
-    "targetType": "user",
-    "targetId": "usr_recruiter_meera",
-    "ipAddress": "::ffff:127.0.0.1",
-    "metadata": {
-      "email": "meera@linear.app"
-    }
-  },
-  {
-    "id": "audit_1793636102683_fpike1r0v",
-    "timestamp": "2026-11-02T16:15:02.684Z",
-    "actorId": "usr_1793636102656_bqogk",
-    "actorRole": "student",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793636102656_bqogk",
-    "ipAddress": "::ffff:127.0.0.1",
-    "metadata": {
-      "role": "student",
-      "email": "applicant_1793636101899@email.com"
-    }
-  },
-  {
-    "id": "audit_1793636099359_rkzd81l1t",
-    "timestamp": "2026-11-02T16:14:59.360Z",
-    "actorId": "usr_1793636099348_s6rps",
-    "actorRole": "student",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793636099348_s6rps",
-    "ipAddress": "::ffff:127.0.0.1",
-    "metadata": {
-      "role": "student",
-      "email": "test.student.1793636098491@example.com"
-    }
-  },
-  {
-    "id": "audit_1793636097189_qcl44266k",
-    "timestamp": "2026-11-02T16:14:57.189Z",
-    "actorId": "usr_1793636097184_u2f88",
-    "actorRole": "recruiter",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793636097184_u2f88",
-    "ipAddress": "::1",
-    "metadata": {
-      "role": "recruiter",
-      "email": "recruiter.1793636096471@linear.app"
-    }
-  },
-  {
-    "id": "audit_1793636095603_nu5eheoaz",
-    "timestamp": "2026-11-02T16:14:55.603Z",
-    "actorId": "usr_1793636094906_2arno",
-    "actorRole": "student",
-    "action": "USER_LOGIN",
-    "targetType": "user",
-    "targetId": "usr_1793636094906_2arno",
-    "ipAddress": "::1",
-    "metadata": {
-      "email": "test.student.1793636093897@example.com"
-    }
-  },
-  {
-    "id": "audit_1793636094919_v1cs5tljq",
-    "timestamp": "2026-11-02T16:14:54.919Z",
-    "actorId": "usr_1793636094906_2arno",
-    "actorRole": "student",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793636094906_2arno",
-    "ipAddress": "::1",
-    "metadata": {
-      "role": "student",
-      "email": "test.student.1793636093897@example.com"
-    }
-  },
-  {
-    "id": "audit_1793636079348_2tm3zfj2q",
-    "timestamp": "2026-11-02T16:14:39.348Z",
-    "actorId": "usr_1793636079343_73d0b",
-    "actorRole": "recruiter",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793636079343_73d0b",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "recruiter",
-      "email": "recruiter_1793636078717@test.com"
-    }
-  },
-  {
-    "id": "audit_1793636078656_wt4v391l3",
-    "timestamp": "2026-11-02T16:14:38.656Z",
-    "actorId": "usr_1793636078647_8c815",
-    "actorRole": "student",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793636078647_8c815",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "student",
-      "email": "student_1793636078037@test.com"
-    }
-  },
-  {
-    "id": "audit_1793636010689_4upo11imk",
-    "timestamp": "2026-11-02T16:13:30.689Z",
-    "actorId": "usr_1793636010682_ek6wc",
-    "actorRole": "recruiter",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793636010682_ek6wc",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "recruiter",
-      "email": "recruiter_1793636010081@test.com"
-    }
-  },
-  {
-    "id": "audit_1793636010034_x22yxr3hh",
-    "timestamp": "2026-11-02T16:13:30.034Z",
-    "actorId": "usr_1793636010024_f0l2s",
-    "actorRole": "student",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793636010024_f0l2s",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "student",
-      "email": "student_1793636009443@test.com"
     }
   }
 ]

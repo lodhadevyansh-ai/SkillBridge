@@ -20433,6 +20433,80 @@
           "scheduledBy": "Meera Kapoor"
         }
       }
+    ],
+    "usr_1794080120707_bpwii": [
+      {
+        "id": "app-1794080123322",
+        "jobId": "job-1",
+        "role": "Product Design Intern",
+        "company": "Linear",
+        "logo": "L",
+        "appliedOn": "08 Nov 2026",
+        "status": "interview",
+        "statusLabel": "Interview Scheduled",
+        "latestUpdate": "Interview scheduled on 2026-11-15 at 14:30 IST",
+        "matchScore": 98,
+        "stipend": "₹30,000 / month",
+        "resumeName": "Vitest_Candidate_Resume.pdf",
+        "coverLetter": "I am excited to apply for this design role.",
+        "portfolioUrl": "https://portfolio.example.com",
+        "phone": null,
+        "timeline": [
+          {
+            "step": "Applied",
+            "date": "08 Nov 2026",
+            "done": true,
+            "current": true
+          },
+          {
+            "step": "In review",
+            "date": "Pending",
+            "done": false
+          },
+          {
+            "step": "Interview",
+            "date": "Pending",
+            "done": false
+          },
+          {
+            "step": "Decision",
+            "date": "Pending",
+            "done": false
+          }
+        ],
+        "history": [
+          {
+            "status": "Applied",
+            "date": "08 Nov 2026",
+            "note": "Submitted with Vitest_Candidate_Resume.pdf"
+          },
+          {
+            "status": "Under Review",
+            "date": "08 Nov 2026",
+            "note": "Queued for recruiter review"
+          },
+          {
+            "status": "Shortlisted",
+            "date": "08 Nov 2026",
+            "note": "Top tier portfolio and relevant systems design experience."
+          },
+          {
+            "status": "Interview Scheduled",
+            "date": "08 Nov 2026",
+            "note": "Interview scheduled on 2026-11-15 at 14:30 IST via Google Meet."
+          }
+        ],
+        "createdAt": "2026-11-07T19:35:23.322Z",
+        "interview": {
+          "interviewDate": "2026-11-15",
+          "interviewTime": "14:30 IST",
+          "interviewMode": "Google Meet",
+          "meetingUrl": "https://meet.google.com/xyz-test",
+          "instructions": "Prepare portfolio walkthrough.",
+          "scheduledAt": "2026-11-07T19:35:23.999Z",
+          "scheduledBy": "Meera Kapoor"
+        }
+      }
     ]
   },
   "profiles": {
@@ -24887,6 +24961,75 @@
       "projects": [],
       "resumes": [],
       "profileStrength": 20
+    },
+    "usr_1794080120707_bpwii": {
+      "fullName": "Vitest Student Candidate",
+      "email": "vitest.student.1794080120062@skillbridge.io",
+      "phone": "",
+      "location": "",
+      "college": "",
+      "degree": "",
+      "classOf": "",
+      "headline": "SkillBridge Candidate Member",
+      "about": "",
+      "portfolioUrl": "",
+      "linkedinUrl": "",
+      "githubUrl": "",
+      "openToWork": true,
+      "avatarUrl": null,
+      "initials": "VS",
+      "title": "Start your career journey with SkillBridge.",
+      "description": "Complete your profile sections to stand out to verified recruiters.",
+      "resumeUploaded": true,
+      "resumeFileName": "Vitest_Candidate_Resume.pdf",
+      "resumeUpdatedAt": "Updated 08 Nov 2026 · 350 KB",
+      "skills": [],
+      "education": [],
+      "experience": [],
+      "projects": [],
+      "resumes": [
+        {
+          "id": "res-1794080123266",
+          "name": "Vitest_Candidate_Resume.pdf",
+          "originalName": "Vitest_Candidate_Resume.pdf",
+          "fileSize": 358400,
+          "fileSizeFormatted": "350 KB",
+          "fileType": "application/pdf",
+          "uploadedAt": "08 Nov 2026",
+          "url": "https://res.cloudinary.com/skillbridge/raw/upload/v1794080123239/resumes/usr_1794080120707_bpwii/Vitest_Candidate_Resume.pdf",
+          "publicId": "resumes/usr_1794080120707_bpwii/1794080123239_Vitest_Candidate_Resume.pdf",
+          "isDefault": true
+        }
+      ],
+      "profileStrength": 0
+    },
+    "usr_1794080124660_4cm8n": {
+      "fullName": "Second Student",
+      "email": "student2.1794080124058@example.com",
+      "phone": "",
+      "location": "",
+      "college": "",
+      "degree": "",
+      "classOf": "",
+      "headline": "SkillBridge Candidate Member",
+      "about": "",
+      "portfolioUrl": "",
+      "linkedinUrl": "",
+      "githubUrl": "",
+      "openToWork": true,
+      "avatarUrl": null,
+      "initials": "SS",
+      "title": "Start your career journey with SkillBridge.",
+      "description": "Complete your profile sections to stand out to verified recruiters.",
+      "resumeUploaded": false,
+      "resumeFileName": null,
+      "resumeUpdatedAt": null,
+      "skills": [],
+      "education": [],
+      "experience": [],
+      "projects": [],
+      "resumes": [],
+      "profileStrength": 20
     }
   },
   "activity": {
@@ -24979,7 +25122,8 @@
     "usr_1794078464968_nwiov": [],
     "usr_1794078469330_ciitl": [],
     "usr_1794078480175_pecgr": [],
-    "usr_1794078487665_z5qc7": []
+    "usr_1794078487665_z5qc7": [],
+    "usr_1794080120707_bpwii": []
   },
   "jobs": [
     {

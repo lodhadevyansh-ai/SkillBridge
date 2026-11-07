@@ -1,5 +1,56 @@
 [
   {
+    "id": "notif-1794080124037-9b7ln",
+    "userId": "usr_1794080120707_bpwii",
+    "type": "interview_scheduled",
+    "title": "Interview Scheduled 📅",
+    "message": "Interview scheduled for Product Design Intern on 2026-11-15 at 14:30 IST via Google Meet.",
+    "link": "/student/applications",
+    "read": false,
+    "createdAt": "2026-11-07T19:35:24.037Z",
+    "metadata": {
+      "applicationId": "app-1794080123322",
+      "interview": {
+        "interviewDate": "2026-11-15",
+        "interviewTime": "14:30 IST",
+        "interviewMode": "Google Meet",
+        "meetingUrl": "https://meet.google.com/xyz-test",
+        "instructions": "Prepare portfolio walkthrough.",
+        "scheduledAt": "2026-11-07T19:35:23.999Z",
+        "scheduledBy": "Meera Kapoor"
+      }
+    }
+  },
+  {
+    "id": "notif-1794080123962-v7x9v",
+    "userId": "usr_1794080120707_bpwii",
+    "type": "candidate_shortlisted",
+    "title": "You've Been Shortlisted! 🎉",
+    "message": "Congratulations! The recruiter shortlisted your profile for Product Design Intern.",
+    "link": "/student/applications",
+    "read": false,
+    "createdAt": "2026-11-07T19:35:23.962Z",
+    "metadata": {
+      "applicationId": "app-1794080123322",
+      "stage": "shortlisted"
+    }
+  },
+  {
+    "id": "notif-1794080123332-zbekx",
+    "userId": "usr_1794080120707_bpwii",
+    "type": "application_submitted",
+    "title": "Application Submitted",
+    "message": "Your application for Product Design Intern at Linear was submitted successfully.",
+    "link": "/student/applications",
+    "read": false,
+    "createdAt": "2026-11-07T19:35:23.332Z",
+    "metadata": {
+      "jobId": "job-1",
+      "role": "Product Design Intern",
+      "company": "Linear"
+    }
+  },
+  {
     "id": "notif-1794078491068-w7x3g",
     "userId": "usr_1794078487665_z5qc7",
     "type": "interview_scheduled",

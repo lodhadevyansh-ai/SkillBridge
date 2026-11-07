@@ -7342,5 +7342,53 @@
     "companyName": null,
     "isVerified": true,
     "createdAt": "2026-11-07T19:08:11.691Z"
+  },
+  {
+    "id": "usr_1794080120707_bpwii",
+    "fullName": "Vitest Student Candidate",
+    "email": "vitest.student.1794080120062@skillbridge.io",
+    "passwordHash": "$2b$12$bl/kgNitsJnopj.OCeCts.xr4NCbaKencxXEBgAXZrcJS20x4QAdy",
+    "role": "student",
+    "initials": "VS",
+    "headline": "SkillBridge Candidate Member",
+    "companyName": null,
+    "isVerified": true,
+    "createdAt": "2026-11-07T19:35:20.707Z"
+  },
+  {
+    "id": "usr_1794080121326_jhv45",
+    "fullName": "Linear Hiring Lead",
+    "email": "vitest.recruiter.1794080120062@linear.app",
+    "passwordHash": "$2b$12$1nvwy.wAZbwUk7V1dozpwuWLAQ66GPryu0qzVTaSzURupBX3uEIa6",
+    "role": "recruiter",
+    "initials": "LH",
+    "headline": "Hiring Manager at Linear Technologies",
+    "companyName": "Linear Technologies",
+    "isVerified": false,
+    "createdAt": "2026-11-07T19:35:21.326Z"
+  },
+  {
+    "id": "usr_1794080121914_i556x",
+    "fullName": "Stripe Hiring Lead",
+    "email": "stripe.recruiter.1794080121345@stripe.com",
+    "passwordHash": "$2b$12$rGtQ/OMXVUWURanFunH4Nu9ABi31qTbVHRE9CvTAwGsIAgREt3Rou",
+    "role": "recruiter",
+    "initials": "SH",
+    "headline": "Hiring Manager at Stripe Payments",
+    "companyName": "Stripe Payments",
+    "isVerified": false,
+    "createdAt": "2026-11-07T19:35:21.914Z"
+  },
+  {
+    "id": "usr_1794080124660_4cm8n",
+    "fullName": "Second Student",
+    "email": "student2.1794080124058@example.com",
+    "passwordHash": "$2b$12$jYhJ9twB1QlqZUeaZrnbVeZ3Yb7iLkopcnGIDwJ638sGLstkMxrSq",
+    "role": "student",
+    "initials": "SS",
+    "headline": "SkillBridge Candidate Member",
+    "companyName": null,
+    "isVerified": true,
+    "createdAt": "2026-11-07T19:35:24.660Z"
   }
 ]

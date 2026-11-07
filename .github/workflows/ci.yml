@@ -77,7 +77,8 @@ jobs:
         run: npm --prefix server ci
 
       - name: Generate Prisma ORM Client
-        run: npx --prefix server prisma generate
+        working-directory: server
+        run: npx prisma generate --schema=prisma/schema.prisma
 
       - name: Run Backend Vitest & Supertest API Tests
         run: npm --prefix server run test:vitest

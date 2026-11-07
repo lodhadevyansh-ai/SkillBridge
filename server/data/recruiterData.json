@@ -3719,10 +3719,118 @@
         "createdAt": "2026-11-07T19:08:09.925Z",
         "updatedAt": "2026-11-07T19:08:10.132Z"
       }
+    ],
+    "usr_1794080121326_jhv45": [
+      {
+        "id": "job-1794080122988",
+        "title": "Principal Platform Engineer",
+        "company": "Linear Technologies",
+        "companySlug": "linear-technologies",
+        "companyAbout": "Linear Technologies is an industry-leading product team.",
+        "logo": "L",
+        "location": "Bengaluru · Hybrid",
+        "arrangement": "Hybrid",
+        "type": "Full-time",
+        "duration": "Permanent",
+        "stipend": "₹28–42 LPA",
+        "salaryMin": 0,
+        "salaryMax": 0,
+        "salaryPeriod": "year",
+        "experience": "2-4 years",
+        "deadline": "30 Nov 2026",
+        "postedDaysAgo": "Just now",
+        "postedHoursAgo": 0,
+        "matchScore": 95,
+        "isVerified": true,
+        "recruiterId": "usr_1794080121326_jhv45",
+        "headline": "Staff Platform Engineer",
+        "description": "Architect scalable cloud infrastructure, kubernetes, and CI/CD pipelines.",
+        "responsibilities": [],
+        "qualifications": [],
+        "skills": [
+          "Node.js",
+          "PostgreSQL",
+          "Docker",
+          "Kubernetes"
+        ],
+        "perks": [
+          "Competitive compensation",
+          "Mentorship",
+          "Flexible schedule"
+        ],
+        "applicantsCount": 0,
+        "shortlistedCount": 0,
+        "closesOn": "30 Nov 2026",
+        "status": "Closed",
+        "createdAt": "2026-11-07T19:35:22.988Z",
+        "updatedAt": "2026-11-07T19:35:23.157Z"
+      }
     ]
   },
   "applications": {
     "usr_recruiter_meera": [
+      {
+        "id": "app-1794080123322",
+        "studentId": "usr_1794080120707_bpwii",
+        "candidateId": "usr_1794080120707_bpwii",
+        "candidateName": "Vitest Student Candidate",
+        "roleApplied": "Product Design Intern",
+        "jobId": "job-1",
+        "appliedDate": "08 Nov 2026",
+        "stage": "interview",
+        "stageLabel": "Interview Scheduled",
+        "matchScore": 98,
+        "resumeName": "Vitest_Candidate_Resume.pdf",
+        "statusHistory": [
+          {
+            "status": "Applied",
+            "date": "08 Nov 2026",
+            "note": "Submitted with Vitest_Candidate_Resume.pdf"
+          },
+          {
+            "status": "Under Review",
+            "date": "08 Nov 2026",
+            "note": "Queued for recruiter review"
+          },
+          {
+            "stage": "shortlisted",
+            "stageLabel": "Shortlisted",
+            "changedAt": "08 Nov 2026, 01:05 AM",
+            "changedBy": "Meera Kapoor",
+            "note": "Top tier portfolio and relevant systems design experience."
+          },
+          {
+            "stage": "interview",
+            "stageLabel": "Interview Scheduled",
+            "changedAt": "08 Nov 2026, 01:05 AM",
+            "changedBy": "Meera Kapoor",
+            "note": "Interview scheduled on 2026-11-15 at 14:30 IST via Google Meet. Notes: Prepare portfolio walkthrough."
+          }
+        ],
+        "college": "Engineering Institute",
+        "skills": [],
+        "initials": "VS",
+        "headline": "Product Design Intern Candidate · Engineering Institute",
+        "graduationYear": 2026,
+        "experience": "Entry level (0–1 years)",
+        "location": "Bengaluru, India",
+        "email": "candidate@university.edu",
+        "phone": "+91 98765 43210",
+        "resumeUrl": "https://res.cloudinary.com/skillbridge/raw/upload/v1730485920/resumes/default_resume.pdf",
+        "notes": [],
+        "interview": {
+          "interviewDate": "2026-11-15",
+          "interviewTime": "14:30 IST",
+          "interviewMode": "Google Meet",
+          "meetingUrl": "https://meet.google.com/xyz-test",
+          "instructions": "Prepare portfolio walkthrough.",
+          "scheduledAt": "2026-11-07T19:35:23.999Z",
+          "scheduledBy": "Meera Kapoor"
+        },
+        "interviewDate": "2026-11-15",
+        "interviewTime": "14:30 IST",
+        "meetingUrl": "https://meet.google.com/xyz-test"
+      },
       {
         "id": "app-1794078490281",
         "studentId": "usr_1794078487665_z5qc7",
@@ -8346,6 +8454,20 @@
       "workEmail": "vitest.recruiter.1794078486957@linear.app",
       "isVerified": false,
       "createdAt": "2026-11-07T19:08:09.826Z"
+    },
+    "usr_1794080121326_jhv45": {
+      "companyName": "Linear Technologies",
+      "website": "",
+      "headquarters": "",
+      "companySize": "",
+      "description": "",
+      "industry": "Technology",
+      "logo": "L",
+      "initials": "L",
+      "leadRecruiter": "Linear Hiring Lead",
+      "workEmail": "vitest.recruiter.1794080120062@linear.app",
+      "isVerified": false,
+      "createdAt": "2026-11-07T19:35:22.895Z"
     }
   }
 }
