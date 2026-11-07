@@ -2,6 +2,44 @@
   "jobs": {
     "usr_recruiter_meera": [
       {
+        "id": "job-1794081214048",
+        "title": "Senior Frontend Architect",
+        "company": "Linear",
+        "companySlug": "linear",
+        "companyAbout": "Linear is an industry-leading product team.",
+        "logo": "L",
+        "location": "Remote · India",
+        "arrangement": "Hybrid",
+        "type": "Full-time",
+        "duration": "Permanent",
+        "stipend": "₹30–45 LPA",
+        "salaryMin": 0,
+        "salaryMax": 0,
+        "salaryPeriod": "year",
+        "experience": "Entry level",
+        "deadline": "30 Nov 2026",
+        "postedDaysAgo": "Just now",
+        "postedHoursAgo": 0,
+        "matchScore": 95,
+        "isVerified": true,
+        "recruiterId": "usr_recruiter_meera",
+        "headline": "Senior Frontend Architect",
+        "description": "Lead modern design system implementation at Linear.",
+        "responsibilities": [],
+        "qualifications": [],
+        "skills": [],
+        "perks": [
+          "Competitive compensation",
+          "Mentorship",
+          "Flexible schedule"
+        ],
+        "applicantsCount": 0,
+        "shortlistedCount": 0,
+        "closesOn": "30 Nov 2026",
+        "status": "Active",
+        "createdAt": "2026-11-07T19:53:34.048Z"
+      },
+      {
         "id": "job-1794078453313",
         "title": "Senior Frontend Architect",
         "company": "Linear",
@@ -3765,10 +3803,449 @@
         "createdAt": "2026-11-07T19:35:22.988Z",
         "updatedAt": "2026-11-07T19:35:23.157Z"
       }
+    ],
+    "usr_1794081233374_0y4ss": [
+      {
+        "id": "job-1794081234093",
+        "title": "Backend Security Engineer",
+        "company": "Alpha Corp",
+        "companySlug": "alpha-corp",
+        "companyAbout": "Alpha Corp is an industry-leading product team.",
+        "logo": "A",
+        "location": "Bengaluru",
+        "arrangement": "Hybrid",
+        "type": "Full-time",
+        "duration": "Permanent",
+        "stipend": "Competitive",
+        "salaryMin": 0,
+        "salaryMax": 0,
+        "salaryPeriod": "year",
+        "experience": "Entry level",
+        "deadline": "30 Nov 2026",
+        "postedDaysAgo": "Just now",
+        "postedHoursAgo": 0,
+        "matchScore": 95,
+        "isVerified": true,
+        "recruiterId": "usr_1794081233374_0y4ss",
+        "headline": "Backend Security Engineer",
+        "description": "Lead application security engineering and infrastructure.",
+        "responsibilities": [],
+        "qualifications": [],
+        "skills": [],
+        "perks": [
+          "Competitive compensation",
+          "Mentorship",
+          "Flexible schedule"
+        ],
+        "applicantsCount": 0,
+        "shortlistedCount": 0,
+        "closesOn": "30 Nov 2026",
+        "status": "Active",
+        "createdAt": "2026-11-07T19:53:54.093Z"
+      }
+    ],
+    "usr_1794081242068_fy1ff": [
+      {
+        "id": "job-1794081242840",
+        "title": "Senior Cloud Architect",
+        "company": "Innovate Tech",
+        "companySlug": "innovate-tech",
+        "companyAbout": "Innovate Tech is an industry-leading product team.",
+        "logo": "I",
+        "location": "Bengaluru · Hybrid",
+        "arrangement": "Hybrid",
+        "type": "Full-time",
+        "duration": "Permanent",
+        "stipend": "₹28–38 LPA",
+        "salaryMin": 0,
+        "salaryMax": 0,
+        "salaryPeriod": "year",
+        "experience": "Entry level",
+        "deadline": "30 Nov 2026",
+        "postedDaysAgo": "Just now",
+        "postedHoursAgo": 0,
+        "matchScore": 95,
+        "isVerified": true,
+        "recruiterId": "usr_1794081242068_fy1ff",
+        "headline": "Senior Cloud Architect",
+        "description": "Designing distributed microservices on AWS/GCP.",
+        "responsibilities": [],
+        "qualifications": [],
+        "skills": [
+          "AWS",
+          "Kubernetes",
+          "Go",
+          "Docker"
+        ],
+        "perks": [
+          "Competitive compensation",
+          "Mentorship",
+          "Flexible schedule"
+        ],
+        "applicantsCount": 1,
+        "shortlistedCount": 0,
+        "closesOn": "30 Nov 2026",
+        "status": "Active",
+        "createdAt": "2026-11-07T19:54:02.840Z"
+      }
+    ],
+    "usr_1794081251556_coqg0": [
+      {
+        "id": "job-1794081253184",
+        "title": "Principal Platform Engineer",
+        "company": "Linear Technologies",
+        "companySlug": "linear-technologies",
+        "companyAbout": "Linear Technologies is an industry-leading product team.",
+        "logo": "L",
+        "location": "Bengaluru · Hybrid",
+        "arrangement": "Hybrid",
+        "type": "Full-time",
+        "duration": "Permanent",
+        "stipend": "₹28–42 LPA",
+        "salaryMin": 0,
+        "salaryMax": 0,
+        "salaryPeriod": "year",
+        "experience": "2-4 years",
+        "deadline": "30 Nov 2026",
+        "postedDaysAgo": "Just now",
+        "postedHoursAgo": 0,
+        "matchScore": 95,
+        "isVerified": true,
+        "recruiterId": "usr_1794081251556_coqg0",
+        "headline": "Staff Platform Engineer",
+        "description": "Architect scalable cloud infrastructure, kubernetes, and CI/CD pipelines.",
+        "responsibilities": [],
+        "qualifications": [],
+        "skills": [
+          "Node.js",
+          "PostgreSQL",
+          "Docker",
+          "Kubernetes"
+        ],
+        "perks": [
+          "Competitive compensation",
+          "Mentorship",
+          "Flexible schedule"
+        ],
+        "applicantsCount": 0,
+        "shortlistedCount": 0,
+        "closesOn": "30 Nov 2026",
+        "status": "Closed",
+        "createdAt": "2026-11-07T19:54:13.184Z",
+        "updatedAt": "2026-11-07T19:54:13.410Z"
+      }
+    ],
+    "usr_1794081368035_1rhu2": [
+      {
+        "id": "job-1794081369692",
+        "title": "Principal Platform Engineer",
+        "company": "Linear Technologies",
+        "companySlug": "linear-technologies",
+        "companyAbout": "Linear Technologies is an industry-leading product team.",
+        "logo": "L",
+        "location": "Bengaluru · Hybrid",
+        "arrangement": "Hybrid",
+        "type": "Full-time",
+        "duration": "Permanent",
+        "stipend": "₹28–42 LPA",
+        "salaryMin": 0,
+        "salaryMax": 0,
+        "salaryPeriod": "year",
+        "experience": "2-4 years",
+        "deadline": "30 Nov 2026",
+        "postedDaysAgo": "Just now",
+        "postedHoursAgo": 0,
+        "matchScore": 95,
+        "isVerified": true,
+        "recruiterId": "usr_1794081368035_1rhu2",
+        "headline": "Staff Platform Engineer",
+        "description": "Architect scalable cloud infrastructure, kubernetes, and CI/CD pipelines.",
+        "responsibilities": [],
+        "qualifications": [],
+        "skills": [
+          "Node.js",
+          "PostgreSQL",
+          "Docker",
+          "Kubernetes"
+        ],
+        "perks": [
+          "Competitive compensation",
+          "Mentorship",
+          "Flexible schedule"
+        ],
+        "applicantsCount": 0,
+        "shortlistedCount": 0,
+        "closesOn": "30 Nov 2026",
+        "status": "Closed",
+        "createdAt": "2026-11-07T19:56:09.693Z",
+        "updatedAt": "2026-11-07T19:56:09.853Z"
+      }
     ]
   },
   "applications": {
     "usr_recruiter_meera": [
+      {
+        "id": "app-1794081369996",
+        "studentId": "usr_1794081367376_0hcol",
+        "candidateId": "usr_1794081367376_0hcol",
+        "candidateName": "Vitest Student Candidate",
+        "roleApplied": "Product Design Intern",
+        "jobId": "job-1",
+        "appliedDate": "08 Nov 2026",
+        "stage": "interview",
+        "stageLabel": "Interview Scheduled",
+        "matchScore": 98,
+        "resumeName": "Vitest_Candidate_Resume.pdf",
+        "statusHistory": [
+          {
+            "status": "Applied",
+            "date": "08 Nov 2026",
+            "note": "Submitted with Vitest_Candidate_Resume.pdf"
+          },
+          {
+            "status": "Under Review",
+            "date": "08 Nov 2026",
+            "note": "Queued for recruiter review"
+          },
+          {
+            "stage": "shortlisted",
+            "stageLabel": "Shortlisted",
+            "changedAt": "08 Nov 2026, 01:26 AM",
+            "changedBy": "Meera Kapoor",
+            "note": "Top tier portfolio and relevant systems design experience."
+          },
+          {
+            "stage": "interview",
+            "stageLabel": "Interview Scheduled",
+            "changedAt": "08 Nov 2026, 01:26 AM",
+            "changedBy": "Meera Kapoor",
+            "note": "Interview scheduled on 2026-11-15 at 14:30 IST via Google Meet. Notes: Prepare portfolio walkthrough."
+          }
+        ],
+        "college": "Engineering Institute",
+        "skills": [],
+        "initials": "VS",
+        "headline": "Product Design Intern Candidate · Engineering Institute",
+        "graduationYear": 2026,
+        "experience": "Entry level (0–1 years)",
+        "location": "Bengaluru, India",
+        "email": "candidate@university.edu",
+        "phone": "+91 98765 43210",
+        "resumeUrl": "https://res.cloudinary.com/skillbridge/raw/upload/v1730485920/resumes/default_resume.pdf",
+        "notes": [],
+        "interview": {
+          "interviewDate": "2026-11-15",
+          "interviewTime": "14:30 IST",
+          "interviewMode": "Google Meet",
+          "meetingUrl": "https://meet.google.com/xyz-test",
+          "instructions": "Prepare portfolio walkthrough.",
+          "scheduledAt": "2026-11-07T19:56:10.772Z",
+          "scheduledBy": "Meera Kapoor"
+        },
+        "interviewDate": "2026-11-15",
+        "interviewTime": "14:30 IST",
+        "meetingUrl": "https://meet.google.com/xyz-test"
+      },
+      {
+        "id": "app-1794081253575",
+        "studentId": "usr_1794081250848_4geb3",
+        "candidateId": "usr_1794081250848_4geb3",
+        "candidateName": "Vitest Student Candidate",
+        "roleApplied": "Product Design Intern",
+        "jobId": "job-1",
+        "appliedDate": "08 Nov 2026",
+        "stage": "interview",
+        "stageLabel": "Interview Scheduled",
+        "matchScore": 98,
+        "resumeName": "Vitest_Candidate_Resume.pdf",
+        "statusHistory": [
+          {
+            "status": "Applied",
+            "date": "08 Nov 2026",
+            "note": "Submitted with Vitest_Candidate_Resume.pdf"
+          },
+          {
+            "status": "Under Review",
+            "date": "08 Nov 2026",
+            "note": "Queued for recruiter review"
+          },
+          {
+            "stage": "shortlisted",
+            "stageLabel": "Shortlisted",
+            "changedAt": "08 Nov 2026, 01:24 AM",
+            "changedBy": "Meera Kapoor",
+            "note": "Top tier portfolio and relevant systems design experience."
+          },
+          {
+            "stage": "interview",
+            "stageLabel": "Interview Scheduled",
+            "changedAt": "08 Nov 2026, 01:24 AM",
+            "changedBy": "Meera Kapoor",
+            "note": "Interview scheduled on 2026-11-15 at 14:30 IST via Google Meet. Notes: Prepare portfolio walkthrough."
+          }
+        ],
+        "college": "Engineering Institute",
+        "skills": [],
+        "initials": "VS",
+        "headline": "Product Design Intern Candidate · Engineering Institute",
+        "graduationYear": 2026,
+        "experience": "Entry level (0–1 years)",
+        "location": "Bengaluru, India",
+        "email": "candidate@university.edu",
+        "phone": "+91 98765 43210",
+        "resumeUrl": "https://res.cloudinary.com/skillbridge/raw/upload/v1730485920/resumes/default_resume.pdf",
+        "notes": [],
+        "interview": {
+          "interviewDate": "2026-11-15",
+          "interviewTime": "14:30 IST",
+          "interviewMode": "Google Meet",
+          "meetingUrl": "https://meet.google.com/xyz-test",
+          "instructions": "Prepare portfolio walkthrough.",
+          "scheduledAt": "2026-11-07T19:54:14.296Z",
+          "scheduledBy": "Meera Kapoor"
+        },
+        "interviewDate": "2026-11-15",
+        "interviewTime": "14:30 IST",
+        "meetingUrl": "https://meet.google.com/xyz-test"
+      },
+      {
+        "id": "app-1794081226671",
+        "studentId": "usr_1794081226534_kselw",
+        "candidateId": "usr_1794081226534_kselw",
+        "candidateName": "Test Notif Student",
+        "roleApplied": "Product Design Intern",
+        "jobId": "job-1",
+        "appliedDate": "08 Nov 2026",
+        "stage": "interview",
+        "stageLabel": "Interview Scheduled",
+        "matchScore": 98,
+        "resumeName": "Candidate_Resume.pdf",
+        "statusHistory": [
+          {
+            "status": "Applied",
+            "date": "08 Nov 2026",
+            "note": "Submitted with Candidate_Resume.pdf"
+          },
+          {
+            "status": "Under Review",
+            "date": "08 Nov 2026",
+            "note": "Queued for recruiter review"
+          },
+          {
+            "stage": "shortlisted",
+            "stageLabel": "Shortlisted",
+            "changedAt": "08 Nov 2026, 01:23 AM",
+            "changedBy": "Meera Kapoor",
+            "note": "Strong portfolio and interaction design skills"
+          },
+          {
+            "stage": "interview",
+            "stageLabel": "Interview Scheduled",
+            "changedAt": "08 Nov 2026, 01:23 AM",
+            "changedBy": "Meera Kapoor",
+            "note": "Interview scheduled on 15 Nov 2026 at 02:00 PM IST via Google Meet. Notes: Design review with design lead."
+          }
+        ],
+        "college": "Engineering Institute",
+        "skills": [],
+        "initials": "TN",
+        "headline": "Product Design Intern Candidate · Engineering Institute",
+        "graduationYear": 2026,
+        "experience": "Entry level (0–1 years)",
+        "location": "Bengaluru, India",
+        "email": "candidate@university.edu",
+        "phone": "+91 98765 43210",
+        "resumeUrl": "https://res.cloudinary.com/skillbridge/raw/upload/v1730485920/resumes/default_resume.pdf",
+        "notes": [],
+        "interview": {
+          "interviewDate": "15 Nov 2026",
+          "interviewTime": "02:00 PM IST",
+          "interviewMode": "Google Meet",
+          "meetingUrl": "https://meet.google.com/sb-eval-test",
+          "instructions": "Design review with design lead.",
+          "scheduledAt": "2026-11-07T19:53:47.702Z",
+          "scheduledBy": "Meera Kapoor"
+        },
+        "interviewDate": "15 Nov 2026",
+        "interviewTime": "02:00 PM IST",
+        "meetingUrl": "https://meet.google.com/sb-eval-test"
+      },
+      {
+        "id": "app-1794081209080",
+        "studentId": "usr_1794081208966_tuuw8",
+        "candidateId": "usr_1794081208966_tuuw8",
+        "candidateName": "Application Tester",
+        "roleApplied": "Product Design Intern",
+        "jobId": "job-1",
+        "appliedDate": "08 Nov 2026",
+        "stage": "rejected",
+        "stageLabel": "Rejected",
+        "matchScore": 98,
+        "resumeName": "Candidate_Resume.pdf",
+        "statusHistory": [
+          {
+            "status": "Applied",
+            "date": "08 Nov 2026",
+            "note": "Submitted with Candidate_Resume.pdf"
+          },
+          {
+            "status": "Under Review",
+            "date": "08 Nov 2026",
+            "note": "Queued for recruiter review"
+          },
+          {
+            "stage": "shortlisted",
+            "stageLabel": "Shortlisted",
+            "changedAt": "08 Nov 2026, 01:23 AM",
+            "changedBy": "Meera Kapoor",
+            "note": "Candidate meets all UX requirements and shows high enthusiasm."
+          },
+          {
+            "stage": "interview",
+            "stageLabel": "Interview Scheduled",
+            "changedAt": "08 Nov 2026, 01:23 AM",
+            "changedBy": "Meera Kapoor",
+            "note": "Interview scheduled on 10 Nov 2026 at 03:30 PM via Google Meet. Notes: Portfolio review with Design Lead. Prepare 2 case studies."
+          },
+          {
+            "stage": "rejected",
+            "stageLabel": "Rejected",
+            "changedAt": "08 Nov 2026, 01:23 AM",
+            "changedBy": "Meera Kapoor",
+            "note": "Role filled by senior hire. Keep on file for future opportunities."
+          }
+        ],
+        "college": "Engineering Institute",
+        "skills": [],
+        "initials": "AT",
+        "headline": "Product Design Intern Candidate · Engineering Institute",
+        "graduationYear": 2026,
+        "experience": "Entry level (0–1 years)",
+        "location": "Bengaluru, India",
+        "email": "candidate@university.edu",
+        "phone": "+91 98765 43210",
+        "resumeUrl": "https://res.cloudinary.com/skillbridge/raw/upload/v1730485920/resumes/default_resume.pdf",
+        "notes": [
+          {
+            "id": "note-1794081220045",
+            "text": "Very strong visual hierarchy in Figma case study. Need to probe team collaboration during interview.",
+            "author": "Meera Kapoor",
+            "createdAt": "08 Nov 2026, 01:23 AM"
+          }
+        ],
+        "interview": {
+          "interviewDate": "10 Nov 2026",
+          "interviewTime": "03:30 PM",
+          "interviewMode": "Google Meet",
+          "meetingUrl": "https://meet.google.com/sb-linear-evaluation",
+          "instructions": "Portfolio review with Design Lead. Prepare 2 case studies.",
+          "scheduledAt": "2026-11-07T19:53:39.991Z",
+          "scheduledBy": "Meera Kapoor"
+        },
+        "interviewDate": "10 Nov 2026",
+        "interviewTime": "03:30 PM",
+        "meetingUrl": "https://meet.google.com/sb-linear-evaluation"
+      },
       {
         "id": "app-1794080123322",
         "studentId": "usr_1794080120707_bpwii",
@@ -6919,6 +7396,13 @@
             "changedAt": "08 Nov 2026, 12:37 AM",
             "changedBy": "Meera Kapoor",
             "note": "Candidate has been moved to shortlist based on role qualifications."
+          },
+          {
+            "stage": "shortlisted",
+            "stageLabel": "Shortlisted",
+            "changedAt": "08 Nov 2026, 01:23 AM",
+            "changedBy": "Meera Kapoor",
+            "note": "Candidate has been moved to shortlist based on role qualifications."
           }
         ],
         "interview": {
@@ -7752,6 +8236,45 @@
           }
         ]
       }
+    ],
+    "usr_1794081242068_fy1ff": [
+      {
+        "id": "app-1794081243549",
+        "studentId": "usr_1794081242779_oej6q",
+        "candidateId": "usr_1794081242779_oej6q",
+        "candidateName": "Aarav Patel",
+        "initials": "AP",
+        "email": "student_1794081241432@university.edu",
+        "college": "Engineering Institute",
+        "graduationYear": 2026,
+        "location": "India",
+        "roleApplied": "Senior Cloud Architect",
+        "jobId": "job-1794081242840",
+        "appliedDate": "08 Nov 2026",
+        "matchScore": 95,
+        "stage": "shortlisted",
+        "stageLabel": "Shortlisted",
+        "skills": [],
+        "resumeUrl": null,
+        "resumeName": "Aarav_Patel_Resume.pdf",
+        "notes": [],
+        "statusHistory": [
+          {
+            "stage": "applied",
+            "stageLabel": "Applied",
+            "changedAt": "08 Nov 2026, 10:00 AM",
+            "changedBy": "Candidate (Self)",
+            "note": "Application submitted with verified credentials."
+          },
+          {
+            "stage": "shortlisted",
+            "stageLabel": "Shortlisted",
+            "changedAt": "08 Nov 2026, 01:24 AM",
+            "changedBy": "Vikram Mehta",
+            "note": "Candidate shortlisted for strong technical depth in distributed computing."
+          }
+        ]
+      }
     ]
   },
   "trends": {
@@ -8468,6 +8991,77 @@
       "workEmail": "vitest.recruiter.1794080120062@linear.app",
       "isVerified": false,
       "createdAt": "2026-11-07T19:35:22.895Z"
+    },
+    "usr_1794081214716_g97v9": {
+      "companyName": "Stripe",
+      "website": "",
+      "headquarters": "",
+      "companySize": "",
+      "description": "",
+      "industry": "Technology",
+      "logo": "S",
+      "initials": "S",
+      "leadRecruiter": "Vikram Seth",
+      "workEmail": "recruiter_1794081214162@stripe.com",
+      "isVerified": false,
+      "createdAt": "2026-11-07T19:53:34.741Z"
+    },
+    "usr_1794081242068_fy1ff": {
+      "companyName": "Apex Robotics",
+      "website": "https://apexrobotics.ai",
+      "headquarters": "Bengaluru, India",
+      "companySize": "11–50 employees",
+      "description": "Next-generation intelligent automation and robotics.",
+      "industry": "Robotics & AI",
+      "logo": "A",
+      "initials": "A",
+      "leadRecruiter": "Vikram Mehta",
+      "workEmail": "recruiter_1794081241432@innovate.co",
+      "isVerified": false,
+      "createdAt": "2026-11-07T19:54:02.107Z",
+      "updatedAt": "2026-11-07T19:54:04.487Z"
+    },
+    "usr_1794081243451_fnzib": {
+      "companyName": "OtherCorp",
+      "website": "",
+      "headquarters": "",
+      "companySize": "",
+      "description": "",
+      "industry": "Technology",
+      "logo": "O",
+      "initials": "O",
+      "leadRecruiter": "Sneha Sharma",
+      "workEmail": "recruiter2_1794081241432@othercorp.io",
+      "isVerified": false,
+      "createdAt": "2026-11-07T19:54:04.520Z"
+    },
+    "usr_1794081251556_coqg0": {
+      "companyName": "Linear Technologies",
+      "website": "",
+      "headquarters": "",
+      "companySize": "",
+      "description": "",
+      "industry": "Technology",
+      "logo": "L",
+      "initials": "L",
+      "leadRecruiter": "Linear Hiring Lead",
+      "workEmail": "vitest.recruiter.1794081250183@linear.app",
+      "isVerified": false,
+      "createdAt": "2026-11-07T19:54:13.083Z"
+    },
+    "usr_1794081368035_1rhu2": {
+      "companyName": "Linear Technologies",
+      "website": "",
+      "headquarters": "",
+      "companySize": "",
+      "description": "",
+      "industry": "Technology",
+      "logo": "L",
+      "initials": "L",
+      "leadRecruiter": "Linear Hiring Lead",
+      "workEmail": "vitest.recruiter.1794081366685@linear.app",
+      "isVerified": false,
+      "createdAt": "2026-11-07T19:56:09.602Z"
     }
   }
 }

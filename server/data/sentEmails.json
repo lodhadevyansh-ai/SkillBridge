@@ -1,5 +1,1033 @@
 [
   {
+    "id": "email-1794081371396-igbe4",
+    "to": [
+      "student2.1794081370813@example.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Second Student!",
+    "timestamp": "2026-11-07T19:56:11.396Z",
+    "metadata": {
+      "type": "registration",
+      "role": "student"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081370799-zl1p9",
+    "to": [
+      "candidate@university.edu"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "📅 Interview Scheduled: Product Design Intern with Linear",
+    "timestamp": "2026-11-07T19:56:10.799Z",
+    "metadata": {
+      "type": "interview_scheduled",
+      "applicationId": "app-1794081369996",
+      "interviewDate": "2026-11-15"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081370742-1rwvz",
+    "to": [
+      "candidate@university.edu"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "🎉 Congratulations! You've been shortlisted for Product Design Intern at SkillBridge Hiring Partner",
+    "timestamp": "2026-11-07T19:56:10.742Z",
+    "metadata": {
+      "type": "status_change",
+      "applicationId": "app-1794081369996",
+      "newStage": "shortlisted"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081370259-mvl1k",
+    "to": [
+      "meera@linear.app"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Meera Kapoor!",
+    "timestamp": "2026-11-07T19:56:10.259Z",
+    "metadata": {
+      "type": "registration",
+      "role": "recruiter"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081370016-kjdx1",
+    "to": [
+      "vitest.student.1794081366685@skillbridge.io"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Application Submitted: Product Design Intern at Linear",
+    "timestamp": "2026-11-07T19:56:10.016Z",
+    "metadata": {
+      "type": "application_submitted",
+      "applicationId": "app-1794081369996",
+      "role": "Product Design Intern",
+      "company": "Linear"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081368856-5mkhf",
+    "to": [
+      "admin@skillbridge.io"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Rohan Agarwal!",
+    "timestamp": "2026-11-07T19:56:08.856Z",
+    "metadata": {
+      "type": "registration",
+      "role": "admin"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081368678-cgf6u",
+    "to": [
+      "stripe.recruiter.1794081368056@stripe.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Stripe Hiring Lead!",
+    "timestamp": "2026-11-07T19:56:08.678Z",
+    "metadata": {
+      "type": "registration",
+      "role": "recruiter"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081368048-fh46l",
+    "to": [
+      "vitest.recruiter.1794081366685@linear.app"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Linear Hiring Lead!",
+    "timestamp": "2026-11-07T19:56:08.048Z",
+    "metadata": {
+      "type": "registration",
+      "role": "recruiter"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081367402-z9qip",
+    "to": [
+      "vitest.student.1794081366685@skillbridge.io"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Vitest Student Candidate!",
+    "timestamp": "2026-11-07T19:56:07.402Z",
+    "metadata": {
+      "type": "registration",
+      "role": "student"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081254962-t0fve",
+    "to": [
+      "student2.1794081254343@example.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Second Student!",
+    "timestamp": "2026-11-07T19:54:14.962Z",
+    "metadata": {
+      "type": "registration",
+      "role": "student"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081254326-kb1gz",
+    "to": [
+      "candidate@university.edu"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "📅 Interview Scheduled: Product Design Intern with Linear",
+    "timestamp": "2026-11-07T19:54:14.326Z",
+    "metadata": {
+      "type": "interview_scheduled",
+      "applicationId": "app-1794081253575",
+      "interviewDate": "2026-11-15"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081254269-dw7an",
+    "to": [
+      "candidate@university.edu"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "🎉 Congratulations! You've been shortlisted for Product Design Intern at SkillBridge Hiring Partner",
+    "timestamp": "2026-11-07T19:54:14.269Z",
+    "metadata": {
+      "type": "status_change",
+      "applicationId": "app-1794081253575",
+      "newStage": "shortlisted"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081253830-q8it3",
+    "to": [
+      "meera@linear.app"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Meera Kapoor!",
+    "timestamp": "2026-11-07T19:54:13.830Z",
+    "metadata": {
+      "type": "registration",
+      "role": "recruiter"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081253593-tdmpn",
+    "to": [
+      "vitest.student.1794081250183@skillbridge.io"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Application Submitted: Product Design Intern at Linear",
+    "timestamp": "2026-11-07T19:54:13.593Z",
+    "metadata": {
+      "type": "application_submitted",
+      "applicationId": "app-1794081253575",
+      "role": "Product Design Intern",
+      "company": "Linear"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081252336-ng8qk",
+    "to": [
+      "admin@skillbridge.io"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Rohan Agarwal!",
+    "timestamp": "2026-11-07T19:54:12.336Z",
+    "metadata": {
+      "type": "registration",
+      "role": "admin"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081252166-0g6d0",
+    "to": [
+      "stripe.recruiter.1794081251578@stripe.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Stripe Hiring Lead!",
+    "timestamp": "2026-11-07T19:54:12.166Z",
+    "metadata": {
+      "type": "registration",
+      "role": "recruiter"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081251571-s6x70",
+    "to": [
+      "vitest.recruiter.1794081250183@linear.app"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Linear Hiring Lead!",
+    "timestamp": "2026-11-07T19:54:11.571Z",
+    "metadata": {
+      "type": "registration",
+      "role": "recruiter"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081250880-cvefa",
+    "to": [
+      "vitest.student.1794081250183@skillbridge.io"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Vitest Student Candidate!",
+    "timestamp": "2026-11-07T19:54:10.880Z",
+    "metadata": {
+      "type": "registration",
+      "role": "student"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081247330-rnncn",
+    "to": [
+      "recruiter_1794081246675@test.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Test Recruiter!",
+    "timestamp": "2026-11-07T19:54:07.330Z",
+    "metadata": {
+      "type": "registration",
+      "role": "recruiter"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081246591-inebq",
+    "to": [
+      "student_1794081245978@test.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Test Student!",
+    "timestamp": "2026-11-07T19:54:06.591Z",
+    "metadata": {
+      "type": "registration",
+      "role": "student"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081244446-p07wn",
+    "to": [
+      "freshstudent_1794081241432@campus.edu"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Tara Verma!",
+    "timestamp": "2026-11-07T19:54:04.446Z",
+    "metadata": {
+      "type": "registration",
+      "role": "student"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081243703-y0l12",
+    "to": [
+      "student_1794081241432@university.edu"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "🎉 Congratulations! You've been shortlisted for Senior Cloud Architect at SkillBridge Hiring Partner",
+    "timestamp": "2026-11-07T19:54:03.703Z",
+    "metadata": {
+      "type": "status_change",
+      "applicationId": "app-1794081243549",
+      "newStage": "shortlisted"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081243608-c9fyq",
+    "to": [
+      "student_1794081241432@university.edu"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Application Submitted: Senior Cloud Architect at Innovate Tech",
+    "timestamp": "2026-11-07T19:54:03.608Z",
+    "metadata": {
+      "type": "application_submitted",
+      "applicationId": "app-1794081243549",
+      "role": "Senior Cloud Architect",
+      "company": "Innovate Tech"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081243462-pj0f4",
+    "to": [
+      "recruiter2_1794081241432@othercorp.io"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Sneha Sharma!",
+    "timestamp": "2026-11-07T19:54:03.462Z",
+    "metadata": {
+      "type": "registration",
+      "role": "recruiter"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081242792-pc6g4",
+    "to": [
+      "student_1794081241432@university.edu"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Aarav Patel!",
+    "timestamp": "2026-11-07T19:54:02.792Z",
+    "metadata": {
+      "type": "registration",
+      "role": "student"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081242085-j4krt",
+    "to": [
+      "recruiter_1794081241432@innovate.co"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Vikram Mehta!",
+    "timestamp": "2026-11-07T19:54:02.085Z",
+    "metadata": {
+      "type": "registration",
+      "role": "recruiter"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081239995-09ogq",
+    "to": [
+      "admin@skillbridge.io"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Rohan Agarwal!",
+    "timestamp": "2026-11-07T19:53:59.995Z",
+    "metadata": {
+      "type": "registration",
+      "role": "admin"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081238977-7hshm",
+    "to": [
+      "delete.recruiter.1794081235469@example.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Hiring Lead To Delete!",
+    "timestamp": "2026-11-07T19:53:58.977Z",
+    "metadata": {
+      "type": "registration",
+      "role": "recruiter"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081236421-bym8w",
+    "to": [
+      "delete.student.1794081235469@example.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Application Submitted: Product Design Intern at Linear",
+    "timestamp": "2026-11-07T19:53:56.421Z",
+    "metadata": {
+      "type": "application_submitted",
+      "applicationId": "app-1794081236405",
+      "role": "Product Design Intern",
+      "company": "Linear"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081236214-kfrsp",
+    "to": [
+      "delete.student.1794081235469@example.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Candidate To Delete!",
+    "timestamp": "2026-11-07T19:53:56.214Z",
+    "metadata": {
+      "type": "registration",
+      "role": "student"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081234074-b8lbz",
+    "to": [
+      "rec_beta_1794081233389@stripe.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Recruiter Beta!",
+    "timestamp": "2026-11-07T19:53:54.074Z",
+    "metadata": {
+      "type": "registration",
+      "role": "recruiter"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081233385-qsu4u",
+    "to": [
+      "rec_alpha_1794081232763@linear.app"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Recruiter Alpha!",
+    "timestamp": "2026-11-07T19:53:53.385Z",
+    "metadata": {
+      "type": "registration",
+      "role": "recruiter"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081232721-c9no4",
+    "to": [
+      "sec_candidate_1794081230745@skillbridge.io"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Application Submitted: Product Design Intern at Linear",
+    "timestamp": "2026-11-07T19:53:52.721Z",
+    "metadata": {
+      "type": "application_submitted",
+      "applicationId": "app-1794081232702",
+      "role": "Product Design Intern",
+      "company": "Linear"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081232637-att1t",
+    "to": [
+      "other_1794081232067@example.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Other Candidate!",
+    "timestamp": "2026-11-07T19:53:52.637Z",
+    "metadata": {
+      "type": "registration",
+      "role": "student"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081231355-bo6aw",
+    "to": [
+      "sec_candidate_1794081230745@skillbridge.io"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Security Test Candidate!",
+    "timestamp": "2026-11-07T19:53:51.355Z",
+    "metadata": {
+      "type": "registration",
+      "role": "student"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081229343-okqj6",
+    "to": [
+      "devina.patel@example.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "🔄 Interview Details Updated: Product Design Intern at Linear",
+    "timestamp": "2026-11-07T19:53:49.343Z",
+    "metadata": {
+      "type": "interview_updated",
+      "applicationId": "app-linear-test-101",
+      "interviewDate": "14 Nov 2026"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081229340-n2hfj",
+    "to": [
+      "devina.patel@example.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "📅 Interview Scheduled: Product Design Intern with Linear",
+    "timestamp": "2026-11-07T19:53:49.340Z",
+    "metadata": {
+      "type": "interview_scheduled",
+      "applicationId": "app-linear-test-101",
+      "interviewDate": "12 Nov 2026"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081229337-l9u7b",
+    "to": [
+      "devina.patel@example.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "🎉 Congratulations! You've been shortlisted for Product Design Intern at Linear",
+    "timestamp": "2026-11-07T19:53:49.337Z",
+    "metadata": {
+      "type": "status_change",
+      "applicationId": "app-linear-test-101",
+      "newStage": "shortlisted"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081229334-1z6fe",
+    "to": [
+      "devina.patel@example.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Application Submitted: Product Design Intern at Linear",
+    "timestamp": "2026-11-07T19:53:49.334Z",
+    "metadata": {
+      "type": "application_submitted",
+      "applicationId": "app-linear-test-101",
+      "role": "Product Design Intern",
+      "company": "Linear"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081229330-2s1c9",
+    "to": [
+      "pooja.nair@example.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Pooja Nair!",
+    "timestamp": "2026-11-07T19:53:49.330Z",
+    "metadata": {
+      "type": "registration",
+      "role": "student"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081227732-0ft8x",
+    "to": [
+      "candidate@university.edu"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "📅 Interview Scheduled: Product Design Intern with Linear",
+    "timestamp": "2026-11-07T19:53:47.732Z",
+    "metadata": {
+      "type": "interview_scheduled",
+      "applicationId": "app-1794081226671",
+      "interviewDate": "15 Nov 2026"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081227651-gya1d",
+    "to": [
+      "candidate@university.edu"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "🎉 Congratulations! You've been shortlisted for Product Design Intern at SkillBridge Hiring Partner",
+    "timestamp": "2026-11-07T19:53:47.651Z",
+    "metadata": {
+      "type": "status_change",
+      "applicationId": "app-1794081226671",
+      "newStage": "shortlisted"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081227075-wdrio",
+    "to": [
+      "admin@skillbridge.io"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Rohan Agarwal!",
+    "timestamp": "2026-11-07T19:53:47.075Z",
+    "metadata": {
+      "type": "registration",
+      "role": "admin"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081226886-jbyf7",
+    "to": [
+      "meera@linear.app"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Meera Kapoor!",
+    "timestamp": "2026-11-07T19:53:46.886Z",
+    "metadata": {
+      "type": "registration",
+      "role": "recruiter"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081226689-trbfg",
+    "to": [
+      "test.notif.student.1794081225856@example.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Application Submitted: Product Design Intern at Linear",
+    "timestamp": "2026-11-07T19:53:46.689Z",
+    "metadata": {
+      "type": "application_submitted",
+      "applicationId": "app-1794081226671",
+      "role": "Product Design Intern",
+      "company": "Linear"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081226556-ibuyb",
+    "to": [
+      "test.notif.student.1794081225856@example.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Test Notif Student!",
+    "timestamp": "2026-11-07T19:53:46.556Z",
+    "metadata": {
+      "type": "registration",
+      "role": "student"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081223130-biwfx",
+    "to": [
+      "bad_actor_1794081222541@example.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Spam Account!",
+    "timestamp": "2026-11-07T19:53:43.130Z",
+    "metadata": {
+      "type": "registration",
+      "role": "student"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081222471-taded",
+    "to": [
+      "admin@skillbridge.io"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Rohan Agarwal!",
+    "timestamp": "2026-11-07T19:53:42.471Z",
+    "metadata": {
+      "type": "registration",
+      "role": "admin"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081222308-8hs2z",
+    "to": [
+      "meera@linear.app"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Meera Kapoor!",
+    "timestamp": "2026-11-07T19:53:42.308Z",
+    "metadata": {
+      "type": "registration",
+      "role": "recruiter"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081222130-8u45n",
+    "to": [
+      "test.student.admin.1794081221522@example.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Test Student Admin Check!",
+    "timestamp": "2026-11-07T19:53:42.130Z",
+    "metadata": {
+      "type": "registration",
+      "role": "student"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081220090-chmnp",
+    "to": [
+      "candidate@university.edu"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Application Status Update: Product Design Intern at SkillBridge Hiring Partner",
+    "timestamp": "2026-11-07T19:53:40.090Z",
+    "metadata": {
+      "type": "status_change",
+      "applicationId": "app-1794081209080",
+      "newStage": "rejected"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081220022-xva9g",
+    "to": [
+      "candidate@university.edu"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "📅 Interview Scheduled: Product Design Intern with Linear",
+    "timestamp": "2026-11-07T19:53:40.022Z",
+    "metadata": {
+      "type": "interview_scheduled",
+      "applicationId": "app-1794081209080",
+      "interviewDate": "10 Nov 2026"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081219962-ujqwe",
+    "to": [
+      "candidate@university.edu"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "🎉 Congratulations! You've been shortlisted for Product Design Intern at SkillBridge Hiring Partner",
+    "timestamp": "2026-11-07T19:53:39.962Z",
+    "metadata": {
+      "type": "status_change",
+      "applicationId": "app-1794081209080",
+      "newStage": "shortlisted"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081219298-06p2c",
+    "to": [
+      "vikram_cand_1794081218656@stripe.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Vikram Seth!",
+    "timestamp": "2026-11-07T19:53:39.298Z",
+    "metadata": {
+      "type": "registration",
+      "role": "recruiter"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081218645-qzhas",
+    "to": [
+      "meera@linear.app"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Meera Kapoor!",
+    "timestamp": "2026-11-07T19:53:38.645Z",
+    "metadata": {
+      "type": "registration",
+      "role": "recruiter"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081216740-ngz1o",
+    "to": [
+      "vikram_1794081216128@stripe.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Vikram Seth!",
+    "timestamp": "2026-11-07T19:53:36.740Z",
+    "metadata": {
+      "type": "registration",
+      "role": "recruiter"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081216118-xjkiq",
+    "to": [
+      "meera@linear.app"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Meera Kapoor!",
+    "timestamp": "2026-11-07T19:53:36.118Z",
+    "metadata": {
+      "type": "registration",
+      "role": "recruiter"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081214727-fry4x",
+    "to": [
+      "recruiter_1794081214162@stripe.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Vikram Seth!",
+    "timestamp": "2026-11-07T19:53:34.727Z",
+    "metadata": {
+      "type": "registration",
+      "role": "recruiter"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081214147-bjqn9",
+    "to": [
+      "nisha.khanna@nid.ac.in"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "🎉 Congratulations! You've been shortlisted for Product Design Intern at SkillBridge Hiring Partner",
+    "timestamp": "2026-11-07T19:53:34.147Z",
+    "metadata": {
+      "type": "status_change",
+      "applicationId": "app-rec-1",
+      "newStage": "shortlisted"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081213564-wwn9u",
+    "to": [
+      "test.student.recruiter.1794081212956@example.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Test Student Recruiter Check!",
+    "timestamp": "2026-11-07T19:53:33.564Z",
+    "metadata": {
+      "type": "registration",
+      "role": "student"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081212946-jaos0",
+    "to": [
+      "meera@linear.app"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Meera Kapoor!",
+    "timestamp": "2026-11-07T19:53:32.946Z",
+    "metadata": {
+      "type": "registration",
+      "role": "recruiter"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081211129-8v0i4",
+    "to": [
+      "test.profile.1794081210471@example.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Test Candidate Profile!",
+    "timestamp": "2026-11-07T19:53:31.129Z",
+    "metadata": {
+      "type": "registration",
+      "role": "student"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081209165-xjhuv",
+    "to": [
+      "test.apps.1794081208320@example.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Application Submitted: Frontend Developer at Razorpay",
+    "timestamp": "2026-11-07T19:53:29.165Z",
+    "metadata": {
+      "type": "application_submitted",
+      "applicationId": "app-1794081209149",
+      "role": "Frontend Developer",
+      "company": "Razorpay"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081209097-kbsud",
+    "to": [
+      "test.apps.1794081208320@example.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Application Submitted: Product Design Intern at Linear",
+    "timestamp": "2026-11-07T19:53:29.097Z",
+    "metadata": {
+      "type": "application_submitted",
+      "applicationId": "app-1794081209080",
+      "role": "Product Design Intern",
+      "company": "Linear"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081208986-ut7ki",
+    "to": [
+      "test.apps.1794081208320@example.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Application Tester!",
+    "timestamp": "2026-11-07T19:53:28.986Z",
+    "metadata": {
+      "type": "registration",
+      "role": "student"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081206883-82ow0",
+    "to": [
+      "applicant_1794081205851@email.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Application Submitted: Product Design Intern at Linear",
+    "timestamp": "2026-11-07T19:53:26.883Z",
+    "metadata": {
+      "type": "application_submitted",
+      "applicationId": "app-1794081206848",
+      "role": "Product Design Intern",
+      "company": "Linear"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081206715-24lxi",
+    "to": [
+      "meera@linear.app"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Meera Kapoor!",
+    "timestamp": "2026-11-07T19:53:26.715Z",
+    "metadata": {
+      "type": "registration",
+      "role": "recruiter"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081206536-yzjvh",
+    "to": [
+      "applicant_1794081205851@email.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Test Applicant 1794081205851!",
+    "timestamp": "2026-11-07T19:53:26.536Z",
+    "metadata": {
+      "type": "registration",
+      "role": "student"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081203398-7hmw0",
+    "to": [
+      "test.student.1794081202798@example.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Test Candidate!",
+    "timestamp": "2026-11-07T19:53:23.398Z",
+    "metadata": {
+      "type": "registration",
+      "role": "student"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081201562-cdxo9",
+    "to": [
+      "recruiter.1794081200840@linear.app"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Linear Recruiter!",
+    "timestamp": "2026-11-07T19:53:21.562Z",
+    "metadata": {
+      "type": "registration",
+      "role": "recruiter"
+    },
+    "status": "simulated_delivery"
+  },
+  {
+    "id": "email-1794081199503-ovc3u",
+    "to": [
+      "test.student.1794081198750@example.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Test Candidate!",
+    "timestamp": "2026-11-07T19:53:19.503Z",
+    "metadata": {
+      "type": "registration",
+      "role": "student"
+    },
+    "status": "simulated_delivery"
+  },
+  {
     "id": "email-1794080124674-avi8j",
     "to": [
       "student2.1794080124058@example.com"
@@ -1863,1032 +2891,6 @@
     "from": "SkillBridge <notifications@skillbridge.io>",
     "subject": "Welcome to SkillBridge, Meera Kapoor!",
     "timestamp": "2026-11-07T19:04:15.422Z",
-    "metadata": {
-      "type": "registration",
-      "role": "recruiter"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794078255251-esnwq",
-    "to": [
-      "applicant_1794078254551@email.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Test Applicant 1794078254551!",
-    "timestamp": "2026-11-07T19:04:15.251Z",
-    "metadata": {
-      "type": "registration",
-      "role": "student"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794078252165-expk7",
-    "to": [
-      "test.student.1794078251570@example.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Test Candidate!",
-    "timestamp": "2026-11-07T19:04:12.165Z",
-    "metadata": {
-      "type": "registration",
-      "role": "student"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794078250345-pof0i",
-    "to": [
-      "recruiter.1794078249751@linear.app"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Linear Recruiter!",
-    "timestamp": "2026-11-07T19:04:10.345Z",
-    "metadata": {
-      "type": "registration",
-      "role": "recruiter"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794078248406-rryxx",
-    "to": [
-      "test.student.1794078247654@example.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Test Candidate!",
-    "timestamp": "2026-11-07T19:04:08.406Z",
-    "metadata": {
-      "type": "registration",
-      "role": "student"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077149508-lf78h",
-    "to": [
-      "student2.1794077148870@example.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Second Student!",
-    "timestamp": "2026-11-07T18:45:49.508Z",
-    "metadata": {
-      "type": "registration",
-      "role": "student"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077148855-sp97u",
-    "to": [
-      "candidate@university.edu"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "📅 Interview Scheduled: Product Design Intern with Linear",
-    "timestamp": "2026-11-07T18:45:48.855Z",
-    "metadata": {
-      "type": "interview_scheduled",
-      "applicationId": "app-1794077148192",
-      "interviewDate": "2026-11-15"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077148802-nqwax",
-    "to": [
-      "candidate@university.edu"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "🎉 Congratulations! You've been shortlisted for Product Design Intern at SkillBridge Hiring Partner",
-    "timestamp": "2026-11-07T18:45:48.802Z",
-    "metadata": {
-      "type": "status_change",
-      "applicationId": "app-1794077148192",
-      "newStage": "shortlisted"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077148452-cfl0i",
-    "to": [
-      "meera@linear.app"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Meera Kapoor!",
-    "timestamp": "2026-11-07T18:45:48.452Z",
-    "metadata": {
-      "type": "registration",
-      "role": "recruiter"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077148206-8rnoa",
-    "to": [
-      "vitest.student.1794077144937@skillbridge.io"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Application Submitted: Product Design Intern at Linear",
-    "timestamp": "2026-11-07T18:45:48.206Z",
-    "metadata": {
-      "type": "application_submitted",
-      "applicationId": "app-1794077148192",
-      "role": "Product Design Intern",
-      "company": "Linear"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077147079-0xn57",
-    "to": [
-      "admin@skillbridge.io"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Rohan Agarwal!",
-    "timestamp": "2026-11-07T18:45:47.079Z",
-    "metadata": {
-      "type": "registration",
-      "role": "admin"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077146890-0b0fw",
-    "to": [
-      "stripe.recruiter.1794077146281@stripe.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Stripe Hiring Lead!",
-    "timestamp": "2026-11-07T18:45:46.890Z",
-    "metadata": {
-      "type": "registration",
-      "role": "recruiter"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077146273-6ozfa",
-    "to": [
-      "vitest.recruiter.1794077144937@linear.app"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Linear Hiring Lead!",
-    "timestamp": "2026-11-07T18:45:46.273Z",
-    "metadata": {
-      "type": "registration",
-      "role": "recruiter"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077145632-jnj63",
-    "to": [
-      "vitest.student.1794077144937@skillbridge.io"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Vitest Student Candidate!",
-    "timestamp": "2026-11-07T18:45:45.632Z",
-    "metadata": {
-      "type": "registration",
-      "role": "student"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077142121-x57x2",
-    "to": [
-      "recruiter_1794077141527@test.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Test Recruiter!",
-    "timestamp": "2026-11-07T18:45:42.121Z",
-    "metadata": {
-      "type": "registration",
-      "role": "recruiter"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077141450-b7gpi",
-    "to": [
-      "student_1794077140849@test.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Test Student!",
-    "timestamp": "2026-11-07T18:45:41.450Z",
-    "metadata": {
-      "type": "registration",
-      "role": "student"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077139406-tdgsw",
-    "to": [
-      "freshstudent_1794077136426@campus.edu"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Tara Verma!",
-    "timestamp": "2026-11-07T18:45:39.406Z",
-    "metadata": {
-      "type": "registration",
-      "role": "student"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077138702-m24v5",
-    "to": [
-      "student_1794077136426@university.edu"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "🎉 Congratulations! You've been shortlisted for Senior Cloud Architect at SkillBridge Hiring Partner",
-    "timestamp": "2026-11-07T18:45:38.702Z",
-    "metadata": {
-      "type": "status_change",
-      "applicationId": "app-1794077138563",
-      "newStage": "shortlisted"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077138613-hd6o8",
-    "to": [
-      "student_1794077136426@university.edu"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Application Submitted: Senior Cloud Architect at Innovate Tech",
-    "timestamp": "2026-11-07T18:45:38.613Z",
-    "metadata": {
-      "type": "application_submitted",
-      "applicationId": "app-1794077138563",
-      "role": "Senior Cloud Architect",
-      "company": "Innovate Tech"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077138482-3tfjb",
-    "to": [
-      "recruiter2_1794077136426@othercorp.io"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Sneha Sharma!",
-    "timestamp": "2026-11-07T18:45:38.482Z",
-    "metadata": {
-      "type": "registration",
-      "role": "recruiter"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077137816-2vbs6",
-    "to": [
-      "student_1794077136426@university.edu"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Aarav Patel!",
-    "timestamp": "2026-11-07T18:45:37.816Z",
-    "metadata": {
-      "type": "registration",
-      "role": "student"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077137084-gosk5",
-    "to": [
-      "recruiter_1794077136426@innovate.co"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Vikram Mehta!",
-    "timestamp": "2026-11-07T18:45:37.084Z",
-    "metadata": {
-      "type": "registration",
-      "role": "recruiter"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077135078-kv4cp",
-    "to": [
-      "admin@skillbridge.io"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Rohan Agarwal!",
-    "timestamp": "2026-11-07T18:45:35.078Z",
-    "metadata": {
-      "type": "registration",
-      "role": "admin"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077134241-dgcdd",
-    "to": [
-      "delete.recruiter.1794077130697@example.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Hiring Lead To Delete!",
-    "timestamp": "2026-11-07T18:45:34.241Z",
-    "metadata": {
-      "type": "registration",
-      "role": "recruiter"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077131663-r64qn",
-    "to": [
-      "delete.student.1794077130697@example.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Application Submitted: Product Design Intern at Linear",
-    "timestamp": "2026-11-07T18:45:31.663Z",
-    "metadata": {
-      "type": "application_submitted",
-      "applicationId": "app-1794077131647",
-      "role": "Product Design Intern",
-      "company": "Linear"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077131442-bwdub",
-    "to": [
-      "delete.student.1794077130697@example.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Candidate To Delete!",
-    "timestamp": "2026-11-07T18:45:31.442Z",
-    "metadata": {
-      "type": "registration",
-      "role": "student"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077129479-s1phw",
-    "to": [
-      "rec_beta_1794077128873@stripe.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Recruiter Beta!",
-    "timestamp": "2026-11-07T18:45:29.479Z",
-    "metadata": {
-      "type": "registration",
-      "role": "recruiter"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077128869-g1420",
-    "to": [
-      "rec_alpha_1794077128200@linear.app"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Recruiter Alpha!",
-    "timestamp": "2026-11-07T18:45:28.869Z",
-    "metadata": {
-      "type": "registration",
-      "role": "recruiter"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077128160-1lg5g",
-    "to": [
-      "sec_candidate_1794077126081@skillbridge.io"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Application Submitted: Product Design Intern at Linear",
-    "timestamp": "2026-11-07T18:45:28.160Z",
-    "metadata": {
-      "type": "application_submitted",
-      "applicationId": "app-1794077128139",
-      "role": "Product Design Intern",
-      "company": "Linear"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077128063-janox",
-    "to": [
-      "other_1794077127449@example.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Other Candidate!",
-    "timestamp": "2026-11-07T18:45:28.063Z",
-    "metadata": {
-      "type": "registration",
-      "role": "student"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077126732-yjyom",
-    "to": [
-      "sec_candidate_1794077126081@skillbridge.io"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Security Test Candidate!",
-    "timestamp": "2026-11-07T18:45:26.732Z",
-    "metadata": {
-      "type": "registration",
-      "role": "student"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077124728-np82n",
-    "to": [
-      "devina.patel@example.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "🔄 Interview Details Updated: Product Design Intern at Linear",
-    "timestamp": "2026-11-07T18:45:24.728Z",
-    "metadata": {
-      "type": "interview_updated",
-      "applicationId": "app-linear-test-101",
-      "interviewDate": "14 Nov 2026"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077124725-ex20y",
-    "to": [
-      "devina.patel@example.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "📅 Interview Scheduled: Product Design Intern with Linear",
-    "timestamp": "2026-11-07T18:45:24.725Z",
-    "metadata": {
-      "type": "interview_scheduled",
-      "applicationId": "app-linear-test-101",
-      "interviewDate": "12 Nov 2026"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077124722-caasw",
-    "to": [
-      "devina.patel@example.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "🎉 Congratulations! You've been shortlisted for Product Design Intern at Linear",
-    "timestamp": "2026-11-07T18:45:24.722Z",
-    "metadata": {
-      "type": "status_change",
-      "applicationId": "app-linear-test-101",
-      "newStage": "shortlisted"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077124718-hlxvz",
-    "to": [
-      "devina.patel@example.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Application Submitted: Product Design Intern at Linear",
-    "timestamp": "2026-11-07T18:45:24.718Z",
-    "metadata": {
-      "type": "application_submitted",
-      "applicationId": "app-linear-test-101",
-      "role": "Product Design Intern",
-      "company": "Linear"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077124713-8u866",
-    "to": [
-      "pooja.nair@example.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Pooja Nair!",
-    "timestamp": "2026-11-07T18:45:24.713Z",
-    "metadata": {
-      "type": "registration",
-      "role": "student"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077123316-9cbpr",
-    "to": [
-      "candidate@university.edu"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "📅 Interview Scheduled: Product Design Intern with Linear",
-    "timestamp": "2026-11-07T18:45:23.316Z",
-    "metadata": {
-      "type": "interview_scheduled",
-      "applicationId": "app-1794077122318",
-      "interviewDate": "15 Nov 2026"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077123243-v19av",
-    "to": [
-      "candidate@university.edu"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "🎉 Congratulations! You've been shortlisted for Product Design Intern at SkillBridge Hiring Partner",
-    "timestamp": "2026-11-07T18:45:23.243Z",
-    "metadata": {
-      "type": "status_change",
-      "applicationId": "app-1794077122318",
-      "newStage": "shortlisted"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077122751-j6mj6",
-    "to": [
-      "admin@skillbridge.io"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Rohan Agarwal!",
-    "timestamp": "2026-11-07T18:45:22.751Z",
-    "metadata": {
-      "type": "registration",
-      "role": "admin"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077122579-xzcof",
-    "to": [
-      "meera@linear.app"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Meera Kapoor!",
-    "timestamp": "2026-11-07T18:45:22.579Z",
-    "metadata": {
-      "type": "registration",
-      "role": "recruiter"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077122334-np4bk",
-    "to": [
-      "test.notif.student.1794077121508@example.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Application Submitted: Product Design Intern at Linear",
-    "timestamp": "2026-11-07T18:45:22.334Z",
-    "metadata": {
-      "type": "application_submitted",
-      "applicationId": "app-1794077122318",
-      "role": "Product Design Intern",
-      "company": "Linear"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077122214-ap15n",
-    "to": [
-      "test.notif.student.1794077121508@example.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Test Notif Student!",
-    "timestamp": "2026-11-07T18:45:22.214Z",
-    "metadata": {
-      "type": "registration",
-      "role": "student"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077118994-o6neh",
-    "to": [
-      "bad_actor_1794077118338@example.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Spam Account!",
-    "timestamp": "2026-11-07T18:45:18.994Z",
-    "metadata": {
-      "type": "registration",
-      "role": "student"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077118271-q7dlv",
-    "to": [
-      "admin@skillbridge.io"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Rohan Agarwal!",
-    "timestamp": "2026-11-07T18:45:18.271Z",
-    "metadata": {
-      "type": "registration",
-      "role": "admin"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077118093-fycvx",
-    "to": [
-      "meera@linear.app"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Meera Kapoor!",
-    "timestamp": "2026-11-07T18:45:18.093Z",
-    "metadata": {
-      "type": "registration",
-      "role": "recruiter"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077117916-1iryz",
-    "to": [
-      "test.student.admin.1794077117276@example.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Test Student Admin Check!",
-    "timestamp": "2026-11-07T18:45:17.916Z",
-    "metadata": {
-      "type": "registration",
-      "role": "student"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077115821-ap1or",
-    "to": [
-      "candidate@university.edu"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Application Status Update: Product Design Intern at SkillBridge Hiring Partner",
-    "timestamp": "2026-11-07T18:45:15.821Z",
-    "metadata": {
-      "type": "status_change",
-      "applicationId": "app-1794077105278",
-      "newStage": "rejected"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077115716-9gns4",
-    "to": [
-      "candidate@university.edu"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "📅 Interview Scheduled: Product Design Intern with Linear",
-    "timestamp": "2026-11-07T18:45:15.716Z",
-    "metadata": {
-      "type": "interview_scheduled",
-      "applicationId": "app-1794077105278",
-      "interviewDate": "10 Nov 2026"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077115667-tm5r0",
-    "to": [
-      "candidate@university.edu"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "🎉 Congratulations! You've been shortlisted for Product Design Intern at SkillBridge Hiring Partner",
-    "timestamp": "2026-11-07T18:45:15.667Z",
-    "metadata": {
-      "type": "status_change",
-      "applicationId": "app-1794077105278",
-      "newStage": "shortlisted"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077115172-f342o",
-    "to": [
-      "vikram_cand_1794077114556@stripe.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Vikram Seth!",
-    "timestamp": "2026-11-07T18:45:15.172Z",
-    "metadata": {
-      "type": "registration",
-      "role": "recruiter"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077114545-iwn7z",
-    "to": [
-      "meera@linear.app"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Meera Kapoor!",
-    "timestamp": "2026-11-07T18:45:14.546Z",
-    "metadata": {
-      "type": "registration",
-      "role": "recruiter"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077112774-dsbz0",
-    "to": [
-      "vikram_1794077112070@stripe.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Vikram Seth!",
-    "timestamp": "2026-11-07T18:45:12.774Z",
-    "metadata": {
-      "type": "registration",
-      "role": "recruiter"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077112059-k1suk",
-    "to": [
-      "meera@linear.app"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Meera Kapoor!",
-    "timestamp": "2026-11-07T18:45:12.059Z",
-    "metadata": {
-      "type": "registration",
-      "role": "recruiter"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077110653-uxuxk",
-    "to": [
-      "recruiter_1794077110074@stripe.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Vikram Seth!",
-    "timestamp": "2026-11-07T18:45:10.653Z",
-    "metadata": {
-      "type": "registration",
-      "role": "recruiter"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077110061-0ebhk",
-    "to": [
-      "nisha.khanna@nid.ac.in"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "🎉 Congratulations! You've been shortlisted for Product Design Intern at SkillBridge Hiring Partner",
-    "timestamp": "2026-11-07T18:45:10.061Z",
-    "metadata": {
-      "type": "status_change",
-      "applicationId": "app-rec-1",
-      "newStage": "shortlisted"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077109579-684wf",
-    "to": [
-      "test.student.recruiter.1794077108995@example.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Test Student Recruiter Check!",
-    "timestamp": "2026-11-07T18:45:09.579Z",
-    "metadata": {
-      "type": "registration",
-      "role": "student"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077108985-87bba",
-    "to": [
-      "meera@linear.app"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Meera Kapoor!",
-    "timestamp": "2026-11-07T18:45:08.985Z",
-    "metadata": {
-      "type": "registration",
-      "role": "recruiter"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077107307-4x3wr",
-    "to": [
-      "test.profile.1794077106625@example.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Test Candidate Profile!",
-    "timestamp": "2026-11-07T18:45:07.307Z",
-    "metadata": {
-      "type": "registration",
-      "role": "student"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077105368-tthfv",
-    "to": [
-      "test.apps.1794077104531@example.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Application Submitted: Frontend Developer at Razorpay",
-    "timestamp": "2026-11-07T18:45:05.368Z",
-    "metadata": {
-      "type": "application_submitted",
-      "applicationId": "app-1794077105352",
-      "role": "Frontend Developer",
-      "company": "Razorpay"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077105294-7maz7",
-    "to": [
-      "test.apps.1794077104531@example.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Application Submitted: Product Design Intern at Linear",
-    "timestamp": "2026-11-07T18:45:05.294Z",
-    "metadata": {
-      "type": "application_submitted",
-      "applicationId": "app-1794077105278",
-      "role": "Product Design Intern",
-      "company": "Linear"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077105199-kyhob",
-    "to": [
-      "test.apps.1794077104531@example.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Application Tester!",
-    "timestamp": "2026-11-07T18:45:05.199Z",
-    "metadata": {
-      "type": "registration",
-      "role": "student"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077103236-7p76x",
-    "to": [
-      "applicant_1794077102284@email.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Application Submitted: Product Design Intern at Linear",
-    "timestamp": "2026-11-07T18:45:03.236Z",
-    "metadata": {
-      "type": "application_submitted",
-      "applicationId": "app-1794077103221",
-      "role": "Product Design Intern",
-      "company": "Linear"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077103120-3nvi1",
-    "to": [
-      "meera@linear.app"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Meera Kapoor!",
-    "timestamp": "2026-11-07T18:45:03.120Z",
-    "metadata": {
-      "type": "registration",
-      "role": "recruiter"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077102939-m1gcd",
-    "to": [
-      "applicant_1794077102284@email.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Test Applicant 1794077102284!",
-    "timestamp": "2026-11-07T18:45:02.939Z",
-    "metadata": {
-      "type": "registration",
-      "role": "student"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077099804-r6bw2",
-    "to": [
-      "test.student.1794077099190@example.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Test Candidate!",
-    "timestamp": "2026-11-07T18:44:59.804Z",
-    "metadata": {
-      "type": "registration",
-      "role": "student"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077098009-gcdbq",
-    "to": [
-      "recruiter.1794077097381@linear.app"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Linear Recruiter!",
-    "timestamp": "2026-11-07T18:44:58.010Z",
-    "metadata": {
-      "type": "registration",
-      "role": "recruiter"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794077095967-n3sxw",
-    "to": [
-      "test.student.1794077095200@example.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Test Candidate!",
-    "timestamp": "2026-11-07T18:44:55.967Z",
-    "metadata": {
-      "type": "registration",
-      "role": "student"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794076805066-yq6mh",
-    "to": [
-      "lodhadevyansh@gmail.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Devyansh Lodha!",
-    "timestamp": "2026-11-07T18:40:05.066Z",
-    "metadata": {
-      "type": "registration",
-      "role": "recruiter"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794076696828-b7ks9",
-    "to": [
-      "student2.1794076696236@example.com"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Second Student!",
-    "timestamp": "2026-11-07T18:38:16.828Z",
-    "metadata": {
-      "type": "registration",
-      "role": "student"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794076696217-0ym82",
-    "to": [
-      "candidate@university.edu"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "📅 Interview Scheduled: Product Design Intern with Linear",
-    "timestamp": "2026-11-07T18:38:16.217Z",
-    "metadata": {
-      "type": "interview_scheduled",
-      "applicationId": "app-1794076695454",
-      "interviewDate": "2026-11-15"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794076696163-afgf9",
-    "to": [
-      "candidate@university.edu"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "🎉 Congratulations! You've been shortlisted for Product Design Intern at SkillBridge Hiring Partner",
-    "timestamp": "2026-11-07T18:38:16.163Z",
-    "metadata": {
-      "type": "status_change",
-      "applicationId": "app-1794076695454",
-      "newStage": "shortlisted"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794076695743-g16lj",
-    "to": [
-      "meera@linear.app"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Meera Kapoor!",
-    "timestamp": "2026-11-07T18:38:15.743Z",
     "metadata": {
       "type": "registration",
       "role": "recruiter"

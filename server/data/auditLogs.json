@@ -1,5 +1,1308 @@
 [
   {
+    "id": "audit_1794081371392_abm7npm2t",
+    "timestamp": "2026-11-07T19:56:11.392Z",
+    "actorId": "usr_1794081371386_faoab",
+    "actorRole": "student",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081371386_faoab",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "student",
+      "email": "student2.1794081370813@example.com"
+    }
+  },
+  {
+    "id": "audit_1794081370806_e88t3c24v",
+    "timestamp": "2026-11-07T19:56:10.806Z",
+    "actorId": "usr_recruiter_meera",
+    "actorRole": "recruiter",
+    "action": "INTERVIEW_SCHEDULED",
+    "targetType": "application",
+    "targetId": "app-1794081369996",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "interviewDate": "2026-11-15",
+      "interviewTime": "14:30 IST",
+      "candidate": "Vitest Student Candidate"
+    }
+  },
+  {
+    "id": "audit_1794081370750_w5u3ujkew",
+    "timestamp": "2026-11-07T19:56:10.750Z",
+    "actorId": "usr_recruiter_meera",
+    "actorRole": "recruiter",
+    "action": "CANDIDATE_STAGE_UPDATED",
+    "targetType": "application",
+    "targetId": "app-1794081369996",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "stage": "Shortlisted",
+      "candidate": "Vitest Student Candidate"
+    }
+  },
+  {
+    "id": "audit_1794081370252_4om0bgmat",
+    "timestamp": "2026-11-07T19:56:10.252Z",
+    "actorId": "usr_recruiter_meera",
+    "actorRole": "recruiter",
+    "action": "USER_LOGIN",
+    "targetType": "user",
+    "targetId": "usr_recruiter_meera",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "email": "meera@linear.app"
+    }
+  },
+  {
+    "id": "audit_1794081370023_x8enhex8h",
+    "timestamp": "2026-11-07T19:56:10.023Z",
+    "actorId": "usr_1794081367376_0hcol",
+    "actorRole": "student",
+    "action": "APPLICATION_SUBMITTED",
+    "targetType": "job",
+    "targetId": "job-1",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "company": "Linear",
+      "title": "Product Design Intern"
+    }
+  },
+  {
+    "id": "audit_1794081369866_l3e2ldo24",
+    "timestamp": "2026-11-07T19:56:09.866Z",
+    "actorId": "usr_1794081368035_1rhu2",
+    "actorRole": "recruiter",
+    "action": "JOB_CLOSED",
+    "targetType": "job",
+    "targetId": "job-1794081369692",
+    "ipAddress": "127.0.0.1",
+    "metadata": {}
+  },
+  {
+    "id": "audit_1794081369808_4e3rkklvi",
+    "timestamp": "2026-11-07T19:56:09.808Z",
+    "actorId": "usr_1794081368035_1rhu2",
+    "actorRole": "recruiter",
+    "action": "JOB_PUBLISHED",
+    "targetType": "job",
+    "targetId": "job-1794081369692",
+    "ipAddress": "127.0.0.1",
+    "metadata": {}
+  },
+  {
+    "id": "audit_1794081369776_u9wh49vix",
+    "timestamp": "2026-11-07T19:56:09.777Z",
+    "actorId": "usr_1794081368035_1rhu2",
+    "actorRole": "recruiter",
+    "action": "JOB_UPDATED",
+    "targetType": "job",
+    "targetId": "job-1794081369692",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "title": "Principal Platform Engineer"
+    }
+  },
+  {
+    "id": "audit_1794081369707_6akhr0cry",
+    "timestamp": "2026-11-07T19:56:09.707Z",
+    "actorId": "usr_1794081368035_1rhu2",
+    "actorRole": "recruiter",
+    "action": "JOB_CREATED",
+    "targetType": "job",
+    "targetId": "job-1794081369692",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "title": "Staff Platform Engineer",
+      "status": "Draft"
+    }
+  },
+  {
+    "id": "audit_1794081368850_azyb42g75",
+    "timestamp": "2026-11-07T19:56:08.850Z",
+    "actorId": "usr_admin_rohan",
+    "actorRole": "admin",
+    "action": "USER_LOGIN",
+    "targetType": "user",
+    "targetId": "usr_admin_rohan",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "email": "admin@skillbridge.io"
+    }
+  },
+  {
+    "id": "audit_1794081368671_y1hjinxxz",
+    "timestamp": "2026-11-07T19:56:08.671Z",
+    "actorId": "usr_1794081368662_oouzf",
+    "actorRole": "recruiter",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081368662_oouzf",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "recruiter",
+      "email": "stripe.recruiter.1794081368056@stripe.com"
+    }
+  },
+  {
+    "id": "audit_1794081368044_btgt6b066",
+    "timestamp": "2026-11-07T19:56:08.044Z",
+    "actorId": "usr_1794081368035_1rhu2",
+    "actorRole": "recruiter",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081368035_1rhu2",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "recruiter",
+      "email": "vitest.recruiter.1794081366685@linear.app"
+    }
+  },
+  {
+    "id": "audit_1794081367392_inj7d0gjx",
+    "timestamp": "2026-11-07T19:56:07.392Z",
+    "actorId": "usr_1794081367376_0hcol",
+    "actorRole": "student",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081367376_0hcol",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "student",
+      "email": "vitest.student.1794081366685@skillbridge.io"
+    }
+  },
+  {
+    "id": "audit_1794081254957_eg7ftfeiu",
+    "timestamp": "2026-11-07T19:54:14.958Z",
+    "actorId": "usr_1794081254951_a9ynx",
+    "actorRole": "student",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081254951_a9ynx",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "student",
+      "email": "student2.1794081254343@example.com"
+    }
+  },
+  {
+    "id": "audit_1794081254333_flp7f6i8x",
+    "timestamp": "2026-11-07T19:54:14.333Z",
+    "actorId": "usr_recruiter_meera",
+    "actorRole": "recruiter",
+    "action": "INTERVIEW_SCHEDULED",
+    "targetType": "application",
+    "targetId": "app-1794081253575",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "interviewDate": "2026-11-15",
+      "interviewTime": "14:30 IST",
+      "candidate": "Vitest Student Candidate"
+    }
+  },
+  {
+    "id": "audit_1794081254276_k0kjovmsp",
+    "timestamp": "2026-11-07T19:54:14.276Z",
+    "actorId": "usr_recruiter_meera",
+    "actorRole": "recruiter",
+    "action": "CANDIDATE_STAGE_UPDATED",
+    "targetType": "application",
+    "targetId": "app-1794081253575",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "stage": "Shortlisted",
+      "candidate": "Vitest Student Candidate"
+    }
+  },
+  {
+    "id": "audit_1794081253823_tbqyxaa3g",
+    "timestamp": "2026-11-07T19:54:13.823Z",
+    "actorId": "usr_recruiter_meera",
+    "actorRole": "recruiter",
+    "action": "USER_LOGIN",
+    "targetType": "user",
+    "targetId": "usr_recruiter_meera",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "email": "meera@linear.app"
+    }
+  },
+  {
+    "id": "audit_1794081253600_63r8fnkf9",
+    "timestamp": "2026-11-07T19:54:13.600Z",
+    "actorId": "usr_1794081250848_4geb3",
+    "actorRole": "student",
+    "action": "APPLICATION_SUBMITTED",
+    "targetType": "job",
+    "targetId": "job-1",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "company": "Linear",
+      "title": "Product Design Intern"
+    }
+  },
+  {
+    "id": "audit_1794081253426_195xr2kzi",
+    "timestamp": "2026-11-07T19:54:13.426Z",
+    "actorId": "usr_1794081251556_coqg0",
+    "actorRole": "recruiter",
+    "action": "JOB_CLOSED",
+    "targetType": "job",
+    "targetId": "job-1794081253184",
+    "ipAddress": "127.0.0.1",
+    "metadata": {}
+  },
+  {
+    "id": "audit_1794081253319_losohyp4h",
+    "timestamp": "2026-11-07T19:54:13.319Z",
+    "actorId": "usr_1794081251556_coqg0",
+    "actorRole": "recruiter",
+    "action": "JOB_PUBLISHED",
+    "targetType": "job",
+    "targetId": "job-1794081253184",
+    "ipAddress": "127.0.0.1",
+    "metadata": {}
+  },
+  {
+    "id": "audit_1794081253266_es4gyypju",
+    "timestamp": "2026-11-07T19:54:13.266Z",
+    "actorId": "usr_1794081251556_coqg0",
+    "actorRole": "recruiter",
+    "action": "JOB_UPDATED",
+    "targetType": "job",
+    "targetId": "job-1794081253184",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "title": "Principal Platform Engineer"
+    }
+  },
+  {
+    "id": "audit_1794081253201_jsuxana0a",
+    "timestamp": "2026-11-07T19:54:13.201Z",
+    "actorId": "usr_1794081251556_coqg0",
+    "actorRole": "recruiter",
+    "action": "JOB_CREATED",
+    "targetType": "job",
+    "targetId": "job-1794081253184",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "title": "Staff Platform Engineer",
+      "status": "Draft"
+    }
+  },
+  {
+    "id": "audit_1794081252331_r0z3wpwrt",
+    "timestamp": "2026-11-07T19:54:12.331Z",
+    "actorId": "usr_admin_rohan",
+    "actorRole": "admin",
+    "action": "USER_LOGIN",
+    "targetType": "user",
+    "targetId": "usr_admin_rohan",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "email": "admin@skillbridge.io"
+    }
+  },
+  {
+    "id": "audit_1794081252159_qp2ymjhj1",
+    "timestamp": "2026-11-07T19:54:12.159Z",
+    "actorId": "usr_1794081252152_g8v0a",
+    "actorRole": "recruiter",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081252152_g8v0a",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "recruiter",
+      "email": "stripe.recruiter.1794081251578@stripe.com"
+    }
+  },
+  {
+    "id": "audit_1794081251565_hfgwiloh8",
+    "timestamp": "2026-11-07T19:54:11.565Z",
+    "actorId": "usr_1794081251556_coqg0",
+    "actorRole": "recruiter",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081251556_coqg0",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "recruiter",
+      "email": "vitest.recruiter.1794081250183@linear.app"
+    }
+  },
+  {
+    "id": "audit_1794081250870_fqprx71pw",
+    "timestamp": "2026-11-07T19:54:10.870Z",
+    "actorId": "usr_1794081250848_4geb3",
+    "actorRole": "student",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081250848_4geb3",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "student",
+      "email": "vitest.student.1794081250183@skillbridge.io"
+    }
+  },
+  {
+    "id": "audit_1794081247324_ogsw0ve2e",
+    "timestamp": "2026-11-07T19:54:07.324Z",
+    "actorId": "usr_1794081247314_ad79k",
+    "actorRole": "recruiter",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081247314_ad79k",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "recruiter",
+      "email": "recruiter_1794081246675@test.com"
+    }
+  },
+  {
+    "id": "audit_1794081246584_wxpot8vb7",
+    "timestamp": "2026-11-07T19:54:06.584Z",
+    "actorId": "usr_1794081246568_3ujvq",
+    "actorRole": "student",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081246568_3ujvq",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "student",
+      "email": "student_1794081245978@test.com"
+    }
+  },
+  {
+    "id": "audit_1794081244499_bhhqpwl4l",
+    "timestamp": "2026-11-07T19:54:04.499Z",
+    "actorId": "usr_1794081242068_fy1ff",
+    "actorRole": "recruiter",
+    "action": "UPDATE_COMPANY_PROFILE",
+    "targetType": "company",
+    "targetId": "usr_1794081242068_fy1ff",
+    "ipAddress": null,
+    "metadata": {
+      "companyName": "Apex Robotics"
+    }
+  },
+  {
+    "id": "audit_1794081244441_yrrfbtdhv",
+    "timestamp": "2026-11-07T19:54:04.441Z",
+    "actorId": "usr_1794081244435_kv4ib",
+    "actorRole": "student",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081244435_kv4ib",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "student",
+      "email": "freshstudent_1794081241432@campus.edu"
+    }
+  },
+  {
+    "id": "audit_1794081243713_t1oaikns6",
+    "timestamp": "2026-11-07T19:54:03.713Z",
+    "actorId": "usr_1794081242068_fy1ff",
+    "actorRole": "recruiter",
+    "action": "CANDIDATE_STAGE_UPDATED",
+    "targetType": "application",
+    "targetId": "app-1794081243549",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "stage": "Shortlisted",
+      "candidate": "Aarav Patel"
+    }
+  },
+  {
+    "id": "audit_1794081243615_kdaq5t6ew",
+    "timestamp": "2026-11-07T19:54:03.615Z",
+    "actorId": "usr_1794081242779_oej6q",
+    "actorRole": "student",
+    "action": "APPLICATION_SUBMITTED",
+    "targetType": "job",
+    "targetId": "job-1794081242840",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "company": "Innovate Tech",
+      "title": "Senior Cloud Architect"
+    }
+  },
+  {
+    "id": "audit_1794081243457_trjthl1cj",
+    "timestamp": "2026-11-07T19:54:03.457Z",
+    "actorId": "usr_1794081243451_fnzib",
+    "actorRole": "recruiter",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081243451_fnzib",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "recruiter",
+      "email": "recruiter2_1794081241432@othercorp.io"
+    }
+  },
+  {
+    "id": "audit_1794081242863_r4d4jka3q",
+    "timestamp": "2026-11-07T19:54:02.864Z",
+    "actorId": "usr_1794081242068_fy1ff",
+    "actorRole": "recruiter",
+    "action": "JOB_CREATED",
+    "targetType": "job",
+    "targetId": "job-1794081242840",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "title": "Senior Cloud Architect",
+      "status": "Active"
+    }
+  },
+  {
+    "id": "audit_1794081242787_r914z6nt8",
+    "timestamp": "2026-11-07T19:54:02.787Z",
+    "actorId": "usr_1794081242779_oej6q",
+    "actorRole": "student",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081242779_oej6q",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "student",
+      "email": "student_1794081241432@university.edu"
+    }
+  },
+  {
+    "id": "audit_1794081242079_o46yljws8",
+    "timestamp": "2026-11-07T19:54:02.079Z",
+    "actorId": "usr_1794081242068_fy1ff",
+    "actorRole": "recruiter",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081242068_fy1ff",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "recruiter",
+      "email": "recruiter_1794081241432@innovate.co"
+    }
+  },
+  {
+    "id": "audit_1794081239986_gji4lfm7l",
+    "timestamp": "2026-11-07T19:53:59.986Z",
+    "actorId": "usr_admin_rohan",
+    "actorRole": "admin",
+    "action": "USER_LOGIN",
+    "targetType": "user",
+    "targetId": "usr_admin_rohan",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "email": "admin@skillbridge.io"
+    }
+  },
+  {
+    "id": "audit_1794081239708_jdi2cunuk",
+    "timestamp": "2026-11-07T19:53:59.708Z",
+    "actorId": "usr_1794081238964_9ybqk",
+    "actorRole": "recruiter",
+    "action": "USER_ACCOUNT_PERMANENTLY_DELETED",
+    "targetType": "user",
+    "targetId": "usr_1794081238964_9ybqk",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "email": "delete.recruiter.1794081235469@example.com",
+      "role": "recruiter",
+      "fullName": "Hiring Lead To Delete"
+    }
+  },
+  {
+    "id": "audit_1794081239022_qiaie0w11",
+    "timestamp": "2026-11-07T19:53:59.022Z",
+    "actorId": "usr_1794081238964_9ybqk",
+    "actorRole": "recruiter",
+    "action": "JOB_CREATED",
+    "targetType": "job",
+    "targetId": "job-1794081239004",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "title": "Backend Systems Engineer",
+      "status": "Active"
+    }
+  },
+  {
+    "id": "audit_1794081238971_uvs2kg8xe",
+    "timestamp": "2026-11-07T19:53:58.971Z",
+    "actorId": "usr_1794081238964_9ybqk",
+    "actorRole": "recruiter",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081238964_9ybqk",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "recruiter",
+      "email": "delete.recruiter.1794081235469@example.com"
+    }
+  },
+  {
+    "id": "audit_1794081238352_scxpoxbvi",
+    "timestamp": "2026-11-07T19:53:58.352Z",
+    "actorId": "usr_1794081238298_5j784",
+    "actorRole": "student",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081238298_5j784",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "student",
+      "email": "delete.student.1794081235469@example.com"
+    }
+  },
+  {
+    "id": "audit_1794081237662_24pywudgq",
+    "timestamp": "2026-11-07T19:53:57.662Z",
+    "actorId": "usr_1794081236195_9ji7a",
+    "actorRole": "student",
+    "action": "USER_ACCOUNT_PERMANENTLY_DELETED",
+    "targetType": "user",
+    "targetId": "usr_1794081236195_9ji7a",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "email": "delete.student.1794081235469@example.com",
+      "role": "student",
+      "fullName": "Candidate To Delete"
+    }
+  },
+  {
+    "id": "audit_1794081236427_rgvzs1zlf",
+    "timestamp": "2026-11-07T19:53:56.427Z",
+    "actorId": "usr_1794081236195_9ji7a",
+    "actorRole": "student",
+    "action": "APPLICATION_SUBMITTED",
+    "targetType": "job",
+    "targetId": "job-1",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "company": "Linear",
+      "title": "Product Design Intern"
+    }
+  },
+  {
+    "id": "audit_1794081236207_m9xzb0bin",
+    "timestamp": "2026-11-07T19:53:56.207Z",
+    "actorId": "usr_1794081236195_9ji7a",
+    "actorRole": "student",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081236195_9ji7a",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "student",
+      "email": "delete.student.1794081235469@example.com"
+    }
+  },
+  {
+    "id": "audit_1794081234111_lip2uoyqd",
+    "timestamp": "2026-11-07T19:53:54.111Z",
+    "actorId": "usr_1794081233374_0y4ss",
+    "actorRole": "recruiter",
+    "action": "JOB_CREATED",
+    "targetType": "job",
+    "targetId": "job-1794081234093",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "title": "Backend Security Engineer",
+      "status": "Active"
+    }
+  },
+  {
+    "id": "audit_1794081234069_xn0keiuup",
+    "timestamp": "2026-11-07T19:53:54.069Z",
+    "actorId": "usr_1794081234062_jined",
+    "actorRole": "recruiter",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081234062_jined",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "recruiter",
+      "email": "rec_beta_1794081233389@stripe.com"
+    }
+  },
+  {
+    "id": "audit_1794081233380_odum7456a",
+    "timestamp": "2026-11-07T19:53:53.380Z",
+    "actorId": "usr_1794081233374_0y4ss",
+    "actorRole": "recruiter",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081233374_0y4ss",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "recruiter",
+      "email": "rec_alpha_1794081232763@linear.app"
+    }
+  },
+  {
+    "id": "audit_1794081232728_fvog8vr5w",
+    "timestamp": "2026-11-07T19:53:52.728Z",
+    "actorId": "usr_1794081231336_tj3fm",
+    "actorRole": "student",
+    "action": "APPLICATION_SUBMITTED",
+    "targetType": "job",
+    "targetId": "job-1",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "company": "Linear",
+      "title": "Product Design Intern"
+    }
+  },
+  {
+    "id": "audit_1794081232631_8a8s1ap7h",
+    "timestamp": "2026-11-07T19:53:52.631Z",
+    "actorId": "usr_1794081232625_b172d",
+    "actorRole": "student",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081232625_b172d",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "student",
+      "email": "other_1794081232067@example.com"
+    }
+  },
+  {
+    "id": "audit_1794081231973_j35e81faz",
+    "timestamp": "2026-11-07T19:53:51.973Z",
+    "actorId": "usr_1794081231336_tj3fm",
+    "actorRole": "student",
+    "action": "USER_LOGIN",
+    "targetType": "user",
+    "targetId": "usr_1794081231336_tj3fm",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "email": "sec_candidate_1794081230745@skillbridge.io"
+    }
+  },
+  {
+    "id": "audit_1794081231349_s0vu4vvzv",
+    "timestamp": "2026-11-07T19:53:51.349Z",
+    "actorId": "usr_1794081231336_tj3fm",
+    "actorRole": "student",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081231336_tj3fm",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "student",
+      "email": "sec_candidate_1794081230745@skillbridge.io"
+    }
+  },
+  {
+    "id": "audit_1794081227739_0u4o67smt",
+    "timestamp": "2026-11-07T19:53:47.739Z",
+    "actorId": "usr_recruiter_meera",
+    "actorRole": "recruiter",
+    "action": "INTERVIEW_SCHEDULED",
+    "targetType": "application",
+    "targetId": "app-1794081226671",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "interviewDate": "15 Nov 2026",
+      "interviewTime": "02:00 PM IST",
+      "candidate": "Test Notif Student"
+    }
+  },
+  {
+    "id": "audit_1794081227657_ehti7cicn",
+    "timestamp": "2026-11-07T19:53:47.657Z",
+    "actorId": "usr_recruiter_meera",
+    "actorRole": "recruiter",
+    "action": "CANDIDATE_STAGE_UPDATED",
+    "targetType": "application",
+    "targetId": "app-1794081226671",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "stage": "Shortlisted",
+      "candidate": "Test Notif Student"
+    }
+  },
+  {
+    "id": "audit_1794081227068_w43tfnn4t",
+    "timestamp": "2026-11-07T19:53:47.068Z",
+    "actorId": "usr_admin_rohan",
+    "actorRole": "admin",
+    "action": "USER_LOGIN",
+    "targetType": "user",
+    "targetId": "usr_admin_rohan",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "email": "admin@skillbridge.io"
+    }
+  },
+  {
+    "id": "audit_1794081226880_aa3pv4hak",
+    "timestamp": "2026-11-07T19:53:46.880Z",
+    "actorId": "usr_recruiter_meera",
+    "actorRole": "recruiter",
+    "action": "USER_LOGIN",
+    "targetType": "user",
+    "targetId": "usr_recruiter_meera",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "email": "meera@linear.app"
+    }
+  },
+  {
+    "id": "audit_1794081226696_rx1y9yur8",
+    "timestamp": "2026-11-07T19:53:46.696Z",
+    "actorId": "usr_1794081226534_kselw",
+    "actorRole": "student",
+    "action": "APPLICATION_SUBMITTED",
+    "targetType": "job",
+    "targetId": "job-1",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "company": "Linear",
+      "title": "Product Design Intern"
+    }
+  },
+  {
+    "id": "audit_1794081226549_zotwdsz35",
+    "timestamp": "2026-11-07T19:53:46.549Z",
+    "actorId": "usr_1794081226534_kselw",
+    "actorRole": "student",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081226534_kselw",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "student",
+      "email": "test.notif.student.1794081225856@example.com"
+    }
+  },
+  {
+    "id": "audit_1794081224532_4bp5hzbi6",
+    "timestamp": "2026-11-07T19:53:44.532Z",
+    "actorId": "usr_admin_rohan",
+    "actorRole": "admin",
+    "action": "ADMIN_SETTINGS_UPDATED",
+    "targetType": "settings",
+    "targetId": "global",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "minRecommendedStipend": "₹18,000 / month",
+      "maxApplicationsPerStudent": 20
+    }
+  },
+  {
+    "id": "audit_1794081224497_o95u74iav",
+    "timestamp": "2026-11-07T19:53:44.497Z",
+    "actorId": "usr_admin_rohan",
+    "actorRole": "admin",
+    "action": "ADMIN_JOB_REMOVED",
+    "targetType": "job",
+    "targetId": "mod-4",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "reason": "Listing violates platform compensation minimums."
+    }
+  },
+  {
+    "id": "audit_1794081224467_z362o2y7e",
+    "timestamp": "2026-11-07T19:53:44.467Z",
+    "actorId": "usr_admin_rohan",
+    "actorRole": "admin",
+    "action": "ADMIN_JOB_APPROVED",
+    "targetType": "job",
+    "targetId": "mod-1",
+    "ipAddress": "127.0.0.1",
+    "metadata": {}
+  },
+  {
+    "id": "audit_1794081224435_xzb3v2omy",
+    "timestamp": "2026-11-07T19:53:44.435Z",
+    "actorId": "usr_1794081223118_od9vy",
+    "actorRole": "student",
+    "action": "USER_LOGIN",
+    "targetType": "user",
+    "targetId": "usr_1794081223118_od9vy",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "email": "bad_actor_1794081222541@example.com"
+    }
+  },
+  {
+    "id": "audit_1794081223845_jp95a29cp",
+    "timestamp": "2026-11-07T19:53:43.845Z",
+    "actorId": "usr_admin_rohan",
+    "actorRole": "admin",
+    "action": "ADMIN_USER_ACTIVATED",
+    "targetType": "user",
+    "targetId": "usr_1794081223118_od9vy",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "targetName": "Spam Account"
+    }
+  },
+  {
+    "id": "audit_1794081223158_760829bku",
+    "timestamp": "2026-11-07T19:53:43.158Z",
+    "actorId": "usr_admin_rohan",
+    "actorRole": "admin",
+    "action": "ADMIN_USER_SUSPENDED",
+    "targetType": "user",
+    "targetId": "usr_1794081223118_od9vy",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "reason": "Automated spam submissions detected.",
+      "targetName": "Spam Account"
+    }
+  },
+  {
+    "id": "audit_1794081223125_psyn9sxl3",
+    "timestamp": "2026-11-07T19:53:43.125Z",
+    "actorId": "usr_1794081223118_od9vy",
+    "actorRole": "student",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081223118_od9vy",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "student",
+      "email": "bad_actor_1794081222541@example.com"
+    }
+  },
+  {
+    "id": "audit_1794081222465_6b1twdpgl",
+    "timestamp": "2026-11-07T19:53:42.465Z",
+    "actorId": "usr_admin_rohan",
+    "actorRole": "admin",
+    "action": "USER_LOGIN",
+    "targetType": "user",
+    "targetId": "usr_admin_rohan",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "email": "admin@skillbridge.io"
+    }
+  },
+  {
+    "id": "audit_1794081222302_iu0g2oipe",
+    "timestamp": "2026-11-07T19:53:42.302Z",
+    "actorId": "usr_recruiter_meera",
+    "actorRole": "recruiter",
+    "action": "USER_LOGIN",
+    "targetType": "user",
+    "targetId": "usr_recruiter_meera",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "email": "meera@linear.app"
+    }
+  },
+  {
+    "id": "audit_1794081222124_qt7opd947",
+    "timestamp": "2026-11-07T19:53:42.124Z",
+    "actorId": "usr_1794081222112_ay9rm",
+    "actorRole": "student",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081222112_ay9rm",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "student",
+      "email": "test.student.admin.1794081221522@example.com"
+    }
+  },
+  {
+    "id": "audit_1794081220097_8wk77bo2a",
+    "timestamp": "2026-11-07T19:53:40.097Z",
+    "actorId": "usr_recruiter_meera",
+    "actorRole": "recruiter",
+    "action": "CANDIDATE_STAGE_UPDATED",
+    "targetType": "application",
+    "targetId": "app-1794081209080",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "stage": "Rejected",
+      "candidate": "Application Tester"
+    }
+  },
+  {
+    "id": "audit_1794081220029_gdocidsbv",
+    "timestamp": "2026-11-07T19:53:40.029Z",
+    "actorId": "usr_recruiter_meera",
+    "actorRole": "recruiter",
+    "action": "INTERVIEW_SCHEDULED",
+    "targetType": "application",
+    "targetId": "app-1794081209080",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "interviewDate": "10 Nov 2026",
+      "interviewTime": "03:30 PM",
+      "candidate": "Application Tester"
+    }
+  },
+  {
+    "id": "audit_1794081219971_uadootokx",
+    "timestamp": "2026-11-07T19:53:39.971Z",
+    "actorId": "usr_recruiter_meera",
+    "actorRole": "recruiter",
+    "action": "CANDIDATE_STAGE_UPDATED",
+    "targetType": "application",
+    "targetId": "app-1794081209080",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "stage": "Shortlisted",
+      "candidate": "Application Tester"
+    }
+  },
+  {
+    "id": "audit_1794081219290_dk8cs37hz",
+    "timestamp": "2026-11-07T19:53:39.290Z",
+    "actorId": "usr_1794081219281_jj8nu",
+    "actorRole": "recruiter",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081219281_jj8nu",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "recruiter",
+      "email": "vikram_cand_1794081218656@stripe.com"
+    }
+  },
+  {
+    "id": "audit_1794081218638_o8savckrr",
+    "timestamp": "2026-11-07T19:53:38.638Z",
+    "actorId": "usr_recruiter_meera",
+    "actorRole": "recruiter",
+    "action": "USER_LOGIN",
+    "targetType": "user",
+    "targetId": "usr_recruiter_meera",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "email": "meera@linear.app"
+    }
+  },
+  {
+    "id": "audit_1794081217117_3tno0w9uh",
+    "timestamp": "2026-11-07T19:53:37.117Z",
+    "actorId": "usr_recruiter_meera",
+    "actorRole": "recruiter",
+    "action": "JOB_DELETED",
+    "targetType": "job",
+    "targetId": "job-1794081216760",
+    "ipAddress": "127.0.0.1",
+    "metadata": {}
+  },
+  {
+    "id": "audit_1794081217069_mlfaz80rz",
+    "timestamp": "2026-11-07T19:53:37.069Z",
+    "actorId": "usr_recruiter_meera",
+    "actorRole": "recruiter",
+    "action": "JOB_CLOSED",
+    "targetType": "job",
+    "targetId": "job-1794081216760",
+    "ipAddress": "127.0.0.1",
+    "metadata": {}
+  },
+  {
+    "id": "audit_1794081217044_ffdps82va",
+    "timestamp": "2026-11-07T19:53:37.044Z",
+    "actorId": "usr_recruiter_meera",
+    "actorRole": "recruiter",
+    "action": "JOB_PUBLISHED",
+    "targetType": "job",
+    "targetId": "job-1794081216760",
+    "ipAddress": "127.0.0.1",
+    "metadata": {}
+  },
+  {
+    "id": "audit_1794081217018_xvtsgtmtu",
+    "timestamp": "2026-11-07T19:53:37.018Z",
+    "actorId": "usr_recruiter_meera",
+    "actorRole": "recruiter",
+    "action": "JOB_UPDATED",
+    "targetType": "job",
+    "targetId": "job-1794081216760",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "title": "DevOps & Cloud Engineering Intern"
+    }
+  },
+  {
+    "id": "audit_1794081216778_nzg8em35a",
+    "timestamp": "2026-11-07T19:53:36.778Z",
+    "actorId": "usr_recruiter_meera",
+    "actorRole": "recruiter",
+    "action": "JOB_CREATED",
+    "targetType": "job",
+    "targetId": "job-1794081216760",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "title": "DevOps & Platform Engineering Intern",
+      "status": "Draft"
+    }
+  },
+  {
+    "id": "audit_1794081216735_d0tz8ea92",
+    "timestamp": "2026-11-07T19:53:36.735Z",
+    "actorId": "usr_1794081216727_nxpo3",
+    "actorRole": "recruiter",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081216727_nxpo3",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "recruiter",
+      "email": "vikram_1794081216128@stripe.com"
+    }
+  },
+  {
+    "id": "audit_1794081216112_uh3wf7331",
+    "timestamp": "2026-11-07T19:53:36.112Z",
+    "actorId": "usr_recruiter_meera",
+    "actorRole": "recruiter",
+    "action": "USER_LOGIN",
+    "targetType": "user",
+    "targetId": "usr_recruiter_meera",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "email": "meera@linear.app"
+    }
+  },
+  {
+    "id": "audit_1794081214722_mg8665i7u",
+    "timestamp": "2026-11-07T19:53:34.722Z",
+    "actorId": "usr_1794081214716_g97v9",
+    "actorRole": "recruiter",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081214716_g97v9",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "recruiter",
+      "email": "recruiter_1794081214162@stripe.com"
+    }
+  },
+  {
+    "id": "audit_1794081214154_n2quh8bzq",
+    "timestamp": "2026-11-07T19:53:34.154Z",
+    "actorId": "usr_recruiter_meera",
+    "actorRole": "recruiter",
+    "action": "CANDIDATE_STAGE_UPDATED",
+    "targetType": "application",
+    "targetId": "app-rec-1",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "stage": "Shortlisted",
+      "candidate": "Nisha Khanna"
+    }
+  },
+  {
+    "id": "audit_1794081214064_epi3ew9vb",
+    "timestamp": "2026-11-07T19:53:34.064Z",
+    "actorId": "usr_recruiter_meera",
+    "actorRole": "recruiter",
+    "action": "JOB_CREATED",
+    "targetType": "job",
+    "targetId": "job-1794081214048",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "title": "Senior Frontend Architect",
+      "status": "Active"
+    }
+  },
+  {
+    "id": "audit_1794081213558_4qq0wjihv",
+    "timestamp": "2026-11-07T19:53:33.558Z",
+    "actorId": "usr_1794081213551_l66dz",
+    "actorRole": "student",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081213551_l66dz",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "student",
+      "email": "test.student.recruiter.1794081212956@example.com"
+    }
+  },
+  {
+    "id": "audit_1794081212940_javnj0ov9",
+    "timestamp": "2026-11-07T19:53:32.940Z",
+    "actorId": "usr_recruiter_meera",
+    "actorRole": "recruiter",
+    "action": "USER_LOGIN",
+    "targetType": "user",
+    "targetId": "usr_recruiter_meera",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "email": "meera@linear.app"
+    }
+  },
+  {
+    "id": "audit_1794081211122_z7pl4vtpw",
+    "timestamp": "2026-11-07T19:53:31.123Z",
+    "actorId": "usr_1794081211109_rp0om",
+    "actorRole": "student",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081211109_rp0om",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "student",
+      "email": "test.profile.1794081210471@example.com"
+    }
+  },
+  {
+    "id": "audit_1794081209284_wa7wflkdy",
+    "timestamp": "2026-11-07T19:53:29.284Z",
+    "actorId": "usr_1794081208966_tuuw8",
+    "actorRole": "student",
+    "action": "APPLICATION_WITHDRAWN",
+    "targetType": "application",
+    "targetId": "app-1794081209149",
+    "ipAddress": "::ffff:127.0.0.1",
+    "metadata": {
+      "reason": "Accepted an offer at another company."
+    }
+  },
+  {
+    "id": "audit_1794081209171_qyq5kuj5z",
+    "timestamp": "2026-11-07T19:53:29.171Z",
+    "actorId": "usr_1794081208966_tuuw8",
+    "actorRole": "student",
+    "action": "APPLICATION_SUBMITTED",
+    "targetType": "job",
+    "targetId": "job-2",
+    "ipAddress": "::ffff:127.0.0.1",
+    "metadata": {
+      "company": "Razorpay",
+      "title": "Frontend Developer"
+    }
+  },
+  {
+    "id": "audit_1794081209104_ogt7cmps4",
+    "timestamp": "2026-11-07T19:53:29.104Z",
+    "actorId": "usr_1794081208966_tuuw8",
+    "actorRole": "student",
+    "action": "APPLICATION_SUBMITTED",
+    "targetType": "job",
+    "targetId": "job-1",
+    "ipAddress": "::ffff:127.0.0.1",
+    "metadata": {
+      "company": "Linear",
+      "title": "Product Design Intern"
+    }
+  },
+  {
+    "id": "audit_1794081208979_i0j1v66x5",
+    "timestamp": "2026-11-07T19:53:28.979Z",
+    "actorId": "usr_1794081208966_tuuw8",
+    "actorRole": "student",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081208966_tuuw8",
+    "ipAddress": "::ffff:127.0.0.1",
+    "metadata": {
+      "role": "student",
+      "email": "test.apps.1794081208320@example.com"
+    }
+  },
+  {
+    "id": "audit_1794081206895_s3s87xsor",
+    "timestamp": "2026-11-07T19:53:26.895Z",
+    "actorId": "usr_1794081206511_xouus",
+    "actorRole": "student",
+    "action": "APPLICATION_SUBMITTED",
+    "targetType": "job",
+    "targetId": "job-1",
+    "ipAddress": "::ffff:127.0.0.1",
+    "metadata": {
+      "company": "Linear",
+      "title": "Product Design Intern"
+    }
+  },
+  {
+    "id": "audit_1794081206709_g5i8vxdf5",
+    "timestamp": "2026-11-07T19:53:26.709Z",
+    "actorId": "usr_recruiter_meera",
+    "actorRole": "recruiter",
+    "action": "USER_LOGIN",
+    "targetType": "user",
+    "targetId": "usr_recruiter_meera",
+    "ipAddress": "::ffff:127.0.0.1",
+    "metadata": {
+      "email": "meera@linear.app"
+    }
+  },
+  {
+    "id": "audit_1794081206529_67ww2vsu2",
+    "timestamp": "2026-11-07T19:53:26.529Z",
+    "actorId": "usr_1794081206511_xouus",
+    "actorRole": "student",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081206511_xouus",
+    "ipAddress": "::ffff:127.0.0.1",
+    "metadata": {
+      "role": "student",
+      "email": "applicant_1794081205851@email.com"
+    }
+  },
+  {
+    "id": "audit_1794081203392_e9f8stv1c",
+    "timestamp": "2026-11-07T19:53:23.392Z",
+    "actorId": "usr_1794081203380_rs0hv",
+    "actorRole": "student",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081203380_rs0hv",
+    "ipAddress": "::ffff:127.0.0.1",
+    "metadata": {
+      "role": "student",
+      "email": "test.student.1794081202798@example.com"
+    }
+  },
+  {
+    "id": "audit_1794081201552_edx3oseu7",
+    "timestamp": "2026-11-07T19:53:21.552Z",
+    "actorId": "usr_1794081201523_7rjin",
+    "actorRole": "recruiter",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081201523_7rjin",
+    "ipAddress": "::1",
+    "metadata": {
+      "role": "recruiter",
+      "email": "recruiter.1794081200840@linear.app"
+    }
+  },
+  {
+    "id": "audit_1794081200197_py3j1idhn",
+    "timestamp": "2026-11-07T19:53:20.197Z",
+    "actorId": "usr_1794081199480_32lq3",
+    "actorRole": "student",
+    "action": "USER_LOGIN",
+    "targetType": "user",
+    "targetId": "usr_1794081199480_32lq3",
+    "ipAddress": "::1",
+    "metadata": {
+      "email": "test.student.1794081198750@example.com"
+    }
+  },
+  {
+    "id": "audit_1794081199495_95l44iarh",
+    "timestamp": "2026-11-07T19:53:19.495Z",
+    "actorId": "usr_1794081199480_32lq3",
+    "actorRole": "student",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794081199480_32lq3",
+    "ipAddress": "::1",
+    "metadata": {
+      "role": "student",
+      "email": "test.student.1794081198750@example.com"
+    }
+  },
+  {
     "id": "audit_1794080124668_kay1jk8yv",
     "timestamp": "2026-11-07T19:35:24.668Z",
     "actorId": "usr_1794080124660_4cm8n",
@@ -12291,1316 +13594,6 @@
     "metadata": {
       "role": "recruiter",
       "email": "vikram_1793640147508@stripe.com"
-    }
-  },
-  {
-    "id": "audit_1793640147498_3rnyeh3d0",
-    "timestamp": "2026-11-02T17:22:27.498Z",
-    "actorId": "usr_recruiter_meera",
-    "actorRole": "recruiter",
-    "action": "USER_LOGIN",
-    "targetType": "user",
-    "targetId": "usr_recruiter_meera",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "email": "meera@linear.app"
-    }
-  },
-  {
-    "id": "audit_1793640146433_8fx5xlev0",
-    "timestamp": "2026-11-02T17:22:26.433Z",
-    "actorId": "usr_1793640146427_2rdde",
-    "actorRole": "recruiter",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793640146427_2rdde",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "recruiter",
-      "email": "recruiter_1793640145968@stripe.com"
-    }
-  },
-  {
-    "id": "audit_1793640145961_awf8tvp4m",
-    "timestamp": "2026-11-02T17:22:25.961Z",
-    "actorId": "usr_recruiter_meera",
-    "actorRole": "recruiter",
-    "action": "CANDIDATE_STAGE_UPDATED",
-    "targetType": "application",
-    "targetId": "app-rec-1",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "stage": "Shortlisted",
-      "candidate": "Nisha Khanna"
-    }
-  },
-  {
-    "id": "audit_1793640145819_mggwl5t41",
-    "timestamp": "2026-11-02T17:22:25.819Z",
-    "actorId": "usr_recruiter_meera",
-    "actorRole": "recruiter",
-    "action": "JOB_CREATED",
-    "targetType": "job",
-    "targetId": "job-1793640145810",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "title": "Senior Frontend Architect",
-      "status": "Active"
-    }
-  },
-  {
-    "id": "audit_1793640145774_oi0d0zgie",
-    "timestamp": "2026-11-02T17:22:25.774Z",
-    "actorId": "usr_1793640145770_3r3wc",
-    "actorRole": "student",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793640145770_3r3wc",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "student",
-      "email": "test.student.recruiter.1793640145394@example.com"
-    }
-  },
-  {
-    "id": "audit_1793640145385_wx22z1wfl",
-    "timestamp": "2026-11-02T17:22:25.385Z",
-    "actorId": "usr_recruiter_meera",
-    "actorRole": "recruiter",
-    "action": "USER_LOGIN",
-    "targetType": "user",
-    "targetId": "usr_recruiter_meera",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "email": "meera@linear.app"
-    }
-  },
-  {
-    "id": "audit_1793640144007_sfjgyxu2o",
-    "timestamp": "2026-11-02T17:22:24.007Z",
-    "actorId": "usr_1793640144001_db528",
-    "actorRole": "student",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793640144001_db528",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "student",
-      "email": "test.profile.1793640143562@example.com"
-    }
-  },
-  {
-    "id": "audit_1793640142733_wbdau9kzv",
-    "timestamp": "2026-11-02T17:22:22.733Z",
-    "actorId": "usr_1793640142547_7qdm7",
-    "actorRole": "student",
-    "action": "APPLICATION_WITHDRAWN",
-    "targetType": "application",
-    "targetId": "app-1793640142644",
-    "ipAddress": "::ffff:127.0.0.1",
-    "metadata": {
-      "reason": "Accepted an offer at another company."
-    }
-  },
-  {
-    "id": "audit_1793640142657_54s4m5ez2",
-    "timestamp": "2026-11-02T17:22:22.657Z",
-    "actorId": "usr_1793640142547_7qdm7",
-    "actorRole": "student",
-    "action": "APPLICATION_SUBMITTED",
-    "targetType": "job",
-    "targetId": "job-2",
-    "ipAddress": "::ffff:127.0.0.1",
-    "metadata": {
-      "company": "Razorpay",
-      "title": "Frontend Developer"
-    }
-  },
-  {
-    "id": "audit_1793640142616_tuhyr2y16",
-    "timestamp": "2026-11-02T17:22:22.616Z",
-    "actorId": "usr_1793640142547_7qdm7",
-    "actorRole": "student",
-    "action": "APPLICATION_SUBMITTED",
-    "targetType": "job",
-    "targetId": "job-1",
-    "ipAddress": "::ffff:127.0.0.1",
-    "metadata": {
-      "company": "Linear",
-      "title": "Product Design Intern"
-    }
-  },
-  {
-    "id": "audit_1793640142554_vx5bvym7x",
-    "timestamp": "2026-11-02T17:22:22.554Z",
-    "actorId": "usr_1793640142547_7qdm7",
-    "actorRole": "student",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793640142547_7qdm7",
-    "ipAddress": "::ffff:127.0.0.1",
-    "metadata": {
-      "role": "student",
-      "email": "test.apps.1793640142124@example.com"
-    }
-  },
-  {
-    "id": "audit_1793640141420_ifzn4sw5t",
-    "timestamp": "2026-11-02T17:22:21.420Z",
-    "actorId": "usr_1793640141247_cekcd",
-    "actorRole": "student",
-    "action": "APPLICATION_SUBMITTED",
-    "targetType": "job",
-    "targetId": "job-1",
-    "ipAddress": "::ffff:127.0.0.1",
-    "metadata": {
-      "company": "Linear",
-      "title": "Product Design Intern"
-    }
-  },
-  {
-    "id": "audit_1793640141354_kg2i2py0k",
-    "timestamp": "2026-11-02T17:22:21.354Z",
-    "actorId": "usr_recruiter_meera",
-    "actorRole": "recruiter",
-    "action": "USER_LOGIN",
-    "targetType": "user",
-    "targetId": "usr_recruiter_meera",
-    "ipAddress": "::ffff:127.0.0.1",
-    "metadata": {
-      "email": "meera@linear.app"
-    }
-  },
-  {
-    "id": "audit_1793640141253_35c6rr3qq",
-    "timestamp": "2026-11-02T17:22:21.253Z",
-    "actorId": "usr_1793640141247_cekcd",
-    "actorRole": "student",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793640141247_cekcd",
-    "ipAddress": "::ffff:127.0.0.1",
-    "metadata": {
-      "role": "student",
-      "email": "applicant_1793640140845@email.com"
-    }
-  },
-  {
-    "id": "audit_1793640138957_a2zvo84mz",
-    "timestamp": "2026-11-02T17:22:18.957Z",
-    "actorId": "usr_1793640138951_6hc2l",
-    "actorRole": "student",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793640138951_6hc2l",
-    "ipAddress": "::ffff:127.0.0.1",
-    "metadata": {
-      "role": "student",
-      "email": "test.student.1793640138617@example.com"
-    }
-  },
-  {
-    "id": "audit_1793640137808_wfvsnvqnr",
-    "timestamp": "2026-11-02T17:22:17.808Z",
-    "actorId": "usr_1793640137805_jx3m0",
-    "actorRole": "recruiter",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793640137805_jx3m0",
-    "ipAddress": "::1",
-    "metadata": {
-      "role": "recruiter",
-      "email": "recruiter.1793640137431@linear.app"
-    }
-  },
-  {
-    "id": "audit_1793640137031_q374dkype",
-    "timestamp": "2026-11-02T17:22:17.031Z",
-    "actorId": "usr_1793640136610_yrq0a",
-    "actorRole": "student",
-    "action": "USER_LOGIN",
-    "targetType": "user",
-    "targetId": "usr_1793640136610_yrq0a",
-    "ipAddress": "::1",
-    "metadata": {
-      "email": "test.student.1793640136147@example.com"
-    }
-  },
-  {
-    "id": "audit_1793640136617_17p93lwqb",
-    "timestamp": "2026-11-02T17:22:16.617Z",
-    "actorId": "usr_1793640136610_yrq0a",
-    "actorRole": "student",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793640136610_yrq0a",
-    "ipAddress": "::1",
-    "metadata": {
-      "role": "student",
-      "email": "test.student.1793640136147@example.com"
-    }
-  },
-  {
-    "id": "audit_1793639935256_zrajbf8s0",
-    "timestamp": "2026-11-02T17:18:55.256Z",
-    "actorId": "usr_1793639934464_r0ato",
-    "actorRole": "recruiter",
-    "action": "CANDIDATE_STAGE_UPDATED",
-    "targetType": "application",
-    "targetId": "app-1793639935191",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "stage": "Shortlisted",
-      "candidate": "Aarav Patel"
-    }
-  },
-  {
-    "id": "audit_1793639935220_tuc8jc4k1",
-    "timestamp": "2026-11-02T17:18:55.220Z",
-    "actorId": "usr_1793639934808_g0pjx",
-    "actorRole": "student",
-    "action": "APPLICATION_SUBMITTED",
-    "targetType": "job",
-    "targetId": "job-1793639934839",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "company": "Innovate Tech",
-      "title": "Senior Cloud Architect"
-    }
-  },
-  {
-    "id": "audit_1793639935148_1u08nq3uz",
-    "timestamp": "2026-11-02T17:18:55.148Z",
-    "actorId": "usr_1793639935145_lhh9m",
-    "actorRole": "recruiter",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793639935145_lhh9m",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "recruiter",
-      "email": "recruiter2_1793639934121@othercorp.io"
-    }
-  },
-  {
-    "id": "audit_1793639934845_nwm9ynvej",
-    "timestamp": "2026-11-02T17:18:54.845Z",
-    "actorId": "usr_1793639934464_r0ato",
-    "actorRole": "recruiter",
-    "action": "JOB_CREATED",
-    "targetType": "job",
-    "targetId": "job-1793639934839",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "title": "Senior Cloud Architect",
-      "status": "Active"
-    }
-  },
-  {
-    "id": "audit_1793639934811_8o3q1fwel",
-    "timestamp": "2026-11-02T17:18:54.811Z",
-    "actorId": "usr_1793639934808_g0pjx",
-    "actorRole": "student",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793639934808_g0pjx",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "student",
-      "email": "student_1793639934121@university.edu"
-    }
-  },
-  {
-    "id": "audit_1793639934469_8qg122bsv",
-    "timestamp": "2026-11-02T17:18:54.469Z",
-    "actorId": "usr_1793639934464_r0ato",
-    "actorRole": "recruiter",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793639934464_r0ato",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "recruiter",
-      "email": "recruiter_1793639934121@innovate.co"
-    }
-  },
-  {
-    "id": "audit_1793639883410_iekqubr3x",
-    "timestamp": "2026-11-02T17:18:03.410Z",
-    "actorId": "usr_1793639883404_d3d5k",
-    "actorRole": "recruiter",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793639883404_d3d5k",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "recruiter",
-      "email": "recruiter_1793639883040@innovate.co"
-    }
-  },
-  {
-    "id": "audit_1793639847233_u3ish1fmr",
-    "timestamp": "2026-11-02T17:17:27.233Z",
-    "actorId": "usr_1793639847221_st0lb",
-    "actorRole": "recruiter",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793639847221_st0lb",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "recruiter",
-      "email": "recruiter_1793639846922@innovate.co"
-    }
-  },
-  {
-    "id": "audit_1793637316532_3e2p8u5sh",
-    "timestamp": "2026-11-02T16:35:16.532Z",
-    "actorId": "usr_1793637316528_g6crq",
-    "actorRole": "recruiter",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793637316528_g6crq",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "recruiter",
-      "email": "recruiter_1793637315900@test.com"
-    }
-  },
-  {
-    "id": "audit_1793637315831_fgr91epyw",
-    "timestamp": "2026-11-02T16:35:15.832Z",
-    "actorId": "usr_1793637315821_fqj0g",
-    "actorRole": "student",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793637315821_fqj0g",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "student",
-      "email": "student_1793637315154@test.com"
-    }
-  },
-  {
-    "id": "audit_1793637190505_vhbz5obmj",
-    "timestamp": "2026-11-02T16:33:10.505Z",
-    "actorId": "usr_1793637190497_wa194",
-    "actorRole": "recruiter",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793637190497_wa194",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "recruiter",
-      "email": "recruiter_1793637189908@test.com"
-    }
-  },
-  {
-    "id": "audit_1793637189840_1eya8xk9j",
-    "timestamp": "2026-11-02T16:33:09.841Z",
-    "actorId": "usr_1793637189827_6tizd",
-    "actorRole": "student",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793637189827_6tizd",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "student",
-      "email": "student_1793637189239@test.com"
-    }
-  },
-  {
-    "id": "audit_1793636448953_l3uodd0uc",
-    "timestamp": "2026-11-02T16:20:48.953Z",
-    "actorId": "usr_1793636448941_4ubrb",
-    "actorRole": "recruiter",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793636448941_4ubrb",
-    "ipAddress": "::1",
-    "metadata": {
-      "role": "recruiter",
-      "email": "lodhadevyansh@gmail.com"
-    }
-  },
-  {
-    "id": "audit_1793636422954_g67awgib7",
-    "timestamp": "2026-11-02T16:20:22.954Z",
-    "actorId": "usr_1793634767126_13czk",
-    "actorRole": "student",
-    "action": "USER_ACCOUNT_PERMANENTLY_DELETED",
-    "targetType": "user",
-    "targetId": "usr_1793634767126_13czk",
-    "ipAddress": "::1",
-    "metadata": {
-      "email": "lodhadevyansh@gmail.com",
-      "role": "student",
-      "fullName": "Devyansh Lodha"
-    }
-  },
-  {
-    "id": "audit_1793636143651_is7ddwa61",
-    "timestamp": "2026-11-02T16:15:43.651Z",
-    "actorId": "usr_1793636143647_7l6gb",
-    "actorRole": "student",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793636143647_7l6gb",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "student",
-      "email": "student2.1793636142967@example.com"
-    }
-  },
-  {
-    "id": "audit_1793636142960_az921binu",
-    "timestamp": "2026-11-02T16:15:42.960Z",
-    "actorId": "usr_recruiter_meera",
-    "actorRole": "recruiter",
-    "action": "INTERVIEW_SCHEDULED",
-    "targetType": "application",
-    "targetId": "app-rec-1",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "interviewDate": "2026-11-15",
-      "interviewTime": "14:30 IST",
-      "candidate": "Nisha Khanna"
-    }
-  },
-  {
-    "id": "audit_1793636142924_lngov9nbk",
-    "timestamp": "2026-11-02T16:15:42.924Z",
-    "actorId": "usr_recruiter_meera",
-    "actorRole": "recruiter",
-    "action": "CANDIDATE_STAGE_UPDATED",
-    "targetType": "application",
-    "targetId": "app-rec-1",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "stage": "Shortlisted",
-      "candidate": "Nisha Khanna"
-    }
-  },
-  {
-    "id": "audit_1793636142869_1r6yhg7xo",
-    "timestamp": "2026-11-02T16:15:42.869Z",
-    "actorId": "usr_recruiter_meera",
-    "actorRole": "recruiter",
-    "action": "USER_LOGIN",
-    "targetType": "user",
-    "targetId": "usr_recruiter_meera",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "email": "meera@linear.app"
-    }
-  },
-  {
-    "id": "audit_1793636142595_3xa0zqzvf",
-    "timestamp": "2026-11-02T16:15:42.595Z",
-    "actorId": "usr_1793636139847_1rfgg",
-    "actorRole": "student",
-    "action": "APPLICATION_SUBMITTED",
-    "targetType": "job",
-    "targetId": "job-1",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "company": "Linear",
-      "title": "Product Design Intern"
-    }
-  },
-  {
-    "id": "audit_1793636142433_kx8ctkjrh",
-    "timestamp": "2026-11-02T16:15:42.433Z",
-    "actorId": "usr_1793636140492_1mocz",
-    "actorRole": "recruiter",
-    "action": "JOB_CLOSED",
-    "targetType": "job",
-    "targetId": "job-1793636142274",
-    "ipAddress": "127.0.0.1",
-    "metadata": {}
-  },
-  {
-    "id": "audit_1793636142366_ed6c0wu8u",
-    "timestamp": "2026-11-02T16:15:42.366Z",
-    "actorId": "usr_1793636140492_1mocz",
-    "actorRole": "recruiter",
-    "action": "JOB_PUBLISHED",
-    "targetType": "job",
-    "targetId": "job-1793636142274",
-    "ipAddress": "127.0.0.1",
-    "metadata": {}
-  },
-  {
-    "id": "audit_1793636142338_442kgyj2k",
-    "timestamp": "2026-11-02T16:15:42.338Z",
-    "actorId": "usr_1793636140492_1mocz",
-    "actorRole": "recruiter",
-    "action": "JOB_UPDATED",
-    "targetType": "job",
-    "targetId": "job-1793636142274",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "title": "Principal Platform Engineer"
-    }
-  },
-  {
-    "id": "audit_1793636142286_xfj7fzs7a",
-    "timestamp": "2026-11-02T16:15:42.286Z",
-    "actorId": "usr_1793636140492_1mocz",
-    "actorRole": "recruiter",
-    "action": "JOB_CREATED",
-    "targetType": "job",
-    "targetId": "job-1793636142274",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "title": "Staff Platform Engineer",
-      "status": "Draft"
-    }
-  },
-  {
-    "id": "audit_1793636141365_4zp8ypisv",
-    "timestamp": "2026-11-02T16:15:41.365Z",
-    "actorId": "usr_admin_rohan",
-    "actorRole": "admin",
-    "action": "USER_LOGIN",
-    "targetType": "user",
-    "targetId": "usr_admin_rohan",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "email": "admin@skillbridge.io"
-    }
-  },
-  {
-    "id": "audit_1793636141185_7soh75pvm",
-    "timestamp": "2026-11-02T16:15:41.185Z",
-    "actorId": "usr_1793636141180_7fh29",
-    "actorRole": "recruiter",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793636141180_7fh29",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "recruiter",
-      "email": "stripe.recruiter.1793636140509@stripe.com"
-    }
-  },
-  {
-    "id": "audit_1793636140497_zwv09v6xr",
-    "timestamp": "2026-11-02T16:15:40.497Z",
-    "actorId": "usr_1793636140492_1mocz",
-    "actorRole": "recruiter",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793636140492_1mocz",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "recruiter",
-      "email": "vitest.recruiter.1793636139175@linear.app"
-    }
-  },
-  {
-    "id": "audit_1793636139857_opk0gbzgz",
-    "timestamp": "2026-11-02T16:15:39.857Z",
-    "actorId": "usr_1793636139847_1rfgg",
-    "actorRole": "student",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793636139847_1rfgg",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "student",
-      "email": "vitest.student.1793636139175@skillbridge.io"
-    }
-  },
-  {
-    "id": "audit_1793636136322_35znbvy47",
-    "timestamp": "2026-11-02T16:15:36.322Z",
-    "actorId": "usr_admin_rohan",
-    "actorRole": "admin",
-    "action": "USER_LOGIN",
-    "targetType": "user",
-    "targetId": "usr_admin_rohan",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "email": "admin@skillbridge.io"
-    }
-  },
-  {
-    "id": "audit_1793636136117_xb6b0x7ge",
-    "timestamp": "2026-11-02T16:15:36.117Z",
-    "actorId": "usr_1793636135407_4n5hb",
-    "actorRole": "recruiter",
-    "action": "USER_ACCOUNT_PERMANENTLY_DELETED",
-    "targetType": "user",
-    "targetId": "usr_1793636135407_4n5hb",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "email": "delete.recruiter.1793636131743@example.com",
-      "role": "recruiter",
-      "fullName": "Hiring Lead To Delete"
-    }
-  },
-  {
-    "id": "audit_1793636135455_6kztkdh8r",
-    "timestamp": "2026-11-02T16:15:35.456Z",
-    "actorId": "usr_1793636135407_4n5hb",
-    "actorRole": "recruiter",
-    "action": "JOB_CREATED",
-    "targetType": "job",
-    "targetId": "job-1793636135446",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "title": "Backend Systems Engineer",
-      "status": "Active"
-    }
-  },
-  {
-    "id": "audit_1793636135415_vfe2y9kub",
-    "timestamp": "2026-11-02T16:15:35.415Z",
-    "actorId": "usr_1793636135407_4n5hb",
-    "actorRole": "recruiter",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793636135407_4n5hb",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "recruiter",
-      "email": "delete.recruiter.1793636131743@example.com"
-    }
-  },
-  {
-    "id": "audit_1793636134727_f7004s7if",
-    "timestamp": "2026-11-02T16:15:34.727Z",
-    "actorId": "usr_1793636134720_h4ndc",
-    "actorRole": "student",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793636134720_h4ndc",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "student",
-      "email": "delete.student.1793636131743@example.com"
-    }
-  },
-  {
-    "id": "audit_1793636133993_79h9w6d0j",
-    "timestamp": "2026-11-02T16:15:33.993Z",
-    "actorId": "usr_1793636132431_xzeh4",
-    "actorRole": "student",
-    "action": "USER_ACCOUNT_PERMANENTLY_DELETED",
-    "targetType": "user",
-    "targetId": "usr_1793636132431_xzeh4",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "email": "delete.student.1793636131743@example.com",
-      "role": "student",
-      "fullName": "Candidate To Delete"
-    }
-  },
-  {
-    "id": "audit_1793636132646_ln5y47bnt",
-    "timestamp": "2026-11-02T16:15:32.646Z",
-    "actorId": "usr_1793636132431_xzeh4",
-    "actorRole": "student",
-    "action": "APPLICATION_SUBMITTED",
-    "targetType": "job",
-    "targetId": "job-1",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "company": "Linear",
-      "title": "Product Design Intern"
-    }
-  },
-  {
-    "id": "audit_1793636132441_6r8kvzkhd",
-    "timestamp": "2026-11-02T16:15:32.441Z",
-    "actorId": "usr_1793636132431_xzeh4",
-    "actorRole": "student",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793636132431_xzeh4",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "student",
-      "email": "delete.student.1793636131743@example.com"
-    }
-  },
-  {
-    "id": "audit_1793636130389_3yfvt4prv",
-    "timestamp": "2026-11-02T16:15:30.390Z",
-    "actorId": "usr_1793636129691_oca2e",
-    "actorRole": "recruiter",
-    "action": "JOB_CREATED",
-    "targetType": "job",
-    "targetId": "job-1793636130381",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "title": "Backend Security Engineer",
-      "status": "Active"
-    }
-  },
-  {
-    "id": "audit_1793636130365_bjuzvfel5",
-    "timestamp": "2026-11-02T16:15:30.365Z",
-    "actorId": "usr_1793636130344_vwzp2",
-    "actorRole": "recruiter",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793636130344_vwzp2",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "recruiter",
-      "email": "rec_beta_1793636129706@stripe.com"
-    }
-  },
-  {
-    "id": "audit_1793636129696_ynv3ip1d9",
-    "timestamp": "2026-11-02T16:15:29.696Z",
-    "actorId": "usr_1793636129691_oca2e",
-    "actorRole": "recruiter",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793636129691_oca2e",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "recruiter",
-      "email": "rec_alpha_1793636129042@linear.app"
-    }
-  },
-  {
-    "id": "audit_1793636129011_6kbqjxhn8",
-    "timestamp": "2026-11-02T16:15:29.011Z",
-    "actorId": "usr_1793636127557_1cit9",
-    "actorRole": "student",
-    "action": "APPLICATION_SUBMITTED",
-    "targetType": "job",
-    "targetId": "job-1",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "company": "Linear",
-      "title": "Product Design Intern"
-    }
-  },
-  {
-    "id": "audit_1793636128920_ebuyaq3h9",
-    "timestamp": "2026-11-02T16:15:28.920Z",
-    "actorId": "usr_1793636128914_og02q",
-    "actorRole": "student",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793636128914_og02q",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "student",
-      "email": "other_1793636128282@example.com"
-    }
-  },
-  {
-    "id": "audit_1793636128198_ibtyc6ewk",
-    "timestamp": "2026-11-02T16:15:28.198Z",
-    "actorId": "usr_1793636127557_1cit9",
-    "actorRole": "student",
-    "action": "USER_LOGIN",
-    "targetType": "user",
-    "targetId": "usr_1793636127557_1cit9",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "email": "sec_candidate_1793636126916@skillbridge.io"
-    }
-  },
-  {
-    "id": "audit_1793636127568_k5ah1f3nl",
-    "timestamp": "2026-11-02T16:15:27.568Z",
-    "actorId": "usr_1793636127557_1cit9",
-    "actorRole": "student",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793636127557_1cit9",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "student",
-      "email": "sec_candidate_1793636126916@skillbridge.io"
-    }
-  },
-  {
-    "id": "audit_1793636124061_u160glv5z",
-    "timestamp": "2026-11-02T16:15:24.061Z",
-    "actorId": "usr_recruiter_meera",
-    "actorRole": "recruiter",
-    "action": "INTERVIEW_SCHEDULED",
-    "targetType": "application",
-    "targetId": "app-rec-1",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "interviewDate": "15 Nov 2026",
-      "interviewTime": "02:00 PM IST",
-      "candidate": "Nisha Khanna"
-    }
-  },
-  {
-    "id": "audit_1793636123999_3eoo1wn4v",
-    "timestamp": "2026-11-02T16:15:23.999Z",
-    "actorId": "usr_recruiter_meera",
-    "actorRole": "recruiter",
-    "action": "CANDIDATE_STAGE_UPDATED",
-    "targetType": "application",
-    "targetId": "app-rec-1",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "stage": "Shortlisted",
-      "candidate": "Nisha Khanna"
-    }
-  },
-  {
-    "id": "audit_1793636123845_r5956txo7",
-    "timestamp": "2026-11-02T16:15:23.845Z",
-    "actorId": "usr_admin_rohan",
-    "actorRole": "admin",
-    "action": "USER_LOGIN",
-    "targetType": "user",
-    "targetId": "usr_admin_rohan",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "email": "admin@skillbridge.io"
-    }
-  },
-  {
-    "id": "audit_1793636123682_75imouza2",
-    "timestamp": "2026-11-02T16:15:23.682Z",
-    "actorId": "usr_recruiter_meera",
-    "actorRole": "recruiter",
-    "action": "USER_LOGIN",
-    "targetType": "user",
-    "targetId": "usr_recruiter_meera",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "email": "meera@linear.app"
-    }
-  },
-  {
-    "id": "audit_1793636123507_xv5sbtekm",
-    "timestamp": "2026-11-02T16:15:23.507Z",
-    "actorId": "usr_1793636123375_8aqv1",
-    "actorRole": "student",
-    "action": "APPLICATION_SUBMITTED",
-    "targetType": "job",
-    "targetId": "job-1",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "company": "Linear",
-      "title": "Product Design Intern"
-    }
-  },
-  {
-    "id": "audit_1793636123385_rq9g4ve4t",
-    "timestamp": "2026-11-02T16:15:23.385Z",
-    "actorId": "usr_1793636123375_8aqv1",
-    "actorRole": "student",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793636123375_8aqv1",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "student",
-      "email": "test.notif.student.1793636122678@example.com"
-    }
-  },
-  {
-    "id": "audit_1793636120934_i3hgn9ab7",
-    "timestamp": "2026-11-02T16:15:20.934Z",
-    "actorId": "usr_admin_rohan",
-    "actorRole": "admin",
-    "action": "ADMIN_SETTINGS_UPDATED",
-    "targetType": "settings",
-    "targetId": "global",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "minRecommendedStipend": "₹18,000 / month",
-      "maxApplicationsPerStudent": 20
-    }
-  },
-  {
-    "id": "audit_1793636120892_322qpmjse",
-    "timestamp": "2026-11-02T16:15:20.892Z",
-    "actorId": "usr_admin_rohan",
-    "actorRole": "admin",
-    "action": "ADMIN_JOB_REMOVED",
-    "targetType": "job",
-    "targetId": "mod-4",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "reason": "Listing violates platform compensation minimums."
-    }
-  },
-  {
-    "id": "audit_1793636120865_thpzkj96c",
-    "timestamp": "2026-11-02T16:15:20.865Z",
-    "actorId": "usr_admin_rohan",
-    "actorRole": "admin",
-    "action": "ADMIN_JOB_APPROVED",
-    "targetType": "job",
-    "targetId": "mod-1",
-    "ipAddress": "127.0.0.1",
-    "metadata": {}
-  },
-  {
-    "id": "audit_1793636120832_sasldbndk",
-    "timestamp": "2026-11-02T16:15:20.832Z",
-    "actorId": "usr_1793636119049_p3f2y",
-    "actorRole": "student",
-    "action": "USER_LOGIN",
-    "targetType": "user",
-    "targetId": "usr_1793636119049_p3f2y",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "email": "bad_actor_1793636118366@example.com"
-    }
-  },
-  {
-    "id": "audit_1793636119986_bow9qhxj7",
-    "timestamp": "2026-11-02T16:15:19.987Z",
-    "actorId": "usr_admin_rohan",
-    "actorRole": "admin",
-    "action": "ADMIN_USER_ACTIVATED",
-    "targetType": "user",
-    "targetId": "usr_1793636119049_p3f2y",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "targetName": "Spam Account"
-    }
-  },
-  {
-    "id": "audit_1793636119127_i4xxth0uo",
-    "timestamp": "2026-11-02T16:15:19.127Z",
-    "actorId": "usr_admin_rohan",
-    "actorRole": "admin",
-    "action": "ADMIN_USER_SUSPENDED",
-    "targetType": "user",
-    "targetId": "usr_1793636119049_p3f2y",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "reason": "Automated spam submissions detected.",
-      "targetName": "Spam Account"
-    }
-  },
-  {
-    "id": "audit_1793636119060_4x8es9we2",
-    "timestamp": "2026-11-02T16:15:19.060Z",
-    "actorId": "usr_1793636119049_p3f2y",
-    "actorRole": "student",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793636119049_p3f2y",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "student",
-      "email": "bad_actor_1793636118366@example.com"
-    }
-  },
-  {
-    "id": "audit_1793636118205_f8mp3xv5x",
-    "timestamp": "2026-11-02T16:15:18.205Z",
-    "actorId": "usr_admin_rohan",
-    "actorRole": "admin",
-    "action": "USER_LOGIN",
-    "targetType": "user",
-    "targetId": "usr_admin_rohan",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "email": "admin@skillbridge.io"
-    }
-  },
-  {
-    "id": "audit_1793636118026_86o5nbdb7",
-    "timestamp": "2026-11-02T16:15:18.026Z",
-    "actorId": "usr_recruiter_meera",
-    "actorRole": "recruiter",
-    "action": "USER_LOGIN",
-    "targetType": "user",
-    "targetId": "usr_recruiter_meera",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "email": "meera@linear.app"
-    }
-  },
-  {
-    "id": "audit_1793636117740_6i047jj46",
-    "timestamp": "2026-11-02T16:15:17.740Z",
-    "actorId": "usr_1793636117713_urf7v",
-    "actorRole": "student",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793636117713_urf7v",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "student",
-      "email": "test.student.admin.1793636116984@example.com"
-    }
-  },
-  {
-    "id": "audit_1793636115427_emtuee8cp",
-    "timestamp": "2026-11-02T16:15:15.427Z",
-    "actorId": "usr_recruiter_meera",
-    "actorRole": "recruiter",
-    "action": "CANDIDATE_STAGE_UPDATED",
-    "targetType": "application",
-    "targetId": "app-rec-1",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "stage": "Rejected",
-      "candidate": "Nisha Khanna"
-    }
-  },
-  {
-    "id": "audit_1793636115389_wxpjbo1cr",
-    "timestamp": "2026-11-02T16:15:15.389Z",
-    "actorId": "usr_recruiter_meera",
-    "actorRole": "recruiter",
-    "action": "INTERVIEW_SCHEDULED",
-    "targetType": "application",
-    "targetId": "app-rec-1",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "interviewDate": "10 Nov 2026",
-      "interviewTime": "03:30 PM",
-      "candidate": "Nisha Khanna"
-    }
-  },
-  {
-    "id": "audit_1793636115357_ttsky8gzn",
-    "timestamp": "2026-11-02T16:15:15.357Z",
-    "actorId": "usr_recruiter_meera",
-    "actorRole": "recruiter",
-    "action": "CANDIDATE_STAGE_UPDATED",
-    "targetType": "application",
-    "targetId": "app-rec-1",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "stage": "Shortlisted",
-      "candidate": "Nisha Khanna"
-    }
-  },
-  {
-    "id": "audit_1793636115270_bd4lm8bby",
-    "timestamp": "2026-11-02T16:15:15.270Z",
-    "actorId": "usr_1793636115265_inocu",
-    "actorRole": "recruiter",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793636115265_inocu",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "recruiter",
-      "email": "vikram_cand_1793636114663@stripe.com"
-    }
-  },
-  {
-    "id": "audit_1793636114637_ytxgw4kes",
-    "timestamp": "2026-11-02T16:15:14.637Z",
-    "actorId": "usr_recruiter_meera",
-    "actorRole": "recruiter",
-    "action": "USER_LOGIN",
-    "targetType": "user",
-    "targetId": "usr_recruiter_meera",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "email": "meera@linear.app"
-    }
-  },
-  {
-    "id": "audit_1793636112918_a9myx510m",
-    "timestamp": "2026-11-02T16:15:12.918Z",
-    "actorId": "usr_recruiter_meera",
-    "actorRole": "recruiter",
-    "action": "JOB_DELETED",
-    "targetType": "job",
-    "targetId": "job-1793636112787",
-    "ipAddress": "127.0.0.1",
-    "metadata": {}
-  },
-  {
-    "id": "audit_1793636112878_1vuwk1py5",
-    "timestamp": "2026-11-02T16:15:12.878Z",
-    "actorId": "usr_recruiter_meera",
-    "actorRole": "recruiter",
-    "action": "JOB_CLOSED",
-    "targetType": "job",
-    "targetId": "job-1793636112787",
-    "ipAddress": "127.0.0.1",
-    "metadata": {}
-  },
-  {
-    "id": "audit_1793636112860_r807zhdhb",
-    "timestamp": "2026-11-02T16:15:12.860Z",
-    "actorId": "usr_recruiter_meera",
-    "actorRole": "recruiter",
-    "action": "JOB_PUBLISHED",
-    "targetType": "job",
-    "targetId": "job-1793636112787",
-    "ipAddress": "127.0.0.1",
-    "metadata": {}
-  },
-  {
-    "id": "audit_1793636112834_voy3uvis0",
-    "timestamp": "2026-11-02T16:15:12.834Z",
-    "actorId": "usr_recruiter_meera",
-    "actorRole": "recruiter",
-    "action": "JOB_UPDATED",
-    "targetType": "job",
-    "targetId": "job-1793636112787",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "title": "DevOps & Cloud Engineering Intern"
-    }
-  },
-  {
-    "id": "audit_1793636112796_q4g2o6pas",
-    "timestamp": "2026-11-02T16:15:12.796Z",
-    "actorId": "usr_recruiter_meera",
-    "actorRole": "recruiter",
-    "action": "JOB_CREATED",
-    "targetType": "job",
-    "targetId": "job-1793636112787",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "title": "DevOps & Platform Engineering Intern",
-      "status": "Draft"
-    }
-  },
-  {
-    "id": "audit_1793636112765_u8rmfo852",
-    "timestamp": "2026-11-02T16:15:12.765Z",
-    "actorId": "usr_1793636112760_m1hfu",
-    "actorRole": "recruiter",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793636112760_m1hfu",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "recruiter",
-      "email": "vikram_1793636112168@stripe.com"
-    }
-  },
-  {
-    "id": "audit_1793636112150_u654mg32j",
-    "timestamp": "2026-11-02T16:15:12.150Z",
-    "actorId": "usr_recruiter_meera",
-    "actorRole": "recruiter",
-    "action": "USER_LOGIN",
-    "targetType": "user",
-    "targetId": "usr_recruiter_meera",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "email": "meera@linear.app"
-    }
-  },
-  {
-    "id": "audit_1793636110579_3f9lqj23d",
-    "timestamp": "2026-11-02T16:15:10.579Z",
-    "actorId": "usr_1793636110574_6lqz3",
-    "actorRole": "recruiter",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793636110574_6lqz3",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "recruiter",
-      "email": "recruiter_1793636109936@stripe.com"
-    }
-  },
-  {
-    "id": "audit_1793636109931_usry2yk9b",
-    "timestamp": "2026-11-02T16:15:09.931Z",
-    "actorId": "usr_recruiter_meera",
-    "actorRole": "recruiter",
-    "action": "CANDIDATE_STAGE_UPDATED",
-    "targetType": "application",
-    "targetId": "app-rec-1",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "stage": "Shortlisted",
-      "candidate": "Nisha Khanna"
-    }
-  },
-  {
-    "id": "audit_1793636109856_3swse6h06",
-    "timestamp": "2026-11-02T16:15:09.856Z",
-    "actorId": "usr_recruiter_meera",
-    "actorRole": "recruiter",
-    "action": "JOB_CREATED",
-    "targetType": "job",
-    "targetId": "job-1793636109844",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "title": "Senior Frontend Architect",
-      "status": "Active"
-    }
-  },
-  {
-    "id": "audit_1793636109789_a7f71xxc6",
-    "timestamp": "2026-11-02T16:15:09.789Z",
-    "actorId": "usr_1793636109782_jp1b0",
-    "actorRole": "student",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793636109782_jp1b0",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "student",
-      "email": "test.student.recruiter.1793636109160@example.com"
-    }
-  },
-  {
-    "id": "audit_1793636109139_krtys3o2u",
-    "timestamp": "2026-11-02T16:15:09.139Z",
-    "actorId": "usr_recruiter_meera",
-    "actorRole": "recruiter",
-    "action": "USER_LOGIN",
-    "targetType": "user",
-    "targetId": "usr_recruiter_meera",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "email": "meera@linear.app"
-    }
-  },
-  {
-    "id": "audit_1793636107417_6z0bl2vbo",
-    "timestamp": "2026-11-02T16:15:07.417Z",
-    "actorId": "usr_1793636107408_8elsl",
-    "actorRole": "student",
-    "action": "USER_REGISTERED",
-    "targetType": "user",
-    "targetId": "usr_1793636107408_8elsl",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "role": "student",
-      "email": "test.profile.1793636106755@example.com"
-    }
-  },
-  {
-    "id": "audit_1793636105378_a9ux4azai",
-    "timestamp": "2026-11-02T16:15:05.378Z",
-    "actorId": "usr_1793636105099_w40dx",
-    "actorRole": "student",
-    "action": "APPLICATION_WITHDRAWN",
-    "targetType": "application",
-    "targetId": "app-1793636105262",
-    "ipAddress": "::ffff:127.0.0.1",
-    "metadata": {
-      "reason": "Accepted an offer at another company."
-    }
-  },
-  {
-    "id": "audit_1793636105280_fqx7ar3qu",
-    "timestamp": "2026-11-02T16:15:05.280Z",
-    "actorId": "usr_1793636105099_w40dx",
-    "actorRole": "student",
-    "action": "APPLICATION_SUBMITTED",
-    "targetType": "job",
-    "targetId": "job-2",
-    "ipAddress": "::ffff:127.0.0.1",
-    "metadata": {
-      "company": "Razorpay",
-      "title": "Frontend Developer"
     }
   }
 ]

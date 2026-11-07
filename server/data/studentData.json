@@ -47,6 +47,9 @@
     ],
     "usr_1794078443533_7g457": [
       "job-1"
+    ],
+    "usr_1794081203380_rs0hv": [
+      "job-1"
     ]
   },
   "applications": {
@@ -15315,6 +15318,11 @@
             "status": "Shortlisted",
             "date": "08 Nov 2026",
             "note": "Status updated to Shortlisted"
+          },
+          {
+            "status": "Shortlisted",
+            "date": "08 Nov 2026",
+            "note": "Status updated to Shortlisted"
           }
         ],
         "createdAt": "2026-11-02T16:15:23.487Z"
@@ -20507,6 +20515,537 @@
           "scheduledBy": "Meera Kapoor"
         }
       }
+    ],
+    "usr_1794081206511_xouus": [
+      {
+        "id": "app-1794081206848",
+        "jobId": "job-1",
+        "role": "Product Design Intern",
+        "company": "Linear",
+        "logo": "L",
+        "appliedOn": "08 Nov 2026",
+        "status": "in-review",
+        "statusLabel": "Under Review",
+        "latestUpdate": "Application submitted · Under initial screening",
+        "matchScore": 98,
+        "stipend": "₹30,000 / month",
+        "resumeName": "Candidate_Resume.pdf",
+        "coverLetter": "I am excited to build modern web experiences with Linear and React 19.",
+        "portfolioUrl": "https://candidate-portfolio.dev",
+        "phone": "+91 98765 43210",
+        "timeline": [
+          {
+            "step": "Applied",
+            "date": "08 Nov 2026",
+            "done": true,
+            "current": true
+          },
+          {
+            "step": "In review",
+            "date": "Pending",
+            "done": false
+          },
+          {
+            "step": "Interview",
+            "date": "Pending",
+            "done": false
+          },
+          {
+            "step": "Decision",
+            "date": "Pending",
+            "done": false
+          }
+        ],
+        "history": [
+          {
+            "status": "Applied",
+            "date": "08 Nov 2026",
+            "note": "Submitted with Candidate_Resume.pdf"
+          },
+          {
+            "status": "Under Review",
+            "date": "08 Nov 2026",
+            "note": "Queued for recruiter review"
+          }
+        ],
+        "createdAt": "2026-11-07T19:53:26.848Z"
+      }
+    ],
+    "usr_1794081208966_tuuw8": [
+      {
+        "id": "app-1794081209149",
+        "jobId": "job-2",
+        "role": "Frontend Developer",
+        "company": "Razorpay",
+        "logo": "R",
+        "appliedOn": "08 Nov 2026",
+        "status": "withdrawn",
+        "statusLabel": "Withdrawn",
+        "latestUpdate": "Withdrawn: Accepted an offer at another company.",
+        "matchScore": 94,
+        "stipend": "₹8–12 LPA",
+        "resumeName": "Candidate_Resume.pdf",
+        "coverLetter": "Interested in Frontend Development.",
+        "portfolioUrl": null,
+        "phone": null,
+        "timeline": [
+          {
+            "step": "Applied",
+            "date": "08 Nov 2026",
+            "done": true,
+            "current": true
+          },
+          {
+            "step": "In review",
+            "date": "Pending",
+            "done": false
+          },
+          {
+            "step": "Interview",
+            "date": "Pending",
+            "done": false
+          },
+          {
+            "step": "Decision",
+            "date": "Pending",
+            "done": false
+          }
+        ],
+        "history": [
+          {
+            "status": "Applied",
+            "date": "08 Nov 2026",
+            "note": "Submitted with Candidate_Resume.pdf"
+          },
+          {
+            "status": "Under Review",
+            "date": "08 Nov 2026",
+            "note": "Queued for recruiter review"
+          },
+          {
+            "status": "Withdrawn",
+            "date": "08 Nov 2026",
+            "note": "Accepted an offer at another company."
+          }
+        ],
+        "createdAt": "2026-11-07T19:53:29.149Z",
+        "withdrawnAt": "08 Nov 2026",
+        "withdrawnReason": "Accepted an offer at another company."
+      },
+      {
+        "id": "app-1794081209080",
+        "jobId": "job-1",
+        "role": "Product Design Intern",
+        "company": "Linear",
+        "logo": "L",
+        "appliedOn": "08 Nov 2026",
+        "status": "rejected",
+        "statusLabel": "Rejected",
+        "latestUpdate": "Role filled by senior hire. Keep on file for future opportunities.",
+        "matchScore": 98,
+        "stipend": "₹30,000 / month",
+        "resumeName": "Candidate_Resume.pdf",
+        "coverLetter": "Interested in Product Design.",
+        "portfolioUrl": null,
+        "phone": null,
+        "timeline": [
+          {
+            "step": "Applied",
+            "date": "08 Nov 2026",
+            "done": true,
+            "current": true
+          },
+          {
+            "step": "In review",
+            "date": "Pending",
+            "done": false
+          },
+          {
+            "step": "Interview",
+            "date": "Pending",
+            "done": false
+          },
+          {
+            "step": "Decision",
+            "date": "Pending",
+            "done": false
+          }
+        ],
+        "history": [
+          {
+            "status": "Applied",
+            "date": "08 Nov 2026",
+            "note": "Submitted with Candidate_Resume.pdf"
+          },
+          {
+            "status": "Under Review",
+            "date": "08 Nov 2026",
+            "note": "Queued for recruiter review"
+          },
+          {
+            "status": "Shortlisted",
+            "date": "08 Nov 2026",
+            "note": "Candidate meets all UX requirements and shows high enthusiasm."
+          },
+          {
+            "status": "Interview Scheduled",
+            "date": "08 Nov 2026",
+            "note": "Interview scheduled on 10 Nov 2026 at 03:30 PM via Google Meet."
+          },
+          {
+            "status": "Rejected",
+            "date": "08 Nov 2026",
+            "note": "Role filled by senior hire. Keep on file for future opportunities."
+          }
+        ],
+        "createdAt": "2026-11-07T19:53:29.080Z",
+        "interview": {
+          "interviewDate": "10 Nov 2026",
+          "interviewTime": "03:30 PM",
+          "interviewMode": "Google Meet",
+          "meetingUrl": "https://meet.google.com/sb-linear-evaluation",
+          "instructions": "Portfolio review with Design Lead. Prepare 2 case studies.",
+          "scheduledAt": "2026-11-07T19:53:39.991Z",
+          "scheduledBy": "Meera Kapoor"
+        }
+      }
+    ],
+    "usr_1794081226534_kselw": [
+      {
+        "id": "app-1794081226671",
+        "jobId": "job-1",
+        "role": "Product Design Intern",
+        "company": "Linear",
+        "logo": "L",
+        "appliedOn": "08 Nov 2026",
+        "status": "interview",
+        "statusLabel": "Interview Scheduled",
+        "latestUpdate": "Interview scheduled on 15 Nov 2026 at 02:00 PM IST",
+        "matchScore": 98,
+        "stipend": "₹30,000 / month",
+        "resumeName": "Candidate_Resume.pdf",
+        "coverLetter": "Passionate about design and frontend development.",
+        "portfolioUrl": null,
+        "phone": null,
+        "timeline": [
+          {
+            "step": "Applied",
+            "date": "08 Nov 2026",
+            "done": true,
+            "current": true
+          },
+          {
+            "step": "In review",
+            "date": "Pending",
+            "done": false
+          },
+          {
+            "step": "Interview",
+            "date": "Pending",
+            "done": false
+          },
+          {
+            "step": "Decision",
+            "date": "Pending",
+            "done": false
+          }
+        ],
+        "history": [
+          {
+            "status": "Applied",
+            "date": "08 Nov 2026",
+            "note": "Submitted with Candidate_Resume.pdf"
+          },
+          {
+            "status": "Under Review",
+            "date": "08 Nov 2026",
+            "note": "Queued for recruiter review"
+          },
+          {
+            "status": "Shortlisted",
+            "date": "08 Nov 2026",
+            "note": "Strong portfolio and interaction design skills"
+          },
+          {
+            "status": "Interview Scheduled",
+            "date": "08 Nov 2026",
+            "note": "Interview scheduled on 15 Nov 2026 at 02:00 PM IST via Google Meet."
+          }
+        ],
+        "createdAt": "2026-11-07T19:53:46.671Z",
+        "interview": {
+          "interviewDate": "15 Nov 2026",
+          "interviewTime": "02:00 PM IST",
+          "interviewMode": "Google Meet",
+          "meetingUrl": "https://meet.google.com/sb-eval-test",
+          "instructions": "Design review with design lead.",
+          "scheduledAt": "2026-11-07T19:53:47.702Z",
+          "scheduledBy": "Meera Kapoor"
+        }
+      }
+    ],
+    "usr_1794081231336_tj3fm": [
+      {
+        "id": "app-1794081232702",
+        "jobId": "job-1",
+        "role": "Product Design Intern",
+        "company": "Linear",
+        "logo": "L",
+        "appliedOn": "08 Nov 2026",
+        "status": "in-review",
+        "statusLabel": "Under Review",
+        "latestUpdate": "Application submitted · Under initial screening",
+        "matchScore": 98,
+        "stipend": "₹30,000 / month",
+        "resumeName": "passwd.pdf",
+        "coverLetter": null,
+        "portfolioUrl": null,
+        "phone": null,
+        "timeline": [
+          {
+            "step": "Applied",
+            "date": "08 Nov 2026",
+            "done": true,
+            "current": true
+          },
+          {
+            "step": "In review",
+            "date": "Pending",
+            "done": false
+          },
+          {
+            "step": "Interview",
+            "date": "Pending",
+            "done": false
+          },
+          {
+            "step": "Decision",
+            "date": "Pending",
+            "done": false
+          }
+        ],
+        "history": [
+          {
+            "status": "Applied",
+            "date": "08 Nov 2026",
+            "note": "Submitted with passwd.pdf"
+          },
+          {
+            "status": "Under Review",
+            "date": "08 Nov 2026",
+            "note": "Queued for recruiter review"
+          }
+        ],
+        "createdAt": "2026-11-07T19:53:52.702Z"
+      }
+    ],
+    "usr_1794081242779_oej6q": [
+      {
+        "id": "app-1794081243549",
+        "jobId": "job-1794081242840",
+        "role": "Senior Cloud Architect",
+        "company": "Innovate Tech",
+        "logo": "I",
+        "appliedOn": "08 Nov 2026",
+        "status": "shortlisted",
+        "statusLabel": "Shortlisted",
+        "latestUpdate": "Candidate shortlisted for strong technical depth in distributed computing.",
+        "matchScore": 95,
+        "stipend": "₹28–38 LPA",
+        "resumeName": "Aarav_Patel_Resume.pdf",
+        "coverLetter": "Passionate about cloud architecture and distributed systems.",
+        "portfolioUrl": null,
+        "phone": null,
+        "timeline": [
+          {
+            "step": "Applied",
+            "date": "08 Nov 2026",
+            "done": true,
+            "current": true
+          },
+          {
+            "step": "In review",
+            "date": "Pending",
+            "done": false
+          },
+          {
+            "step": "Interview",
+            "date": "Pending",
+            "done": false
+          },
+          {
+            "step": "Decision",
+            "date": "Pending",
+            "done": false
+          }
+        ],
+        "history": [
+          {
+            "status": "Applied",
+            "date": "08 Nov 2026",
+            "note": "Submitted with Aarav_Patel_Resume.pdf"
+          },
+          {
+            "status": "Under Review",
+            "date": "08 Nov 2026",
+            "note": "Queued for recruiter review"
+          },
+          {
+            "status": "Shortlisted",
+            "date": "08 Nov 2026",
+            "note": "Candidate shortlisted for strong technical depth in distributed computing."
+          }
+        ],
+        "createdAt": "2026-11-07T19:54:03.549Z"
+      }
+    ],
+    "usr_1794081250848_4geb3": [
+      {
+        "id": "app-1794081253575",
+        "jobId": "job-1",
+        "role": "Product Design Intern",
+        "company": "Linear",
+        "logo": "L",
+        "appliedOn": "08 Nov 2026",
+        "status": "interview",
+        "statusLabel": "Interview Scheduled",
+        "latestUpdate": "Interview scheduled on 2026-11-15 at 14:30 IST",
+        "matchScore": 98,
+        "stipend": "₹30,000 / month",
+        "resumeName": "Vitest_Candidate_Resume.pdf",
+        "coverLetter": "I am excited to apply for this design role.",
+        "portfolioUrl": "https://portfolio.example.com",
+        "phone": null,
+        "timeline": [
+          {
+            "step": "Applied",
+            "date": "08 Nov 2026",
+            "done": true,
+            "current": true
+          },
+          {
+            "step": "In review",
+            "date": "Pending",
+            "done": false
+          },
+          {
+            "step": "Interview",
+            "date": "Pending",
+            "done": false
+          },
+          {
+            "step": "Decision",
+            "date": "Pending",
+            "done": false
+          }
+        ],
+        "history": [
+          {
+            "status": "Applied",
+            "date": "08 Nov 2026",
+            "note": "Submitted with Vitest_Candidate_Resume.pdf"
+          },
+          {
+            "status": "Under Review",
+            "date": "08 Nov 2026",
+            "note": "Queued for recruiter review"
+          },
+          {
+            "status": "Shortlisted",
+            "date": "08 Nov 2026",
+            "note": "Top tier portfolio and relevant systems design experience."
+          },
+          {
+            "status": "Interview Scheduled",
+            "date": "08 Nov 2026",
+            "note": "Interview scheduled on 2026-11-15 at 14:30 IST via Google Meet."
+          }
+        ],
+        "createdAt": "2026-11-07T19:54:13.575Z",
+        "interview": {
+          "interviewDate": "2026-11-15",
+          "interviewTime": "14:30 IST",
+          "interviewMode": "Google Meet",
+          "meetingUrl": "https://meet.google.com/xyz-test",
+          "instructions": "Prepare portfolio walkthrough.",
+          "scheduledAt": "2026-11-07T19:54:14.296Z",
+          "scheduledBy": "Meera Kapoor"
+        }
+      }
+    ],
+    "usr_1794081367376_0hcol": [
+      {
+        "id": "app-1794081369996",
+        "jobId": "job-1",
+        "role": "Product Design Intern",
+        "company": "Linear",
+        "logo": "L",
+        "appliedOn": "08 Nov 2026",
+        "status": "interview",
+        "statusLabel": "Interview Scheduled",
+        "latestUpdate": "Interview scheduled on 2026-11-15 at 14:30 IST",
+        "matchScore": 98,
+        "stipend": "₹30,000 / month",
+        "resumeName": "Vitest_Candidate_Resume.pdf",
+        "coverLetter": "I am excited to apply for this design role.",
+        "portfolioUrl": "https://portfolio.example.com",
+        "phone": null,
+        "timeline": [
+          {
+            "step": "Applied",
+            "date": "08 Nov 2026",
+            "done": true,
+            "current": true
+          },
+          {
+            "step": "In review",
+            "date": "Pending",
+            "done": false
+          },
+          {
+            "step": "Interview",
+            "date": "Pending",
+            "done": false
+          },
+          {
+            "step": "Decision",
+            "date": "Pending",
+            "done": false
+          }
+        ],
+        "history": [
+          {
+            "status": "Applied",
+            "date": "08 Nov 2026",
+            "note": "Submitted with Vitest_Candidate_Resume.pdf"
+          },
+          {
+            "status": "Under Review",
+            "date": "08 Nov 2026",
+            "note": "Queued for recruiter review"
+          },
+          {
+            "status": "Shortlisted",
+            "date": "08 Nov 2026",
+            "note": "Top tier portfolio and relevant systems design experience."
+          },
+          {
+            "status": "Interview Scheduled",
+            "date": "08 Nov 2026",
+            "note": "Interview scheduled on 2026-11-15 at 14:30 IST via Google Meet."
+          }
+        ],
+        "createdAt": "2026-11-07T19:56:09.996Z",
+        "interview": {
+          "interviewDate": "2026-11-15",
+          "interviewTime": "14:30 IST",
+          "interviewMode": "Google Meet",
+          "meetingUrl": "https://meet.google.com/xyz-test",
+          "instructions": "Prepare portfolio walkthrough.",
+          "scheduledAt": "2026-11-07T19:56:10.772Z",
+          "scheduledBy": "Meera Kapoor"
+        }
+      }
     ]
   },
   "profiles": {
@@ -25030,6 +25569,285 @@
       "projects": [],
       "resumes": [],
       "profileStrength": 20
+    },
+    "usr_1794081211109_rp0om": {
+      "fullName": "Test Candidate Profile",
+      "email": "test.profile.1794081210471@example.com",
+      "phone": "+91 98765 11111",
+      "location": "",
+      "college": "",
+      "degree": "",
+      "classOf": "",
+      "headline": "Senior Product Designer & Design Systems Specialist",
+      "about": "",
+      "portfolioUrl": "",
+      "linkedinUrl": "",
+      "githubUrl": "",
+      "openToWork": true,
+      "avatarUrl": null,
+      "initials": "TC",
+      "title": "Start your career journey with SkillBridge.",
+      "description": "Complete your profile sections to stand out to verified recruiters.",
+      "resumeUploaded": false,
+      "resumeFileName": null,
+      "resumeUpdatedAt": null,
+      "skills": [],
+      "education": [],
+      "experience": [],
+      "projects": [
+        {
+          "id": "proj-1",
+          "title": "Design System Library for React",
+          "role": "Creator & Maintainer",
+          "description": "Accessible Tailwind design system library with 40+ primitives.",
+          "skills": [
+            "React",
+            "Tailwind CSS",
+            "Figma"
+          ],
+          "githubUrl": "https://github.com/candidate/design-system",
+          "liveUrl": "https://ds.example.com",
+          "date": "Oct 2026"
+        }
+      ],
+      "resumes": [],
+      "profileStrength": 10,
+      "updatedAt": "2026-11-07T19:53:31.228Z"
+    },
+    "usr_1794081231336_tj3fm": {
+      "fullName": "Security Test Candidate",
+      "email": "sec_candidate_1794081230745@skillbridge.io",
+      "phone": "",
+      "location": "",
+      "college": "",
+      "degree": "",
+      "classOf": "",
+      "headline": "SkillBridge Candidate Member",
+      "about": "",
+      "portfolioUrl": "",
+      "linkedinUrl": "",
+      "githubUrl": "",
+      "openToWork": true,
+      "avatarUrl": null,
+      "initials": "ST",
+      "title": "Start your career journey with SkillBridge.",
+      "description": "Complete your profile sections to stand out to verified recruiters.",
+      "resumeUploaded": true,
+      "resumeFileName": "passwd.pdf",
+      "resumeUpdatedAt": "Updated 08 Nov 2026 · 1 KB",
+      "skills": [],
+      "education": [],
+      "experience": [],
+      "projects": [],
+      "resumes": [
+        {
+          "id": "res-1794081232024",
+          "name": "passwd.pdf",
+          "originalName": "passwd.pdf",
+          "fileSize": 1024,
+          "fileSizeFormatted": "1 KB",
+          "fileType": "application/pdf",
+          "uploadedAt": "08 Nov 2026",
+          "url": "https://res.cloudinary.com/skillbridge/raw/upload/v1794081231993/resumes/usr_1794081231336_tj3fm/passwd.pdf",
+          "publicId": "resumes/usr_1794081231336_tj3fm/1794081231993_passwd.pdf",
+          "isDefault": true
+        }
+      ],
+      "profileStrength": 0
+    },
+    "usr_1794081232625_b172d": {
+      "fullName": "Other Candidate",
+      "email": "other_1794081232067@example.com",
+      "phone": "",
+      "location": "",
+      "college": "",
+      "degree": "",
+      "classOf": "",
+      "headline": "SkillBridge Candidate Member",
+      "about": "",
+      "portfolioUrl": "",
+      "linkedinUrl": "",
+      "githubUrl": "",
+      "openToWork": true,
+      "avatarUrl": null,
+      "initials": "OC",
+      "title": "Start your career journey with SkillBridge.",
+      "description": "Complete your profile sections to stand out to verified recruiters.",
+      "resumeUploaded": false,
+      "resumeFileName": null,
+      "resumeUpdatedAt": null,
+      "skills": [],
+      "education": [],
+      "experience": [],
+      "projects": [],
+      "resumes": [],
+      "profileStrength": 20
+    },
+    "usr_1794081242779_oej6q": {
+      "fullName": "Aarav Patel",
+      "email": "student_1794081241432@university.edu",
+      "phone": "",
+      "location": "",
+      "college": "",
+      "degree": "",
+      "classOf": "",
+      "headline": "SkillBridge Candidate Member",
+      "about": "",
+      "portfolioUrl": "",
+      "linkedinUrl": "",
+      "githubUrl": "",
+      "openToWork": true,
+      "avatarUrl": null,
+      "initials": "AP",
+      "title": "Start your career journey with SkillBridge.",
+      "description": "Complete your profile sections to stand out to verified recruiters.",
+      "resumeUploaded": false,
+      "resumeFileName": null,
+      "resumeUpdatedAt": null,
+      "skills": [],
+      "education": [],
+      "experience": [],
+      "projects": [],
+      "resumes": [],
+      "profileStrength": 20
+    },
+    "usr_1794081250848_4geb3": {
+      "fullName": "Vitest Student Candidate",
+      "email": "vitest.student.1794081250183@skillbridge.io",
+      "phone": "",
+      "location": "",
+      "college": "",
+      "degree": "",
+      "classOf": "",
+      "headline": "SkillBridge Candidate Member",
+      "about": "",
+      "portfolioUrl": "",
+      "linkedinUrl": "",
+      "githubUrl": "",
+      "openToWork": true,
+      "avatarUrl": null,
+      "initials": "VS",
+      "title": "Start your career journey with SkillBridge.",
+      "description": "Complete your profile sections to stand out to verified recruiters.",
+      "resumeUploaded": true,
+      "resumeFileName": "Vitest_Candidate_Resume.pdf",
+      "resumeUpdatedAt": "Updated 08 Nov 2026 · 350 KB",
+      "skills": [],
+      "education": [],
+      "experience": [],
+      "projects": [],
+      "resumes": [
+        {
+          "id": "res-1794081253503",
+          "name": "Vitest_Candidate_Resume.pdf",
+          "originalName": "Vitest_Candidate_Resume.pdf",
+          "fileSize": 358400,
+          "fileSizeFormatted": "350 KB",
+          "fileType": "application/pdf",
+          "uploadedAt": "08 Nov 2026",
+          "url": "https://res.cloudinary.com/skillbridge/raw/upload/v1794081253471/resumes/usr_1794081250848_4geb3/Vitest_Candidate_Resume.pdf",
+          "publicId": "resumes/usr_1794081250848_4geb3/1794081253471_Vitest_Candidate_Resume.pdf",
+          "isDefault": true
+        }
+      ],
+      "profileStrength": 0
+    },
+    "usr_1794081254951_a9ynx": {
+      "fullName": "Second Student",
+      "email": "student2.1794081254343@example.com",
+      "phone": "",
+      "location": "",
+      "college": "",
+      "degree": "",
+      "classOf": "",
+      "headline": "SkillBridge Candidate Member",
+      "about": "",
+      "portfolioUrl": "",
+      "linkedinUrl": "",
+      "githubUrl": "",
+      "openToWork": true,
+      "avatarUrl": null,
+      "initials": "SS",
+      "title": "Start your career journey with SkillBridge.",
+      "description": "Complete your profile sections to stand out to verified recruiters.",
+      "resumeUploaded": false,
+      "resumeFileName": null,
+      "resumeUpdatedAt": null,
+      "skills": [],
+      "education": [],
+      "experience": [],
+      "projects": [],
+      "resumes": [],
+      "profileStrength": 20
+    },
+    "usr_1794081367376_0hcol": {
+      "fullName": "Vitest Student Candidate",
+      "email": "vitest.student.1794081366685@skillbridge.io",
+      "phone": "",
+      "location": "",
+      "college": "",
+      "degree": "",
+      "classOf": "",
+      "headline": "SkillBridge Candidate Member",
+      "about": "",
+      "portfolioUrl": "",
+      "linkedinUrl": "",
+      "githubUrl": "",
+      "openToWork": true,
+      "avatarUrl": null,
+      "initials": "VS",
+      "title": "Start your career journey with SkillBridge.",
+      "description": "Complete your profile sections to stand out to verified recruiters.",
+      "resumeUploaded": true,
+      "resumeFileName": "Vitest_Candidate_Resume.pdf",
+      "resumeUpdatedAt": "Updated 08 Nov 2026 · 350 KB",
+      "skills": [],
+      "education": [],
+      "experience": [],
+      "projects": [],
+      "resumes": [
+        {
+          "id": "res-1794081369937",
+          "name": "Vitest_Candidate_Resume.pdf",
+          "originalName": "Vitest_Candidate_Resume.pdf",
+          "fileSize": 358400,
+          "fileSizeFormatted": "350 KB",
+          "fileType": "application/pdf",
+          "uploadedAt": "08 Nov 2026",
+          "url": "https://res.cloudinary.com/skillbridge/raw/upload/v1794081369907/resumes/usr_1794081367376_0hcol/Vitest_Candidate_Resume.pdf",
+          "publicId": "resumes/usr_1794081367376_0hcol/1794081369907_Vitest_Candidate_Resume.pdf",
+          "isDefault": true
+        }
+      ],
+      "profileStrength": 0
+    },
+    "usr_1794081371386_faoab": {
+      "fullName": "Second Student",
+      "email": "student2.1794081370813@example.com",
+      "phone": "",
+      "location": "",
+      "college": "",
+      "degree": "",
+      "classOf": "",
+      "headline": "SkillBridge Candidate Member",
+      "about": "",
+      "portfolioUrl": "",
+      "linkedinUrl": "",
+      "githubUrl": "",
+      "openToWork": true,
+      "avatarUrl": null,
+      "initials": "SS",
+      "title": "Start your career journey with SkillBridge.",
+      "description": "Complete your profile sections to stand out to verified recruiters.",
+      "resumeUploaded": false,
+      "resumeFileName": null,
+      "resumeUpdatedAt": null,
+      "skills": [],
+      "education": [],
+      "experience": [],
+      "projects": [],
+      "resumes": [],
+      "profileStrength": 20
     }
   },
   "activity": {
@@ -25123,7 +25941,14 @@
     "usr_1794078469330_ciitl": [],
     "usr_1794078480175_pecgr": [],
     "usr_1794078487665_z5qc7": [],
-    "usr_1794080120707_bpwii": []
+    "usr_1794080120707_bpwii": [],
+    "usr_1794081206511_xouus": [],
+    "usr_1794081208966_tuuw8": [],
+    "usr_1794081226534_kselw": [],
+    "usr_1794081231336_tj3fm": [],
+    "usr_1794081242779_oej6q": [],
+    "usr_1794081250848_4geb3": [],
+    "usr_1794081367376_0hcol": []
   },
   "jobs": [
     {

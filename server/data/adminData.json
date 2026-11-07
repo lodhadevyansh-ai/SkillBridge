@@ -6,9 +6,71 @@
     "maxApplicationsPerStudent": 20,
     "moderationEmailAlerts": true,
     "auditLogRetentionDays": 90,
-    "updatedAt": "2026-11-07T19:07:43.179Z"
+    "updatedAt": "2026-11-07T19:53:44.522Z"
   },
   "auditLogs": [
+    {
+      "id": "log-1794081224527",
+      "action": "Updated global platform parameters and moderation settings",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "settings",
+      "targetId": "global",
+      "details": {
+        "minRecommendedStipend": "₹18,000 / month",
+        "maxApplicationsPerStudent": 20
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T19:53:44.527Z"
+    },
+    {
+      "id": "log-1794081224491",
+      "action": "Removed job listing #mod-4 (Listing violates platform compensation minimums.)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-4",
+      "details": {
+        "reason": "Listing violates platform compensation minimums."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T19:53:44.491Z"
+    },
+    {
+      "id": "log-1794081224460",
+      "action": "Approved job listing #mod-1",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "job",
+      "targetId": "mod-1",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T19:53:44.460Z"
+    },
+    {
+      "id": "log-1794081223840",
+      "action": "Re-activated user account: Spam Account (bad_actor_1794081222541@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1794081223118_od9vy",
+      "details": {},
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T19:53:43.840Z"
+    },
+    {
+      "id": "log-1794081223153",
+      "action": "Suspended user account: Spam Account (bad_actor_1794081222541@example.com)",
+      "adminName": "Rohan Agarwal",
+      "adminId": "usr_admin_rohan",
+      "targetType": "user",
+      "targetId": "usr_1794081223118_od9vy",
+      "details": {
+        "reason": "Automated spam submissions detected."
+      },
+      "timestamp": "Just now",
+      "createdAt": "2026-11-07T19:53:43.153Z"
+    },
     {
       "id": "log-1794078463183",
       "action": "Updated global platform parameters and moderation settings",
