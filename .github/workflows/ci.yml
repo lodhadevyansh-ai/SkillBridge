@@ -24,10 +24,10 @@ jobs:
       - name: Checkout Source Code
         uses: actions/checkout@v4
 
-      - name: Setup Node.js 20.x
+      - name: Setup Node.js 22.x
         uses: actions/setup-node@v4
         with:
-          node-version: 20.x
+          node-version: 22.x # Node.js 22.19.0 or compatible newer Node 22 release
           cache: 'npm'
 
       - name: Install Frontend Dependencies
@@ -66,10 +66,10 @@ jobs:
       - name: Checkout Source Code
         uses: actions/checkout@v4
 
-      - name: Setup Node.js 20.x
+      - name: Setup Node.js 22.x
         uses: actions/setup-node@v4
         with:
-          node-version: 20.x
+          node-version: 22.x # Node.js 22.19.0 or compatible newer Node 22 release
           cache: 'npm'
           cache-dependency-path: server/package-lock.json
 
