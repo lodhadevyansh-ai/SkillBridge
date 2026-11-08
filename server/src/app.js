@@ -1,4 +1,7 @@
 import 'dotenv/config'
+import fs from 'fs'
+import path from 'path'
+import { fileURLToPath } from 'url'
 
 import express from 'express'
 import cors from 'cors'
@@ -14,6 +17,11 @@ import applicationRoutes from './routes/application.routes.js'
 import recruiterRoutes from './routes/recruiter.routes.js'
 import adminRoutes from './routes/admin.routes.js'
 import notificationRoutes from './routes/notification.routes.js'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
+const CLIENT_DIST_PATH = path.resolve(__dirname, '..', '..', 'dist')
+const CLIENT_INDEX_HTML = path.join(CLIENT_DIST_PATH, 'index.html')
 
 const app = express()
 
@@ -54,7 +62,7 @@ app.use(
     contentSecurityPolicy: {
       directives: {
         defaultSrc: ["'self'"],
-        scriptSrc: ["'self'"],
+        scriptSrc: ["'self'", "'unsafe-inline'"],
         styleSrc: ["'self'", "'unsafe-inline'"],
         imgSrc: [
           "'self'",
@@ -86,7 +94,7 @@ app.use(
 
 const corsOptions = {
   origin: function (origin, callback) {
-    // Allow non-browser requests (curl, postman, server-to-server) without Origin header
+    // Same-origin or non-browser requests have no Origin header
     if (!origin) {
       return callback(null, true)
     }
@@ -97,7 +105,7 @@ const corsOptions = {
       return callback(null, true)
     }
 
-    // Allow localhost during non-production
+    // Allow local development origins in non-production
     if (process.env.NODE_ENV !== 'production') {
       const isLocal = /^http:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/.test(normalized)
       if (isLocal) {
@@ -197,7 +205,7 @@ app.get('/api/health', (req, res) => {
       success: false,
       status: 'unhealthy',
       database: dbState,
-      service: 'SkillBridge API Server',
+      service: 'SkillBridge Unified Single-Service Server',
       environment: process.env.NODE_ENV,
       timestamp: new Date().toISOString(),
     })
@@ -207,7 +215,7 @@ app.get('/api/health', (req, res) => {
     success: true,
     status: 'healthy',
     database: isConnected ? 'connected' : (isProduction ? 'unhealthy' : 'local_store_dev'),
-    service: 'SkillBridge API Server',
+    service: 'SkillBridge Unified Single-Service Server',
     environment: process.env.NODE_ENV || 'development',
     timestamp: new Date().toISOString(),
   })
@@ -239,7 +247,7 @@ app.use('/api/admin', adminRoutes)
 app.use('/api/notifications', notificationRoutes)
 
 // ==========================================
-// 9. API 404 HANDLER
+// 9. API 404 HANDLER (NEVER FALLS TO HTML)
 // ==========================================
 
 app.use('/api/*', (req, res) => {
@@ -251,7 +259,24 @@ app.use('/api/*', (req, res) => {
 })
 
 // ==========================================
-// 10. GLOBAL ERROR HANDLER
+// 10. FRONTEND STATIC ASSETS & SPA ROUTING
+// ==========================================
+
+if (fs.existsSync(CLIENT_DIST_PATH)) {
+  // Serve production build static files (JS, CSS, images, icons)
+  app.use(express.static(CLIENT_DIST_PATH))
+
+  // React Router SPA fallback for all non-API web routes
+  app.get('*', (req, res, next) => {
+    if (req.path.startsWith('/api')) {
+      return next()
+    }
+    res.sendFile(CLIENT_INDEX_HTML)
+  })
+}
+
+// ==========================================
+// 11. GLOBAL ERROR HANDLER
 // ==========================================
 
 app.use((err, req, res, next) => {
@@ -282,7 +307,7 @@ app.use((err, req, res, next) => {
 })
 
 // ==========================================
-// 11. EXPORT APPLICATION
+// 12. EXPORT APPLICATION
 // ==========================================
 
 export default app

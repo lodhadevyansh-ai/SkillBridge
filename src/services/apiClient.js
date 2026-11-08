@@ -1,28 +1,28 @@
-
 import axios from 'axios'
 
-// Standardized API base URL resolution with robust trailing slash and /api normalization
+/**
+ * Standardized API base URL resolution.
+ * In production (Single-Service Render Deployment), all frontend requests use the relative '/api' endpoint
+ * on the exact same domain, eliminating separate origin dependencies and CORS overhead.
+ * In development, defaults to 'http://localhost:5000/api' or custom VITE_API_URL.
+ */
 const resolveApiBaseUrl = () => {
-  let envUrl = import.meta.env.VITE_API_URL
-
-  if (!envUrl) {
-    return import.meta.env.PROD ? '/api' : 'http://localhost:5000/api'
+  if (import.meta.env.PROD) {
+    return '/api'
   }
 
-  // Strip trailing slashes
-  envUrl = envUrl.trim().replace(/\/+$/, '')
-
-  // If provided URL does not already end with /api, append /api for clean endpoint resolution
-  if (!envUrl.endsWith('/api')) {
-    return `${envUrl}/api`
+  const envUrl = import.meta.env.VITE_API_URL
+  if (envUrl) {
+    const cleaned = envUrl.trim().replace(/\/+$/, '')
+    return cleaned.endsWith('/api') ? cleaned : `${cleaned}/api`
   }
 
-  return envUrl
+  return 'http://localhost:5000/api'
 }
 
 const API_BASE_URL = resolveApiBaseUrl()
 
-// Create Axios instance
+// Create centralized Axios instance
 export const apiClient = axios.create({
   baseURL: API_BASE_URL,
   withCredentials: true,
@@ -34,7 +34,7 @@ export const apiClient = axios.create({
   timeout: 30000,
 })
 
-// Request interceptor
+// Request interceptor: attach bearer token from localStorage
 apiClient.interceptors.request.use(
   (config) => {
     const token = localStorage.getItem('skillbridge_token')
@@ -48,7 +48,7 @@ apiClient.interceptors.request.use(
   (error) => Promise.reject(error)
 )
 
-// Response interceptor
+// Response interceptor: handle 401 token expiration and session invalidation
 apiClient.interceptors.response.use(
   (response) => response,
 
@@ -56,7 +56,7 @@ apiClient.interceptors.response.use(
     if (error.response?.status === 401) {
       const code = error.response.data?.code
 
-      if (code === 'TOKEN_EXPIRED') {
+      if (code === 'TOKEN_EXPIRED' || code === 'TOKEN_REVOKED') {
         localStorage.removeItem('skillbridge_token')
         localStorage.removeItem('skillbridge_user')
       }
