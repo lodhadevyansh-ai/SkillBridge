@@ -7756,5 +7756,17 @@
     "companyName": null,
     "isVerified": true,
     "createdAt": "2026-11-07T19:56:11.386Z"
+  },
+  {
+    "id": "usr_1794141395291_63exd",
+    "fullName": "Devyansh Lodha",
+    "email": "lodhadevyansh@gmail.com",
+    "passwordHash": "$2b$12$s6Heh40aCRfw1DUzhrUeEu9G19oWKoGF9FG6T3pjM0kLpHPyXaMUO",
+    "role": "student",
+    "initials": "DL",
+    "headline": "SkillBridge Candidate Member",
+    "companyName": null,
+    "isVerified": true,
+    "createdAt": "2026-11-08T12:36:35.291Z"
   }
 ]

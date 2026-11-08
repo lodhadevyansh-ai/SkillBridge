@@ -1,5 +1,19 @@
 [
   {
+    "id": "audit_1794141395312_38crguw3s",
+    "timestamp": "2026-11-08T12:36:35.312Z",
+    "actorId": "usr_1794141395291_63exd",
+    "actorRole": "student",
+    "action": "USER_REGISTERED",
+    "targetType": "user",
+    "targetId": "usr_1794141395291_63exd",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "role": "student",
+      "email": "lodhadevyansh@gmail.com"
+    }
+  },
+  {
     "id": "audit_1794081974918_b8n81slli",
     "timestamp": "2026-11-07T20:06:14.918Z",
     "actorId": "usr_1794070917536_935ah",
@@ -13581,20 +13595,6 @@
     "ipAddress": "127.0.0.1",
     "metadata": {
       "title": "DevOps & Cloud Engineering Intern"
-    }
-  },
-  {
-    "id": "audit_1793640147897_5psemj186",
-    "timestamp": "2026-11-02T17:22:27.897Z",
-    "actorId": "usr_recruiter_meera",
-    "actorRole": "recruiter",
-    "action": "JOB_CREATED",
-    "targetType": "job",
-    "targetId": "job-1793640147889",
-    "ipAddress": "127.0.0.1",
-    "metadata": {
-      "title": "DevOps & Platform Engineering Intern",
-      "status": "Draft"
     }
   }
 ]

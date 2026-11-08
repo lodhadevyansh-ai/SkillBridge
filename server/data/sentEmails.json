@@ -1,5 +1,19 @@
 [
   {
+    "id": "email-1794141395321-4gv5l",
+    "to": [
+      "lodhadevyansh@gmail.com"
+    ],
+    "from": "SkillBridge <notifications@skillbridge.io>",
+    "subject": "Welcome to SkillBridge, Devyansh Lodha!",
+    "timestamp": "2026-11-08T12:36:35.321Z",
+    "metadata": {
+      "type": "registration",
+      "role": "student"
+    },
+    "status": "simulated_delivery"
+  },
+  {
     "id": "email-1794081371396-igbe4",
     "to": [
       "student2.1794081370813@example.com"
@@ -2880,20 +2894,6 @@
       "applicationId": "app-1794078255530",
       "role": "Product Design Intern",
       "company": "Linear"
-    },
-    "status": "simulated_delivery"
-  },
-  {
-    "id": "email-1794078255422-yjogw",
-    "to": [
-      "meera@linear.app"
-    ],
-    "from": "SkillBridge <notifications@skillbridge.io>",
-    "subject": "Welcome to SkillBridge, Meera Kapoor!",
-    "timestamp": "2026-11-07T19:04:15.422Z",
-    "metadata": {
-      "type": "registration",
-      "role": "recruiter"
     },
     "status": "simulated_delivery"
   }
