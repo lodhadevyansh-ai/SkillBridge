@@ -2,19 +2,18 @@ import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
 import bcrypt from 'bcryptjs'
+import { User } from '../models/User.js'
+import { isDatabaseConnected } from '../config/database.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const DATA_DIR = path.join(__dirname, '..', '..', 'data')
 const USERS_FILE = path.join(DATA_DIR, 'users.json')
 
-// Ensure directory exists
 if (!fs.existsSync(DATA_DIR)) {
   fs.mkdirSync(DATA_DIR, { recursive: true })
 }
 
-// Pre-hashed passwords for seed users
-// 'password123' -> $2a$10$wT0o3qBgnq5wY7vQhK9PquQn6l3u1A5EaF.fO6zWnS3bK7a4tG5tq
 const DEFAULT_PASSWORD_HASH = bcrypt.hashSync('password123', 10)
 const ADMIN_PASSWORD_HASH = bcrypt.hashSync('admin123', 10)
 
@@ -45,21 +44,30 @@ const SEED_USERS = [
   },
 ]
 
+let memoryUsers = null
+
 function readUsers() {
+  if (memoryUsers !== null) {
+    return memoryUsers
+  }
   try {
     if (!fs.existsSync(USERS_FILE)) {
       fs.writeFileSync(USERS_FILE, JSON.stringify(SEED_USERS, null, 2), 'utf-8')
-      return [...SEED_USERS]
+      memoryUsers = [...SEED_USERS]
+      return memoryUsers
     }
     const raw = fs.readFileSync(USERS_FILE, 'utf-8')
-    return JSON.parse(raw)
+    memoryUsers = JSON.parse(raw)
+    return memoryUsers
   } catch (err) {
     console.error('Error reading users store:', err)
-    return [...SEED_USERS]
+    memoryUsers = [...SEED_USERS]
+    return memoryUsers
   }
 }
 
 function writeUsers(users) {
+  memoryUsers = users
   try {
     fs.writeFileSync(USERS_FILE, JSON.stringify(users, null, 2), 'utf-8')
   } catch (err) {
@@ -68,6 +76,24 @@ function writeUsers(users) {
 }
 
 export const userStore = {
+  async syncFromMongo() {
+    if (!isDatabaseConnected()) return
+    try {
+      const dbUsers = await User.find({}).lean()
+      if (dbUsers && dbUsers.length > 0) {
+        memoryUsers = dbUsers.map((u) => ({
+          ...u,
+          id: u.id || u._id.toString(),
+          createdAt: u.createdAt ? new Date(u.createdAt).toISOString() : new Date().toISOString(),
+        }))
+        writeUsers(memoryUsers)
+        console.log(`🔄 [userStore] Synchronized ${memoryUsers.length} users from MongoDB Atlas`)
+      }
+    } catch (err) {
+      console.warn('⚠️ [userStore] Could not sync users from MongoDB Atlas:', err.message)
+    }
+  },
+
   findByEmail(email) {
     if (!email) return null
     const users = readUsers()
@@ -100,12 +126,23 @@ export const userStore = {
           ? `Hiring Manager at ${userData.companyName || 'SkillBridge Partner'}`
           : 'SkillBridge Candidate Member',
       companyName: userData.companyName || null,
-      isVerified: userData.role === 'student', // students verified by default; recruiters can undergo company verification
+      isVerified: userData.role === 'student',
+      status: 'Active',
       createdAt: new Date().toISOString(),
     }
 
     users.push(newUser)
     writeUsers(users)
+
+    // Asynchronously persist to MongoDB Atlas if connected
+    if (isDatabaseConnected()) {
+      User.create(newUser).catch((err) => {
+        if (err.code !== 11000) {
+          console.error('❌ [userStore] MongoDB user creation error:', err.message)
+        }
+      })
+    }
+
     return newUser
   },
 
@@ -141,6 +178,13 @@ export const userStore = {
 
     users[index] = updated
     writeUsers(users)
+
+    if (isDatabaseConnected()) {
+      User.updateOne({ id }, { $set: updates }).catch((err) => {
+        console.error('❌ [userStore] MongoDB user update error:', err.message)
+      })
+    }
+
     return this.sanitizeUser(updated)
   },
 
@@ -155,6 +199,13 @@ export const userStore = {
 
     const [deleted] = users.splice(index, 1)
     writeUsers(users)
+
+    if (isDatabaseConnected()) {
+      User.deleteOne({ id }).catch((err) => {
+        console.error('❌ [userStore] MongoDB user delete error:', err.message)
+      })
+    }
+
     return this.sanitizeUser(deleted)
   },
 
@@ -165,4 +216,3 @@ export const userStore = {
     ).length
   },
 }
-

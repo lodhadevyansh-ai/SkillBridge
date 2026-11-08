@@ -6,6 +6,7 @@ import cors from 'cors'
 import helmet from 'helmet'
 import rateLimit from 'express-rate-limit'
 import cookieParser from 'cookie-parser'
+import { isDatabaseConnected } from './config/database.js'
 
 import authRoutes from './routes/auth.routes.js'
 import studentRoutes from './routes/student.routes.js'
@@ -40,7 +41,13 @@ app.use(
           'https://res.cloudinary.com',
           'https://images.unsplash.com'
         ],
-        connectSrc: ["'self'"],
+        connectSrc: [
+          "'self'",
+          ...(process.env.FRONTEND_URL || '')
+            .split(',')
+            .map(origin => origin.trim())
+            .filter(Boolean),
+        ],
         fontSrc: ["'self'"],
         objectSrc: ["'none'"],
         mediaSrc: ["'self'"],
@@ -59,7 +66,6 @@ app.use(
 // ==========================================
 
 const allowedOrigins = [
-  'https://skillbridge-1-1n4n.onrender.com',
   'http://localhost:5173',
   'http://localhost:4173',
   'http://localhost:3000',
@@ -185,9 +191,25 @@ app.use('/api/auth/register', authLimiter)
 // ==========================================
 
 app.get('/api/health', (req, res) => {
+  const isConnected = isDatabaseConnected()
+  const mongoConfigured = !!process.env.MONGODB_URI
+
+  // If MongoDB is configured in production but disconnected, return 503 Service Unavailable
+  if (mongoConfigured && !isConnected && process.env.NODE_ENV === 'production') {
+    return res.status(503).json({
+      success: false,
+      status: 'unhealthy',
+      database: 'disconnected',
+      service: 'SkillBridge API Server',
+      environment: process.env.NODE_ENV,
+      time: new Date().toISOString(),
+    })
+  }
+
   res.status(200).json({
     success: true,
     status: 'healthy',
+    database: isConnected ? 'connected' : (mongoConfigured ? 'connecting' : 'local_storage'),
     service: 'SkillBridge API Server',
     environment: process.env.NODE_ENV || 'development',
     time: new Date().toISOString(),

@@ -1,6 +1,8 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { Notification } from '../models/Notification.js'
+import { isDatabaseConnected } from '../config/database.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -134,6 +136,11 @@ export const notificationStore = {
     item.read = true
     item.readAt = new Date().toISOString()
     writeData(all)
+
+    if (isDatabaseConnected()) {
+      Notification.updateOne({ id: notificationId, userId }, { $set: { read: true } }).catch(() => {})
+    }
+
     return item
   },
 
@@ -157,6 +164,11 @@ export const notificationStore = {
     if (updatedCount > 0) {
       writeData(all)
     }
+
+    if (isDatabaseConnected()) {
+      Notification.updateMany({ userId, read: false }, { $set: { read: true } }).catch(() => {})
+    }
+
     return updatedCount
   },
 
@@ -183,6 +195,11 @@ export const notificationStore = {
 
     all.unshift(newNotif)
     writeData(all)
+
+    if (isDatabaseConnected()) {
+      Notification.create(newNotif).catch(() => {})
+    }
+
     return newNotif
   },
 
@@ -197,6 +214,11 @@ export const notificationStore = {
     if (removedCount > 0) {
       writeData(remaining)
     }
+
+    if (isDatabaseConnected()) {
+      Notification.deleteMany({ userId }).catch(() => {})
+    }
+
     return removedCount
   },
 
@@ -207,4 +229,3 @@ export const notificationStore = {
     writeData(INITIAL_NOTIFICATIONS)
   },
 }
-

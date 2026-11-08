@@ -1,6 +1,8 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { AuditLog } from '../models/AuditLog.js'
+import { isDatabaseConnected } from '../config/database.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -76,6 +78,24 @@ class AuditLoggerService {
     }
 
     this._saveLogs(logs)
+
+    // Asynchronously persist to MongoDB Atlas if connected
+    if (isDatabaseConnected()) {
+      AuditLog.create({
+        id: logEntry.id,
+        actorId: logEntry.actorId,
+        actorRole: logEntry.actorRole,
+        action: logEntry.action,
+        targetType: logEntry.targetType,
+        targetId: logEntry.targetId,
+        ipAddress: logEntry.ipAddress,
+        metadata: logEntry.metadata,
+        timestamp: new Date(logEntry.timestamp),
+      }).catch((err) => {
+        console.warn('⚠️ [AuditLogger] Failed to write log to MongoDB Atlas:', err.message)
+      })
+    }
+
     return logEntry
   }
 
@@ -88,4 +108,3 @@ class AuditLoggerService {
 }
 
 export const auditLogger = new AuditLoggerService()
-
