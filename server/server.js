@@ -1,13 +1,21 @@
-import app from './src/app.js'
-import dotenv from 'dotenv'
 
-dotenv.config()
+import 'dotenv/config'
+import app from './src/app.js'
 
 const PORT = process.env.PORT || 5000
 
-app.listen(PORT, () => {
-  console.log(`🚀 SkillBridge API Server running on http://localhost:${PORT}`)
-  console.log(`📡 Healthcheck available at http://localhost:${PORT}/api/health`)
-  console.log(`🔐 Auth endpoints live at http://localhost:${PORT}/api/auth/`)
+const server = app.listen(PORT, '0.0.0.0', () => {
+  console.log('======================================')
+  console.log('🚀 SkillBridge API Server Started')
+  console.log(`🌐 Port: ${PORT}`)
+  console.log('📡 Healthcheck: /api/health')
+  console.log('🔐 Authentication: /api/auth/')
+  console.log('======================================')
 })
 
+server.on('error', (error) => {
+  console.error('❌ Server startup error:', error)
+  process.exit(1)
+})
+
+export default server
