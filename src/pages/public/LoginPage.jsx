@@ -33,20 +33,24 @@ export function LoginPage() {
     e.preventDefault()
     setErrorMsg('')
     setIsLoading(true)
+    try {
+      const result = await login({ email, password, role }, rememberMe)
 
-    const result = await login({ email, password, role }, rememberMe)
-    setIsLoading(false)
-
-    if (result.success) {
-      const fromPath = location.state?.from?.pathname
-      // Ensure target destination strictly belongs to the user's authentic role
-      const target =
-        fromPath && fromPath.startsWith(`/${result.user.role}`)
-          ? fromPath
-          : `/${result.user.role}/dashboard`
-      navigate(target, { replace: true })
-    } else {
-      setErrorMsg(result.message)
+      if (result.success) {
+        const fromPath = location.state?.from?.pathname
+        // Ensure target destination strictly belongs to the user's authentic role
+        const target =
+          fromPath && fromPath.startsWith(`/${result.user.role}`)
+            ? fromPath
+            : `/${result.user.role}/dashboard`
+        navigate(target, { replace: true })
+      } else {
+        setErrorMsg(result.message)
+      }
+    } catch (err) {
+      setErrorMsg(err.message || 'An unexpected error occurred during login. Please try again.')
+    } finally {
+      setIsLoading(false)
     }
   }
 

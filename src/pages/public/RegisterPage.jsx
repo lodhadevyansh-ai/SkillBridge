@@ -43,21 +43,26 @@ export function RegisterPage() {
     }
 
     setIsLoading(true)
-    const result = await register({
-      fullName,
-      email,
-      password,
-      confirmPassword,
-      role,
-      companyName: role === 'recruiter' ? companyName : undefined,
-      terms,
-    })
-    setIsLoading(false)
+    try {
+      const result = await register({
+        fullName,
+        email,
+        password,
+        confirmPassword,
+        role,
+        companyName: role === 'recruiter' ? companyName : undefined,
+        terms,
+      })
 
-    if (result.success) {
-      navigate(`/${result.user.role}/dashboard`)
-    } else {
-      setErrorMsg(result.message)
+      if (result.success) {
+        navigate(`/${result.user.role}/dashboard`)
+      } else {
+        setErrorMsg(result.message)
+      }
+    } catch (err) {
+      setErrorMsg(err.message || 'An unexpected error occurred during registration. Please try again.')
+    } finally {
+      setIsLoading(false)
     }
   }
 

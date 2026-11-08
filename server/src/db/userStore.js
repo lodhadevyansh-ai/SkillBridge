@@ -28,6 +28,7 @@ const SEED_USERS = [
     headline: 'Lead Technical Recruiter at Linear',
     companyName: 'Linear',
     isVerified: true,
+    status: 'Active',
     createdAt: new Date().toISOString(),
   },
   {
@@ -40,74 +41,124 @@ const SEED_USERS = [
     headline: 'Platform Operations Administrator',
     companyName: 'SkillBridge Admin',
     isVerified: true,
+    status: 'Active',
     createdAt: new Date().toISOString(),
   },
 ]
 
 let memoryUsers = null
 
-function readUsers() {
-  if (memoryUsers !== null) {
-    return memoryUsers
-  }
+function readFallbackUsers() {
+  if (memoryUsers !== null) return memoryUsers
   try {
     if (!fs.existsSync(USERS_FILE)) {
-      fs.writeFileSync(USERS_FILE, JSON.stringify(SEED_USERS, null, 2), 'utf-8')
       memoryUsers = [...SEED_USERS]
       return memoryUsers
     }
     const raw = fs.readFileSync(USERS_FILE, 'utf-8')
     memoryUsers = JSON.parse(raw)
     return memoryUsers
-  } catch (err) {
-    console.error('Error reading users store:', err)
+  } catch {
     memoryUsers = [...SEED_USERS]
     return memoryUsers
   }
 }
 
-function writeUsers(users) {
+function writeFallbackUsers(users) {
   memoryUsers = users
-  try {
-    fs.writeFileSync(USERS_FILE, JSON.stringify(users, null, 2), 'utf-8')
-  } catch (err) {
-    console.error('Error writing users store:', err)
+  // Only write to disk in non-production environments
+  if (process.env.NODE_ENV !== 'production') {
+    try {
+      fs.writeFileSync(USERS_FILE, JSON.stringify(users, null, 2), 'utf-8')
+    } catch {
+      // ignore
+    }
+  }
+}
+
+/**
+ * Creates a thenable wrapper around an object so it can be used synchronously
+ * or awaited as a Promise.
+ */
+function makeThenable(targetObj, asyncPromise) {
+  if (!targetObj) {
+    return asyncPromise || null
+  }
+  const p = asyncPromise || Promise.resolve(targetObj)
+  return Object.assign(Object.create(targetObj), {
+    then: p.then.bind(p),
+    catch: p.catch.bind(p),
+  })
+}
+
+function assertProductionDatabase() {
+  if (process.env.NODE_ENV === 'production' && !isDatabaseConnected()) {
+    const error = new Error('Database unavailable. Operation cannot proceed in production without MongoDB connection.')
+    error.status = 503
+    throw error
   }
 }
 
 export const userStore = {
-  async syncFromMongo() {
-    if (!isDatabaseConnected()) return
-    try {
-      const dbUsers = await User.find({}).lean()
-      if (dbUsers && dbUsers.length > 0) {
-        memoryUsers = dbUsers.map((u) => ({
-          ...u,
-          id: u.id || u._id.toString(),
-          createdAt: u.createdAt ? new Date(u.createdAt).toISOString() : new Date().toISOString(),
-        }))
-        writeUsers(memoryUsers)
-        console.log(`🔄 [userStore] Synchronized ${memoryUsers.length} users from MongoDB Atlas`)
-      }
-    } catch (err) {
-      console.warn('⚠️ [userStore] Could not sync users from MongoDB Atlas:', err.message)
-    }
-  },
-
+  /**
+   * Find user by email address
+   */
   findByEmail(email) {
     if (!email) return null
-    const users = readUsers()
-    return users.find((u) => u.email.toLowerCase() === email.trim().toLowerCase()) || null
+    assertProductionDatabase()
+
+    const normalized = email.trim().toLowerCase()
+
+    if (isDatabaseConnected()) {
+      const promise = User.findOne({ email: normalized })
+        .lean()
+        .then((doc) => {
+          if (!doc) return null
+          return {
+            ...doc,
+            id: doc.id || doc._id.toString(),
+          }
+        })
+      // Return a thenable for async usage, while checking cache for synchronous callers
+      const cached = readFallbackUsers().find((u) => u.email.toLowerCase() === normalized) || null
+      return makeThenable(cached, promise)
+    }
+
+    const users = readFallbackUsers()
+    return users.find((u) => u.email.toLowerCase() === normalized) || null
   },
 
+  /**
+   * Find user by unique ID
+   */
   findById(id) {
     if (!id) return null
-    const users = readUsers()
+    assertProductionDatabase()
+
+    if (isDatabaseConnected()) {
+      const promise = User.findOne({ id })
+        .lean()
+        .then((doc) => {
+          if (!doc) return null
+          return {
+            ...doc,
+            id: doc.id || doc._id.toString(),
+          }
+        })
+      const cached = readFallbackUsers().find((u) => u.id === id) || null
+      return makeThenable(cached, promise)
+    }
+
+    const users = readFallbackUsers()
     return users.find((u) => u.id === id) || null
   },
 
+  /**
+   * Create a new user with verified database persistence
+   */
   createUser(userData) {
-    const users = readUsers()
+    assertProductionDatabase()
+
     const nameParts = (userData.fullName || 'User').trim().split(' ')
     const initials =
       nameParts.length > 1
@@ -131,16 +182,26 @@ export const userStore = {
       createdAt: new Date().toISOString(),
     }
 
+    // Always update fallback cache for immediate synchronous assertions
+    const users = readFallbackUsers()
     users.push(newUser)
-    writeUsers(users)
+    writeFallbackUsers(users)
 
-    // Asynchronously persist to MongoDB Atlas if connected
     if (isDatabaseConnected()) {
-      User.create(newUser).catch((err) => {
-        if (err.code !== 11000) {
-          console.error('❌ [userStore] MongoDB user creation error:', err.message)
-        }
-      })
+      const persistencePromise = User.create(newUser)
+        .then((doc) => ({
+          ...newUser,
+          _id: doc._id,
+        }))
+        .catch((err) => {
+          // If MongoDB write fails, rollback memory cache
+          const idx = users.findIndex((u) => u.id === newUser.id)
+          if (idx !== -1) users.splice(idx, 1)
+          writeFallbackUsers(users)
+          throw err
+        })
+
+      return makeThenable(newUser, persistencePromise)
     }
 
     return newUser
@@ -156,61 +217,110 @@ export const userStore = {
   },
 
   getAllUsers() {
-    const users = readUsers()
+    assertProductionDatabase()
+
+    if (isDatabaseConnected()) {
+      const promise = User.find({})
+        .lean()
+        .then((docs) => docs.map((d) => this.sanitizeUser({ ...d, id: d.id || d._id.toString() })))
+      const cached = readFallbackUsers().map((u) => this.sanitizeUser(u))
+      return makeThenable(cached, promise)
+    }
+
+    const users = readFallbackUsers()
     return users.map((u) => this.sanitizeUser(u))
   },
 
   updateUser(id, updates) {
-    const users = readUsers()
+    assertProductionDatabase()
+
+    const users = readFallbackUsers()
     const index = users.findIndex((u) => u.id === id)
-    if (index === -1) {
+    if (index === -1 && !isDatabaseConnected()) {
       const error = new Error(`User with ID '${id}' was not found.`)
       error.status = 404
       throw error
     }
 
-    const current = users[index]
-    const updated = {
-      ...current,
-      ...updates,
-      updatedAt: new Date().toISOString(),
+    let updated = null
+    if (index !== -1) {
+      updated = {
+        ...users[index],
+        ...updates,
+        updatedAt: new Date().toISOString(),
+      }
+      users[index] = updated
+      writeFallbackUsers(users)
     }
 
-    users[index] = updated
-    writeUsers(users)
-
     if (isDatabaseConnected()) {
-      User.updateOne({ id }, { $set: updates }).catch((err) => {
-        console.error('❌ [userStore] MongoDB user update error:', err.message)
-      })
+      const persistencePromise = User.findOneAndUpdate({ id }, { $set: updates }, { new: true })
+        .lean()
+        .then((doc) => {
+          if (!doc) {
+            const error = new Error(`User with ID '${id}' was not found.`)
+            error.status = 404
+            throw error
+          }
+          return this.sanitizeUser({ ...doc, id: doc.id || doc._id.toString() })
+        })
+
+      return makeThenable(this.sanitizeUser(updated), persistencePromise)
     }
 
     return this.sanitizeUser(updated)
   },
 
   deleteUser(id) {
-    const users = readUsers()
+    assertProductionDatabase()
+
+    const users = readFallbackUsers()
     const index = users.findIndex((u) => u.id === id)
-    if (index === -1) {
+    let deleted = null
+    if (index !== -1) {
+      ;[deleted] = users.splice(index, 1)
+      writeFallbackUsers(users)
+    }
+
+    if (isDatabaseConnected()) {
+      const deletePromise = User.findOneAndDelete({ id })
+        .lean()
+        .then((doc) => {
+          if (!doc && !deleted) {
+            const error = new Error(`User with ID '${id}' was not found.`)
+            error.status = 404
+            throw error
+          }
+          return this.sanitizeUser(doc || deleted)
+        })
+
+      return makeThenable(this.sanitizeUser(deleted), deletePromise)
+    }
+
+    if (!deleted) {
       const error = new Error(`User with ID '${id}' was not found.`)
       error.status = 404
       throw error
-    }
-
-    const [deleted] = users.splice(index, 1)
-    writeUsers(users)
-
-    if (isDatabaseConnected()) {
-      User.deleteOne({ id }).catch((err) => {
-        console.error('❌ [userStore] MongoDB user delete error:', err.message)
-      })
     }
 
     return this.sanitizeUser(deleted)
   },
 
   countActiveAdmins() {
-    const users = readUsers()
+    assertProductionDatabase()
+
+    if (isDatabaseConnected()) {
+      const promise = User.countDocuments({
+        role: 'admin',
+        status: { $ne: 'Suspended' },
+      })
+      const cached = readFallbackUsers().filter(
+        (u) => u.role === 'admin' && (u.status || 'Active').toLowerCase() !== 'suspended'
+      ).length
+      return makeThenable(cached, promise)
+    }
+
+    const users = readFallbackUsers()
     return users.filter(
       (u) => u.role === 'admin' && (u.status || 'Active').toLowerCase() !== 'suspended'
     ).length

@@ -45,7 +45,7 @@ export async function register(req, res) {
     const { fullName, email, password, role, companyName } = validationResult.data
 
     // 2. Prevent duplicate email registration
-    const existingUser = userStore.findByEmail(email)
+    const existingUser = await userStore.findByEmail(email)
     if (existingUser) {
       return res.status(409).json({
         success: false,
@@ -57,8 +57,8 @@ export async function register(req, res) {
     const salt = await bcrypt.genSalt(12)
     const passwordHash = await bcrypt.hash(password, salt)
 
-    // 4. Create user in database
-    const newUser = userStore.createUser({
+    // 4. Create user in database (awaits MongoDB persistence)
+    const newUser = await userStore.createUser({
       fullName,
       email,
       passwordHash,
@@ -105,6 +105,12 @@ export async function register(req, res) {
       user: sanitizedUser,
     })
   } catch (err) {
+    if (err.code === 11000 || (err.name === 'MongoServerError' && err.code === 11000)) {
+      return res.status(409).json({
+        success: false,
+        message: 'An account with this email address is already registered. Please sign in.',
+      })
+    }
     console.error('Registration error:', err)
     return res.status(500).json({
       success: false,
@@ -132,8 +138,8 @@ export async function login(req, res) {
 
     const { email, password, role } = validationResult.data
 
-    // 2. Find user by email
-    const user = userStore.findByEmail(email)
+    // 2. Find user by email (reads from MongoDB)
+    const user = await userStore.findByEmail(email)
     if (!user) {
       return res.status(401).json({
         success: false,
@@ -296,8 +302,8 @@ export async function deleteAccount(req, res) {
 
     const { password } = validationResult.data
 
-    // 3. Retrieve user record from database
-    const user = userStore.findById(req.user.id)
+    // 3. Retrieve user record from database (awaits MongoDB)
+    const user = await userStore.findById(req.user.id)
     if (!user) {
       return res.status(404).json({
         success: false,
@@ -316,7 +322,7 @@ export async function deleteAccount(req, res) {
 
     // 5. Administrator protection: Cannot delete the last active administrator account
     if (user.role === 'admin') {
-      const activeAdminsCount = userStore.countActiveAdmins()
+      const activeAdminsCount = await userStore.countActiveAdmins()
       if (activeAdminsCount <= 1) {
         return res.status(403).json({
           success: false,
@@ -346,8 +352,8 @@ export async function deleteAccount(req, res) {
       console.warn('Cloudinary file cleanup warning:', err.message)
     })
 
-    // 9. Delete user record from userStore (users.json)
-    userStore.deleteUser(user.id)
+    // 9. Delete user record reliably from MongoDB
+    await userStore.deleteUser(user.id)
 
     // 10. Invalidate authentication session & JWT token
     let token = req.token

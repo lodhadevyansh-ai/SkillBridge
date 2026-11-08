@@ -2,7 +2,7 @@ import { verifyToken } from '../config/jwt.js'
 import { userStore } from '../db/userStore.js'
 import { tokenBlacklist } from '../services/tokenBlacklist.js'
 
-export function authenticateToken(req, res, next) {
+export async function authenticateToken(req, res, next) {
   let token = null
 
   // 1. Check Authorization Bearer header
@@ -34,7 +34,7 @@ export function authenticateToken(req, res, next) {
 
   try {
     const decoded = verifyToken(token)
-    const user = userStore.findById(decoded.id)
+    const user = await userStore.findById(decoded.id)
 
     if (!user) {
       return res.status(401).json({

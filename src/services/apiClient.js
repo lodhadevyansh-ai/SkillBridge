@@ -1,12 +1,26 @@
 
 import axios from 'axios'
 
-// Production and development API URLs
-const API_BASE_URL =
-  import.meta.env.VITE_API_URL ||
-  (import.meta.env.PROD
-    ? '/api'
-    : 'http://localhost:5000/api')
+// Standardized API base URL resolution with robust trailing slash and /api normalization
+const resolveApiBaseUrl = () => {
+  let envUrl = import.meta.env.VITE_API_URL
+
+  if (!envUrl) {
+    return import.meta.env.PROD ? '/api' : 'http://localhost:5000/api'
+  }
+
+  // Strip trailing slashes
+  envUrl = envUrl.trim().replace(/\/+$/, '')
+
+  // If provided URL does not already end with /api, append /api for clean endpoint resolution
+  if (!envUrl.endsWith('/api')) {
+    return `${envUrl}/api`
+  }
+
+  return envUrl
+}
+
+const API_BASE_URL = resolveApiBaseUrl()
 
 // Create Axios instance
 export const apiClient = axios.create({
